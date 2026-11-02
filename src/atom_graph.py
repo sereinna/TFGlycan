@@ -1,8 +1,4 @@
-"""Independent, explicit-hydrogen molecular graphs built with public RDKit APIs.
-
-GlyLES is used only to convert IUPAC-condensed text to complete SMILES.  Unknown
-stereocenters remain unknown; unspecified topology is not guessed.  Features are
-ordinary tensors so cached graphs do not retain RDKit or GlyLES objects.
+"""Molecular graphs with explicit hydrogen atoms and stereochemical features.
 
 API references:
 https://glyles.readthedocs.io/en/latest/source/convert.html
@@ -13,7 +9,7 @@ https://www.rdkit.org/docs/source/rdkit.Chem.rdCIPLabeler.html
 from __future__ import annotations
 
 from dataclasses import dataclass, replace
-from typing import ClassVar, Iterable
+from typing import Iterable
 
 import torch
 from rdkit import Chem
@@ -36,9 +32,6 @@ BOND_FEATURE_NAMES = (
 )
 ATOM_FEATURE_DIM = len(ATOM_FEATURE_NAMES)
 BOND_FEATURE_DIM = len(BOND_FEATURE_NAMES)
-FORMAT_ID = "tfglycan-independent-atoms-v2-explicit-h-cip"
-CACHE_TAG = FORMAT_ID
-
 _BOND_TYPES = (
     Chem.BondType.SINGLE, Chem.BondType.DOUBLE,
     Chem.BondType.TRIPLE, Chem.BondType.AROMATIC,
@@ -63,7 +56,7 @@ def _nonempty_text(value: str, name: str) -> str:
 
 
 def _promote_leading_branch(text: str) -> str:
-    """Write a leading side chain as the main chain without changing bonds."""
+    """Express a leading side chain as the main chain."""
     while text.startswith("["):
         depth, closing = 0, None
         for index, character in enumerate(text):
@@ -78,10 +71,9 @@ def _promote_leading_branch(text: str) -> str:
 
 
 def _molecule_from_smiles(smiles: str):
-    # Do not let RDKit silently accept a trailing molecule name or CXSMILES
-    # annotations containing topology/stereo that these features do not encode.
+    # Parse a single molecular structure.
     if any(character.isspace() for character in smiles) or "|" in smiles:
-        raise ValueError("SMILES must contain one structure without names or CXSMILES annotations")
+        raise ValueError("Expected a single SMILES structure")
     parameters = Chem.SmilesParserParams()
     parameters.parseName = False
     parameters.allowCXSMILES = False
@@ -89,14 +81,14 @@ def _molecule_from_smiles(smiles: str):
     try:
         molecule = Chem.MolFromSmiles(smiles, parameters)
     except Exception as exc:
-        raise ValueError("RDKit could not parse the SMILES") from exc
+        raise ValueError("Invalid SMILES structure") from exc
     if molecule is None or molecule.GetNumAtoms() == 0:
         raise ValueError("Invalid or empty SMILES structure")
     if len(Chem.GetMolFrags(molecule)) != 1:
         raise ValueError("A graph must describe one connected molecule")
     for atom in molecule.GetAtoms():
         if atom.HasQuery() or not 1 <= atom.GetAtomicNum() <= 118:
-            raise ValueError("Wildcard or query atoms do not define a complete molecule")
+            raise ValueError("Expected fully specified atoms")
         if atom.GetChiralTag() not in _TETRAHEDRAL_TAGS:
             raise ValueError("Only tetrahedral atom stereochemistry is supported")
     for bond in molecule.GetBonds():
@@ -106,7 +98,7 @@ def _molecule_from_smiles(smiles: str):
         molecule = Chem.AddHs(molecule, explicitOnly=False, addCoords=False)
         Chem.AssignStereochemistry(molecule, cleanIt=True, force=True)
         potential = list(Chem.FindPotentialStereo(molecule, cleanIt=False, flagPossible=True))
-        # The accurate CIP implementation avoids encoding traversal-relative @/@@.
+        # Assign absolute CIP stereochemistry.
         rdCIPLabeler.AssignCIPLabels(molecule)
     except Exception as exc:
         raise ValueError("Hydrogen or stereochemistry assignment failed") from exc
@@ -121,9 +113,7 @@ def _molecule_from_smiles(smiles: str):
             Chem.StereoType.Atom_TrigonalBipyramidal,
             Chem.StereoType.Atom_Octahedral,
         ) and item.specified != Chem.StereoSpecified.Specified:
-            # RDKit can flag unassigned non-tetrahedral possibilities at sulfate
-            # or phosphate centers. Preserve them as unknown, without assigning
-            # a geometry or rejecting an otherwise defined molecular structure.
+            # Unassigned sulfate and phosphate centers use the unknown feature.
             atom_stereo[item.centeredOn] = item.specified
         else:
             raise ValueError(f"Unsupported stereochemistry: {item.type}")
@@ -172,7 +162,7 @@ def _bond_features(bond, potential: dict) -> list[float]:
     elif bond.GetStereo() == Chem.BondStereo.STEREONONE:
         stereo = "none"
     else:
-        raise ValueError("Bond stereochemistry could not be represented as E/Z")
+        raise ValueError("Expected E/Z bond stereochemistry")
     return (_one_hot(bond.GetBondType(), _BOND_TYPES)
             + [float(bond.GetIsConjugated()), float(bond.IsInRing())]
             + _one_hot(stereo, BOND_STEREO))
@@ -184,7 +174,6 @@ class AtomGraph:
 
     Feature column definitions are exported as ATOM_FEATURE_NAMES and
     BOND_FEATURE_NAMES.  num_edge counts directed edges (twice the bond count).
-    Graphs must be imported through ``src.atom_graph`` for portable pickle caches.
     """
 
     node_features: torch.Tensor
@@ -193,8 +182,12 @@ class AtomGraph:
     smiles: str = ""
     iupac: str = ""
 
-    FORMAT_ID: ClassVar[str] = FORMAT_ID
-    CACHE_TAG: ClassVar[str] = CACHE_TAG
+    @staticmethod
+    def feature_schema() -> dict:
+        return {"atom_features": ATOM_FEATURE_NAMES,
+                "bond_features": BOND_FEATURE_NAMES,
+                "explicit_hydrogens": True,
+                "stereochemistry": "CIP"}
 
     def __post_init__(self):
         if self.node_features.ndim != 2 or self.node_features.shape[1] != ATOM_FEATURE_DIM:
@@ -233,7 +226,6 @@ class AtomGraph:
             vector = _bond_features(bond, bond_stereo)
             edges.extend(((start, end), (end, start)))
             features.extend((vector, vector))
-        # Build from plain Python values, not NumPy-converted RDKit objects.
         edge_index = (torch.tensor(edges, dtype=torch.long).t().contiguous()
                       if edges else torch.empty((2, 0), dtype=torch.long))
         edge_features = (torch.tensor(features, dtype=torch.float32)
@@ -244,22 +236,21 @@ class AtomGraph:
     def from_iupac(cls, text: str) -> "AtomGraph":
         text = _nonempty_text(text, "IUPAC")
         if any(marker in text for marker in ("?", "*", "/", "\\", "{", "}")):
-            raise ValueError("Ambiguous linkage, repeat or residue notation cannot define one molecular graph")
+            raise ValueError("Expected specified linkages and residues")
         conversion_text = _promote_leading_branch(text)
-        # SMILES-only users and tensor cache readers do not need GlyLES installed.
         try:
             from glyles import convert
         except ImportError as exc:
-            raise ImportError("IUPAC conversion requires the ordinary 'glyles' package") from exc
+            raise ImportError("IUPAC conversion requires 'glyles'") from exc
         try:
             converted = convert(glycan=conversion_text, returning=True, cpu_count=1, full=True)
         except Exception as exc:
-            raise ValueError(f"GlyLES could not fully convert IUPAC: {text!r}") from exc
+            raise ValueError(f"IUPAC conversion failed: {text!r}") from exc
         if (not isinstance(converted, (list, tuple)) or len(converted) != 1
                 or not isinstance(converted[0], (list, tuple)) or len(converted[0]) != 2
                 or converted[0][0] != conversion_text or not isinstance(converted[0][1], str)
                 or not converted[0][1].strip()):
-            raise ValueError(f"GlyLES returned no complete unambiguous structure for: {text!r}")
+            raise ValueError(f"Incomplete IUPAC conversion: {text!r}")
         graph = cls.from_smiles(converted[0][1])
         graph.iupac = text
         return graph
@@ -268,7 +259,7 @@ class AtomGraph:
     def pack(graphs: Iterable["AtomGraph"]) -> "AtomBatch":
         graphs = list(graphs)
         if not graphs:
-            raise ValueError("Cannot pack an empty graph list")
+            raise ValueError("Graph list is empty")
         if any(not isinstance(graph, AtomGraph) or isinstance(graph, AtomBatch) for graph in graphs):
             raise TypeError("pack expects individual AtomGraph instances")
         device = graphs[0].node_features.device
@@ -330,4 +321,4 @@ class AtomBatch(AtomGraph):
         if torch.unique(self.batch).numel() != self.num_graphs:
             raise ValueError("Every graph in a batch must contain at least one node")
         if self.num_edge and not torch.equal(self.batch[self.edge_index[0]], self.batch[self.edge_index[1]]):
-            raise ValueError("Edges cannot connect different graphs in a batch")
+            raise ValueError("Edges must stay within each graph")

@@ -83,7 +83,7 @@ class BondGatedEncoder(nn.Module):
         self.attention_score = nn.Sequential(
             nn.Linear(hidden_dim, hidden_dim),
             nn.Tanh(),
-            # A shared scalar bias would cancel under softmax and cannot learn.
+            # Softmax is invariant to a shared scalar bias.
             nn.Linear(hidden_dim, 1, bias=False),
         )
         self.readout = nn.Sequential(
@@ -139,7 +139,7 @@ class BondGatedEncoder(nn.Module):
                 raise ValueError("edge_index contains an out-of-range atom index")
             source, target = edge_index.unbind(0)
             if bool((membership[source] != membership[target]).any()):
-                raise ValueError("edges must not connect atoms from different graphs")
+                raise ValueError("edges must stay within each graph")
 
     def forward(self, graphs: AtomBatch) -> Tensor:
         self._validate_batch(graphs)
@@ -151,8 +151,7 @@ class BondGatedEncoder(nn.Module):
         membership = graphs.batch
         count = torch.bincount(membership, minlength=graphs.num_graphs).to(nodes.dtype)
         score = self.attention_score(nodes).squeeze(-1)
-        # Detaching the stabilizing shift preserves softmax derivatives and
-        # avoids routing gradients through a discrete choice of maximal atom.
+        # Stabilize softmax using a detached maximum for each graph.
         maximum = score.new_full((graphs.num_graphs,), -torch.inf)
         maximum.scatter_reduce_(
             0, membership, score.detach(), reduce="amax", include_self=True

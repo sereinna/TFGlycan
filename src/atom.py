@@ -18,9 +18,6 @@ from .light import TAXONOMY_TASKS, DataStore, VariantConfig, json_ready, macro_f
 from .atom_graph import AtomGraph
 from .atom_encoder import BondGatedEncoder
 
-ARCHITECTURE = "tfglycan-bond-gated-v1"
-GRAPH_CACHE_FORMAT = "tfglycan-atom-graph-v1"
-
 def set_seed(seed: int) -> None:
     random.seed(seed)
     np.random.seed(seed)
@@ -102,8 +99,8 @@ class AllAtomGraphCache:
         if not path.exists():
             return
         obj = torch.load(path, map_location='cpu', weights_only=False)
-        if not isinstance(obj, dict) or obj.get('format') != GRAPH_CACHE_FORMAT or obj.get('graph_format') != AtomGraph.FORMAT_ID:
-            raise ValueError('Incompatible atom graph cache; build a new cache for this implementation.')
+        if not isinstance(obj, dict) or obj.get('features') != AtomGraph.feature_schema():
+            raise ValueError('Graph feature schema mismatch.')
         if obj.get('texts_by_id') != self.texts_by_id:
             raise ValueError('Atom graph cache belongs to a different glycan index.')
         self.graphs = {int(k): v for (k, v) in obj.get('graphs', {}).items()}
@@ -117,7 +114,7 @@ class AllAtomGraphCache:
 
     def save(self, path: Path) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
-        torch.save({'format': GRAPH_CACHE_FORMAT, 'graph_format': AtomGraph.FORMAT_ID, 'texts_by_id': self.texts_by_id, 'graphs': self.graphs, 'failures': self.failures}, path)
+        torch.save({'features': AtomGraph.feature_schema(), 'texts_by_id': self.texts_by_id, 'graphs': self.graphs, 'failures': self.failures}, path)
         print(f'[graph-cache] saved {len(self.graphs)} graphs and {len(self.failures)} failures to {path}', flush=True)
 
     def summary(self) -> Dict[str, object]:
@@ -226,19 +223,19 @@ def make_model(args: argparse.Namespace, data: DataStore, device: torch.device) 
         link_dim=data.num_classes['glycosylation'], gnn_hidden_dim=args.gnn_hidden_dim,
         gnn_layers=args.gnn_layers, head_dim=args.head_dim, dropout=args.dropout,
         use_motif_fusion=args.use_motif_fusion, interaction_head=args.interaction_head)
-    print(f'[model] architecture={ARCHITECTURE} atom_dim={model.encoder.output_dim} head_dim={model.output_dim}', flush=True)
+    print(f'[model] atom_dim={model.encoder.output_dim} head_dim={model.output_dim}', flush=True)
     return model.to(device)
 
 
 def save_atom_checkpoint(model: FunctionalAtomModel, path: Path, state=None) -> None:
-    torch.save({'architecture': ARCHITECTURE, 'model_config': model.model_config,
+    torch.save({'model_config': model.model_config,
                 'state_dict': model.state_dict() if state is None else state}, path)
 
 
 def load_atom_checkpoint(model: FunctionalAtomModel, path: Path, device: torch.device) -> None:
     checkpoint = torch.load(path, map_location=device, weights_only=True)
-    if not isinstance(checkpoint, dict) or checkpoint.get('architecture') != ARCHITECTURE:
-        raise ValueError('This checkpoint does not belong to the independent atom architecture.')
+    if not isinstance(checkpoint, dict) or 'model_config' not in checkpoint or 'state_dict' not in checkpoint:
+        raise ValueError('Checkpoint must contain model_config and state_dict.')
     if checkpoint.get('model_config') != model.model_config:
         raise ValueError('Atom checkpoint configuration differs from the requested model.')
     model.load_state_dict(checkpoint['state_dict'], strict=True)
@@ -539,7 +536,7 @@ def train_run(args: argparse.Namespace, data: DataStore, device: torch.device) -
         model.load_state_dict(best_state)
     test_metrics = evaluate_split(model, data, bank, graph_cache, 'test', args.eval_batch_size, row_limit=args.eval_row_limit)
     elapsed = time.time() - start_time
-    result = {'architecture': ARCHITECTURE, 'variant': name, 'loss_config': asdict(loss_config), 'best_epoch': best_epoch, 'elapsed_sec': elapsed, 'best_valid': best_valid, 'test': test_metrics, 'graph_cache': graph_cache.summary(), 'args': vars(args)}
+    result = {'variant': name, 'model_config': model.model_config, 'loss_config': asdict(loss_config), 'best_epoch': best_epoch, 'elapsed_sec': elapsed, 'best_valid': best_valid, 'test': test_metrics, 'graph_cache': graph_cache.summary(), 'args': vars(args)}
     with (run_dir / 'result.json').open('w') as fout:
         json.dump(json_ready(result), fout, indent=2, sort_keys=True)
     with (run_dir / 'graph_cache_summary.json').open('w') as fout:
