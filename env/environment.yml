@@ -1,0 +1,34 @@
+name: tfglycan
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip<26
+  - setuptools=80.9.0
+  - wheel
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - --find-links https://data.pyg.org/whl/torch-2.7.0+cu128.html
+      - torch==2.7.1+cu128
+      - torch-scatter==2.1.2+pt27cu128
+      - torch-cluster==1.6.3+pt27cu128
+      - torch-sparse==0.6.18+pt27cu128
+      - torchdrug==0.2.1
+      - torch-geometric==2.5.2
+      - numpy==1.26.4
+      - pandas==2.3.3
+      - scipy==1.13.1
+      - scikit-learn==1.6.1
+      - rdkit-pypi==2022.9.5
+      - glycowork==1.4.0
+      - glyles==0.5.11
+      - matplotlib==3.9.4
+      - PyYAML==6.0.3
+      - easydict==1.13
+      - Jinja2==3.1.6
+      - ninja==1.13.0
+      - tqdm==4.67.1
+      - networkx==3.2.1
+      - decorator==5.3.1
+      - lmdb==2.2.1
+      - joblib==1.5.2

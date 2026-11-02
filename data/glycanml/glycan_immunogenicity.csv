@@ -1,0 +1,1321 @@
+glycan_id,glycan,species,immunogenicity,inferred_origin,link,train,valid,test
+33,ManOP(a1-2)Man(a1-3)[Man(a1-3)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+35,Rha(a1-2)Rha(a1-3)Rha(b1-4)Rha,"['Burkholderia_vietnamiensis', 'Xanthomonas_axonopodis', 'Xanthomonas_citri']",1.0,,,1,0,0
+46,FucNAc(a1-3)QuiNAcNBut(b1-4)FucNAc,['Plesiomonas_shigelloides'],1.0,,,1,0,0
+66,[Col(a1-2)]Gal(b1-3)[Col(a1-4)]GlcNAc(b1-4)GalA(a1-3)QuiNAc,['Vibrio_cholerae'],1.0,,,1,0,0
+77,GalNAc(a1-4)ManNAcA(b1-6)GalNAc,['Azospirillum_brasilense'],1.0,,,1,0,0
+78,QuiNAlaAc(b1-4)GalNAcA(a1-4)GalOAc(a1-2)QuiNAlaAc,['Pseudoalteromonas_haloplanktis'],1.0,,,1,0,0
+82,Ribf(b1-6)Glc(a1-2)Ribf,['Burkholderia_cepacia'],1.0,,,1,0,0
+124,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+129,Gal(b1-3)Gal(b1-3)GalNAc(b1-4)Gal,['Mannheimia_haemolytica'],1.0,,,1,0,0
+161,Ribf(b1-4)GalNAc(a1-2)Ribf,"['Burkholderia_cenocepacia', 'Burkholderia_cepacia']",1.0,,,1,0,0
+163,Gal(b1-3)FucNAc(a1-3)GlcNAc(b1-2)Gal,"['Citrobacter_braakii', 'Escherichia_coli']",1.0,,,1,0,0
+167,[Sug(b1-3)GalOAc(a1-2)]Man(a1-4)Rha(a1-3)Gal(a1-3)Man,['Pectobacterium_atrosepticum'],1.0,,,1,0,0
+190,[Man(b1-4)]Gal(a1-4)Rha(a1-3)GlcNAc(b1-3)Gal,"['Escherichia_coli', 'Salmonella_aberdeen', 'Salmonella_sp']",1.0,,,1,0,0
+208,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+215,Man(a1-6)[Xyl(b1-2)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Actinidia_chinensis', 'Armoracia_rusticana', 'Corylus_avellana', 'Musa_acuminata']",1.0,,N,1,0,0
+225,QuiNAc(b1-3)6dTalOAc(a1-3)FucNAc(b1-4)QuiNAc,['Pseudomonas_fluorescens'],1.0,,,1,0,0
+229,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+267,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+272,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+274,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+297,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc,,1.0,Bacteria,,0,0,1
+298,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'MurineLeukemia_Virus']",0.0,,N,1,0,0
+299,NeuNAc(a2-3)Gal(b1-4)GlcNAcOS(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+318,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+325,[Col(a1-2)]GalOAcA(b1-3)[Col(a1-4)]GlcNAc(a1-4)GalA(a1-3)QuiNAc,['Vibrio_cholerae'],1.0,,,1,0,0
+329,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['AvianInfluenzaA_Virus', 'Bos_taurus', 'Canis_lupus', 'Capra_hircus', 'Cavia_porcellus', 'Coturnix_japonica', 'Gallus_gallus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Marburg_Virus', 'Mesocricetus_auratus', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Ovis_aries', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,N,0,1,0
+332,Man(a1-3)[Man(a1-6)][Xyl(b1-2)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc,"['Acer_pseudoplatanus', 'Actinidia_chinensis', 'Allium_cepa', 'Apium_graveolens_oulce', 'Arabidopsis_thaliana', 'Arachis_hypogaea', 'Armoracia_rusticana', 'Artocarpus_heterophyllus', 'Artocarpus_intergrifolia', 'Asparagus_officinalis', 'Bos_taurus', 'Brassica_oleracea', 'Brassica_rapa', 'Caesalpinia_pulcherrima', 'Citrus_sinensis', 'Clerodendrum_trichotomum', 'Cocos_nucifera', 'Corylus_avellana', 'Cucurbita_pepo_melopepo', 'Daucus_carota', 'Erythrina_corallodendron', 'Erythrina_cristagalli', 'Fragaria_ananassa', 'Ginkgo_biloba', 'Glycine_max', 'Homo_sapiens', 'Juglans_regia', 'Lotus_tetragonolobus', 'Lupinus_luteus', 'Malus_domestica', 'Musa_acuminata', 'Nicotiana_tabacum', 'Olea_europaea', 'Persea_americana', 'Phaseolus_vulgaris', 'Physcomitrella_patens', 'Pinus_pinea', 'Pistacia_vera', 'Pisum_sativum', 'Prunus_dulcis_sativa', 'Pyrus_communis_williams', 'Ricinus_communis', 'Silene_latifolia', 'Solanum_lycopersicum', 'Solanum_tuberosum', 'Synsepalum_dulcificum', 'Vatairea_macrocarpa', 'Vigna_radiata_radiata', 'Zingiber_officinale']",0.0,,N,1,0,0
+337,[Ribf(b1-4)GlcOAcA(a1-2)]Rha(a1-3)Rha(b1-4)Rha(a1-3)GlcNAc(b1-3)Rha,['Hafnia_alvei'],1.0,,,1,0,0
+340,NeuNAc(a2-8)NeuNGc(a2-3)Gal,,1.0,Bacteria,,1,0,0
+371,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+373,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Gallus_gallus', 'Homo_sapiens']",0.0,,N,1,0,0
+377,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+379,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+382,ManNAc(b1-4)GlcNAc(a1-4)ManNAc,['Hafnia_alvei'],1.0,,,1,0,0
+384,Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+387,Kdo(b2-6)Glc(b1-6)[GlcNAc(b1-2)]Gal(b1-3)GalNAc(b1-4)Kdo,"['Cronobacter_malonaticus', 'Cronobacter_sakazakii']",1.0,,,1,0,0
+420,Fuc(a1-3)[Gal(b1-4)]GlcNAcOS(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+424,GalAGroN(a1-4)NeuNAc(a2-3)GalGroN(b1-3)GlcNAc(b1-3)GalAGroN,['Shewanella_algae'],1.0,,,1,0,0
+427,Glc(b1-3)ManOAc(b1-4)Glc,['Burkholderia_cepacia'],1.0,,,1,0,0
+432,[Par(a1-3)]Man(a1-4)RhaOAc(a1-3)[Glc(a1-4)]Gal(a1-2)Man,"['Salmonella_paratyphi', 'Salmonella_sp']",1.0,,,1,0,0
+463,GalOS(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+485,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+491,Gal(a1-3)GalfOAc(b1-3)Gal,['Klebsiella_pneumoniae'],1.0,,,1,0,0
+512,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+526,Fuc(a1-4)GalNAc(b1-3)Fuc,['Burkholderia_cepacia'],1.0,,,1,0,0
+531,NeuNAc(a2-6)GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+560,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Cricetinae_gen_sp', 'Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+566,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Mesocricetus_auratus', 'MinkCellFocusForming_Virus', 'Mus_musculus', 'Rattus_norvegicus']",0.0,,N,0,1,0
+582,Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,0,1,0
+594,Fuc(a1-4)GlcNAc(b1-6)Gal(b1-3)[Fuc(a1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+601,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+606,QuiNAc(b1-3)RhaOAc(a1-3)FucNAc(a1-2)QuiNAc,['Plesiomonas_shigelloides'],1.0,,,1,0,0
+631,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+649,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+654,Fuc(a1-4)GlcNAc(b1-3)Gal(b1-3)[Fuc(a1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+662,[Gal(a1-6)]Galf(b1-6)Galf(b1-5)Galf,['Actinobacillus_pleuropneumoniae'],1.0,,,1,0,0
+668,Fuc(a1-4)][GalOS(b1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)][Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,,0,1,0
+698,AltNAcA(a1-3)FucNAc(b1-4)AltNAcA,['Plesiomonas_shigelloides'],1.0,,,1,0,0
+741,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAcOS,,1.0,Eukarya,,1,0,0
+779,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-4)Glc,['Homo_sapiens'],0.0,,free,0,1,0
+798,NeuNAc(a2-8)NeuNAc(a2-8)NeuNAc(a2-3)Gal,,1.0,Bacteria,,1,0,0
+849,Rha(a1-2)Rha(a1-3)Rha(a1-3)[Glc(a1-6)]GlcNAc(b1-2)Rha,['Shigella_flexneri'],1.0,,,1,0,0
+857,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+887,[FucNAc(a1-4)]Gal(b1-4)Glc(a1-4)GalNAc(a1-3)GalNAc(b1-3)Gal,['Salmonella_sp'],1.0,,,1,0,0
+922,NeuNAcOGc(a2-3)Gal(b1-3)GlcNAc,,1.0,Bacteria,,1,0,0
+937,Gal(a1-3)Gal(b1-4)GalNAc,,1.0,Bacteria,,1,0,0
+957,Rha(a1-3)Rha(a1-2)[Glc(b1-3)]Rha(a1-3)Rha,"['Azospirillum_brasilense', 'Azospirillum_lipoferum']",1.0,,,1,0,0
+961,NeuNAc(a2-6)[NeuNGc(a2-3)]Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+1008,GalOS(b1-4)GlcNAc(b1-2)Man(a1-3)[GalOS(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+1012,[Galf(a1-2)Rha(a1-2)]Rha(a1-2)[Glc(a1-5)]Ribf(b1-4)GalA(a1-3)GlcNAc(b1-3)Rha,['Hafnia_alvei'],1.0,,,1,0,0
+1021,GalOS(b1-4)GlcNAc(b1-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+1029,Fuc(a1-2)[Gal(a1-3)]Gal(b1-3)[GlcNAcOS(b1-6)]GalNAc,['Homo_sapiens'],0.0,,,1,0,0
+1035,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1041,Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1047,Gal(b1-3)GalNAc(b1-4)[NeuNAc(a2-8)NeuNAc(a2-3)]Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+1051,[Gal(a1-6)]GlcNAc(a1-3)GalNAc(b1-3)GlcNAc,['Acinetobacter_baumannii'],1.0,,,1,0,0
+1075,Gal(a1-4)Gal(b1-4)Glc,"['Escherichia_coli', 'Leishmania_amazonensis', 'Neisseria_gonorrhoeae']",1.0,,,1,0,0
+1133,Glc(a1-6)Glc(a1-6)Glc(b1-4)Glc(b1-3)[GalN(a1-4)]GlcNAcA(a1-4)[GlcN(b1-7)]Kdo(a2-5)[Kdo(a1-4)]Kdo,,1.0,Bacteria,,1,0,0
+1163,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+1174,NeuNAcOGc(a2-3)Gal(b1-4)GlcNAc,,1.0,Aves,,1,0,0
+1204,Gal(b1-4)GlcNAcOS(b1-6)[Gal(b1-3)]GalNAc,"['Gallus_gallus', 'Homo_sapiens']",0.0,,O,1,0,0
+1223,Glc(a1-4)[GlcNAc(b1-3)]Gal(b1-3)GalNAc(a1-3)GlcNAc(b1-6)Glc,['Salmonella_sp'],1.0,,,1,0,0
+1237,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Homo_sapiens', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus', 'Sus_scrofa', 'Tetronarce_californica']",0.0,,N,1,0,0
+1241,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-4)[GalOS(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+1254,RhaOMe(a1-3)[Fucf(a1-4)]Rha(a1-3)Rha(a1-2)RhaOMe,['Xanthomonas_campestris'],1.0,,,1,0,0
+1272,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,"['Homo_sapiens', 'Rattus_norvegicus']",0.0,,O,0,0,1
+1273,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+1285,Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,,1.0,Chordata,,1,0,0
+1324,[GlcNAc(a1-3)]GalNAc(b1-3)Gal(a1-4)Gal(b1-3)GalNAc(b1-4)GalNAc,['Salmonella_sp'],1.0,,,1,0,0
+1336,[Galf(b1-4)Rha(a1-3)]DDManHep(b1-3)LDManHepOAc(b1-4)Rha(a1-3)GlcNAc(b1-4)DDManHep,['Plesiomonas_shigelloides'],1.0,,,1,0,0
+1347,Gal(a1-2)Gal(a1-2)[Glc(b1-3)]Glc(a1-3)Glc(b1-3)[GlcN(b1-7)LDManHep(a1-7)]LDManHep(a1-3)LDManHepOPPEtn(a1-5)[Kdo(a2-4)]Kdo,['Shigella_flexneri'],1.0,,,1,0,0
+1353,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+1371,GlcNAc(b1-2)[Glc(b1-6)Kdo(a1-4)]Glc(a1-3)GalNAla(a1-3)LDManHepOCm(a1-3)LDManHepOP(a1-5)[Kdo(a2-4)]Kdo,,1.0,Bacteria,,1,0,0
+1388,NeuNGc(a2-3)Gal(b1-3)GalNAc,"['Bos_taurus', 'Oryctolagus_cuniculus', 'Sus_scrofa']",1.0,,O,1,0,0
+1399,Gal(b1-3)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1403,Rha(a1-3)Gal(b1-4)[Gal(b1-3)]GalNAc(b1-4)Rha,['Actinobacillus_pleuropneumoniae'],1.0,,,1,0,0
+1407,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAcOS(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+1409,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+1429,GlcNAc(b1-2)Man(a1-3)[Man(a1-6)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,N,1,0,0
+1438,QuiNAc(b1-4)[QuiNAc(a1-2)]QuiNAc(b1-4)QuiNAc,['Vibrio_anguillarum'],1.0,,,1,0,0
+1486,[Rha(b1-4)GlcNAc(b1-3)]Rha(a1-2)Rha(a1-3)Rha(a1-3)GlcNAc(a1-2)Rha,['Acinetobacter_baumannii'],1.0,,,1,0,0
+1487,[6dTalOAc(a1-3)]Man(a1-2)Man(a1-3)GalNAc(b1-4)Man,['Pseudomonas_fluorescens'],1.0,,,1,0,0
+1504,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+1511,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1553,Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1573,GlcNAc(b1-3)[GlcNAc(b1-6)]GalNAc,['Bos_taurus'],1.0,,O,0,1,0
+1574,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1579,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+1614,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1617,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,,1.0,Chordata,,0,1,0
+1624,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1642,Gal(b1-3)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+1656,PseNAcNAc(b2-4)Gal(b1-4)Glc(b1-4)PseNAcNAc,['Cellulophaga_fucicola'],1.0,,,1,0,0
+1685,Gal(b1-4)Gal(b1-4)GlcNAc,,1.0,Bacteria,,0,0,1
+1705,NeuNAc(a2-6)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,free,1,0,0
+1724,Glc(a1-2)Glc(a1-2)[GlcNAc(a1-3)]Gal(a1-3)Glc(a1-3)[GlcNAc(a1-7)LDManHep(a1-7)]LDManHepOP(a1-3)LDManHepOP(a1-5)[Kdo(a2-4)Kdo(a2-4)]Kdo,['Escherichia_coli'],1.0,,,1,0,0
+1734,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Fuc(a1-3)[GalNAc(b1-4)]GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+1742,Glc(a1-6)GlcNBut(a1-4)GalNAc(a1-3)GalNAc(b1-2)Glc,['Hafnia_alvei'],1.0,,,1,0,0
+1745,Gal(a1-3)Gal(b1-3)GalNAc(b1-3)Gal,"['Burkholderia_cepacia', 'Burkholderia_vietnamiensis']",1.0,,,1,0,0
+1760,Man(a1-3)Man(a1-2)[Glc(a1-3)]Man(a1-2)Man(a1-2)Man(a1-3)Man,['Citrobacter_braakii'],1.0,,,1,0,0
+1764,ManOP(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[ManOP(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+1798,NeuNAc(a2-6)Gal(b1-3)GlcNAc(b1-3)[NeuNAc(a2-6)]Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1803,Man(a1-6)[Man(a1-3)][Xyl(b1-2)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,,1.0,Angiosperms,,1,0,0
+1804,[Abe(a1-3)]Rha(b1-2)Man(a1-2)Man(a1-3)[Glc(a1-2)]Gal(b1-4)Rha,"['Salmonella_kentucky', 'Salmonella_sp']",1.0,,,1,0,0
+1810,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+1849,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+1850,Rha(a1-3)RhaOAc(a1-2)[Glc(b1-3)]Rha(a1-3)Rha,['Azospirillum_lipoferum'],1.0,,,1,0,0
+1861,Fuc(a1-2)Gal(b1-4)GlcNAcOS(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+1915,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)GalOS(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+1928,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+1947,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Desmodus_rotundus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Mesocricetus_auratus', 'MinkCellFocusForming_Virus', 'Mus_musculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,N,0,1,0
+1959,Rha(a1-2)Rha(a1-3)[Glc(a1-4)]Rha(a1-3)GlcNAc(b1-2)Rha,['Shigella_flexneri'],1.0,,,1,0,0
+1965,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc,,1.0,Chordata,,0,1,0
+1990,GalOS(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[GalOS(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+2016,Gal(b1-4)GlcNAc(b1-3)[GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+2026,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Desmodus_rotundus', 'Homo_sapiens', 'Mus_musculus', 'Rattus_norvegicus']",0.0,,N,1,0,0
+2027,[AbeOAc(a1-3)]Man(a1-4)Rha(a1-3)[Glc(a1-6)]Gal(a1-2)Man,"['Salmonella_bredeney', 'Salmonella_sp']",1.0,,,1,0,0
+2029,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2031,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+2033,Fuc(a1-2)Gal(b1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+2042,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+2048,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2057,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2059,Man(b1-2)Man(b1-2)Man(a1-2)Man(a1-2)Man,"['Candida_albicans', 'Clavispora_lusitaniae', 'Homo_sapiens', 'Komagataella_pastoris']",0.0,,O,1,0,0
+2077,Rha(a1-2)Rha(a1-2)Rha(a1-2)Glc(a1-3)GlcNAcOAc,,1.0,Bacteria,,1,0,0
+2085,NeuNAc(a2-6)GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[GalNAc(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2099,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2101,[Sug(a1-2)]Rha(a1-3)Rha(a1-2)Rha(a1-3)Rha,['Burkholderia_brasiliensis'],1.0,,,1,0,0
+2106,Man(b1-3)ManNAc(a1-3)Rha(b1-4)GlcNAc(a1-2)Man,"['Raoultella_terrigena', 'Shigella_dysenteriae']",1.0,,,1,0,0
+2107,GalNAc(a1-4)Gal(a1-6)Gal(a1-3)Gal(a1-3)DDManHep(a1-5)KdoN,['Shewanella_oneidensis'],1.0,,,1,0,0
+2116,Gal(b1-3)GalNAc(b1-4)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+2121,RhaOMe(a1-3)[GlcNAc(b1-4)]ManNBut(a1-4)RhaOMe,['Azospirillum_brasilense'],1.0,,,1,0,0
+2225,Ribf(b1-4)GalNAc(a1-3)GlcNAc,['Salmonella_sp'],1.0,,,1,0,0
+2228,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-4)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2245,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2268,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+2285,LDManHep(a1-2)LDManHep(a1-3)[Gal(b1-4)[Gal(a1-6)]LDManHep(a1-6)Glc(b1-4)][Glc(a1-6)]LDManHep(a1-5)Kdo,['Pasteurella_multocida'],1.0,,,1,0,0
+2289,GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+2309,GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-4)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2333,[ManNAc(b1-4)Gal(a1-4)]Gal(b1-3)GalNAc(b1-3)Gal,['Acinetobacter_baumannii'],1.0,,,1,0,0
+2364,[Rha(a1-3)Rha(a1-2)Rha(a1-3)Man(b1-4)]Gal(a1-3)Gal(b1-3)Gal,['Azospirillum_lipoferum'],1.0,,,1,0,0
+2368,6dTal(a1-2)Rha(a1-5)Sug(a2-3)6dTal,['Rhizobium_leguminosarum'],1.0,,,1,0,0
+2384,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+2395,Gal(b1-6)Glc(a1-6)GlcNAc(a1-4)GalA(a1-3)GlcNAc(b1-2)Gal,['Hafnia_alvei'],1.0,,,1,0,0
+2404,GalNAc(a1-4)GalNAc(b1-4)GalNAc,['Burkholderia_cepacia'],1.0,,,1,0,0
+2405,Ribf(b1-3)Rha(a1-3)Rha(a1-2)Ribf,['Citrobacter_braakii'],1.0,,,1,0,0
+2417,Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,"['Bos_taurus', 'Bufo_bufo', 'Gallus_gallus', 'Homo_sapiens', 'Marburg_Virus', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus', 'Schistosoma_mansoni', 'Sus_scrofa']",0.0,,O,0,0,1
+2439,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Sus_scrofa']",0.0,,N,0,1,0
+2458,Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Acremonium_sp', 'Antheraea_pernyi', 'Apis_mellifera', 'Apis_sp', 'Arabidopsis_thaliana', 'Artemisia_vulgaris', 'Aspergillus_niger', 'Aspergillus_oryzae', 'Astacus_leptodactylus', 'Asterias_rubens', 'AvianInfluenzaA_Virus', 'Bombyx_mori', 'Bos_taurus', 'Caenorhabditis_elegans', 'Canavalia_ensiformis', 'Carica_papaya', 'Cherax_quadricarinatus', 'Columbia_livia', 'Cryptococcus_neoformans', 'Fusarium_graminearum', 'Fusarium_sp', 'Gallus_gallus', 'Glycine_max', 'Herpetomonas_muscarum', 'Herpetomonas_pessoai', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Kinetoplastids', 'Leishmania_adleri', 'Leishmania_mexicana', 'Leptomonas_samueli', 'Mamestra_brassicae', 'MinkCellFocusForming_Virus', 'Mus_musculus', 'Nicotiana_alata', 'Oryza_sativa', 'Phaseolus_lunatus', 'Phaseolus_vulgaris', 'Physcomitrella_patens', 'Ricinus_communis', 'Riftia_pachyptila', 'Saccharomyces_cerevisiae', 'Saccharomyces_uvarum', 'Schistosoma_mansoni', 'Schizosaccharomyces_pombe', 'SpleenFocusForming_Virus', 'Spodoptera_frugiperda', 'Strigomonas_culicis', 'Tetronarce_californica', 'Trypanosoma_brucei', 'Trypanosoma_conorhini', 'Trypanosoma_cruzi', 'Trypanosoma_dionisii', 'Unio_elongatus', 'Yarrowia_lipolytica']",0.0,,N,1,0,0
+2459,NeuNAc(a2-8)NeuNAc(a2-3)Gal(b1-3)GalNAc(b1-4)[NeuNAc(a2-8)NeuNAc(a2-3)]Gal(b1-4)Glc,['Campylobacter_jejuni'],1.0,,,1,0,0
+2460,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+2468,Gal(b1-3)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+2525,NeuNAc(a2-3)Gal(b1-3)GalNAc(b1-3)Gal,,1.0,Bacteria,,1,0,0
+2544,RhaNAc(a1-2)RhaNAc(a1-2)RhaNAc(a1-3)RhaNAcOAc(a1-3)RhaNAc,['Citrobacter_gillenii'],1.0,,,1,0,0
+2563,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,"['Equus_caballus', 'Homo_sapiens']",0.0,,O,0,0,1
+2582,RhaOAc(a1-2)Rha(a1-3)RhaOAc(a1-3)[Glc(a1-4)]GlcNAc(b1-2)RhaOAc,['Shigella_flexneri'],1.0,,,1,0,0
+2594,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+2615,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Equus_caballus', 'Gallus_gallus', 'Homo_sapiens', 'Mus_musculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,N,1,0,0
+2616,[Rha(b1-4)]GlcNAc(a1-6)Gal(a1-4)Gal(b1-3)GlcNAc(b1-3)GlcNAc,['Hafnia_alvei'],1.0,,,1,0,0
+2628,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2638,NeuNAc(a2-3)FucNAm(a1-3)GlcNAcOAc(b1-7)NeuNAc,['Citrobacter_braakii'],1.0,,,1,0,0
+2639,PseNAcNFo(a2-4)[GlcA(a1-4)GalNAc(b1-4)GalNAcOAcA(a1-3)]QuiNAc(b1-4)PseNAcNFo,['Pseudoalteromonas_distincta'],1.0,,,1,0,0
+2644,Glc(b1-2)FucNAc(b1-6)Glc(a1-4)GalNAc(a1-3)GlcNAc(b1-2)Glc,['Salmonella_sp'],1.0,,,1,0,0
+2655,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+2656,GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'Ovis_aries', 'Sus_scrofa']",0.0,,N,1,0,0
+2662,NeuNAc(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc,['Homo_sapiens'],0.0,,free,1,0,0
+2664,GlcNAc(a1-4)GalNAc(a1-6)GlcNAc,"['Escherichia_coli', 'Stenotrophomonas_maltophilia']",1.0,,,1,0,0
+2665,Glc(b1-3)[Glc(a1-4)]Gal(b1-4)Glc,"['Halomonas_magadiensis', 'Halomonas_stevensii']",1.0,,,1,0,0
+2689,GlcNAc(b1-4)Rha(a1-3)GlcNAc,"['Klebsiella_pneumoniae', 'Raoultella_terrigena']",1.0,,,1,0,0
+2704,GlcNAcNButA(b1-4)FucOAcNAm(a1-3)QuiNAc(a1-4)GlcNAcNButA,['Plesiomonas_shigelloides'],1.0,,,1,0,0
+2722,Rha(a1-2)Rha(a1-3)RhaOAc(a1-3)[Glc(a1-2)Glc(a1-4)]GlcNAc(b1-2)Rha,['Shigella_flexneri'],1.0,,,1,0,0
+2737,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2738,[Glc(a1-4)Glc(a1-3)]Rha(a1-3)ManNAcOAc(b1-4)Rha,['Aeromonas_salmonicida'],1.0,,,1,0,0
+2753,QuiNAc(b1-3)Ribf(b1-4)[Gal(a1-3)Gal(a1-3)]Gal(b1-3)[Glc(a1-4)]GalNAc(a1-4)QuiNAc,"['Salmonella_sp', 'Salmonella_telaviv']",1.0,,,1,0,0
+2756,Man(b1-2)Man(a1-2)Man(a1-2)Man(b1-3)GlcNAc(b1-2)Man,"['Salmonella_sp', 'Salmonella_thompson']",1.0,,,1,0,0
+2759,6dTalOAc(a1-2)[Araf(a1-6)]GlcNAc(b1-3)6dTalOAc,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+2770,GlcASer(b1-3)GalNAc(b1-4)Glc(b1-3)Gal(a1-4)GalNAc(b1-4)GlcASer,['Providencia_alcalifaciens'],1.0,,,1,0,0
+2780,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)GlcNAc(b1-3)[NeuNAc(a2-6)]Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+2794,GlcOSA(b1-3)Gal(b1-3)[NeuNAc(a2-6)]Gal(b1-4)Xyl,['Homo_sapiens'],0.0,,O,1,0,0
+2802,NeuNAc(a2-3)Man(b1-4)Glc,['Homo_sapiens'],0.0,,free,1,0,0
+2820,GalOS(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2857,Glc(a1-4)Gal(b1-4)[Gal(b1-7)]LDManHep(a1-5)KdoOP,['Pseudoalteromonas_issachenkonii '],1.0,,,1,0,0
+2890,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens', 'MurineLeukemia_Virus', 'Mus_musculus']",0.0,,N,1,0,0
+2896,Gal(b1-4)GlcNAc(b1-6)Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2906,Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2907,GalOS(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2917,NeuNAc(a2-3)Gal(b1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+2927,GlcNAc(b1-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,1,0,0
+2938,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+2973,GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-3)GlcNAc,"['Helicobacter_mustelae', 'Helicobacter_pylori']",1.0,,,1,0,0
+2996,Gal(b1-4)[Fuc(a1-3)]GlcNAcOS,,1.0,Eukarya,,1,0,0
+3033,GalNAmA(a1-3)QuiNAc(b1-3)Fuc(a1-3)GalNAmA,['Vibrio_vulnificus'],1.0,,,1,0,0
+3039,Gal(b1-3)GalNAc(b1-4)[NeuNAc(a2-8)NeuNAc(a2-8)NeuNAc(a2-3)]Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+3041,Rha(a1-3)ManNAc(b1-4)Rha,"['Aeromonas_salmonicida', 'Burkholderia_plantarii', 'Vibrio_fluvialis']",1.0,,,1,0,0
+3051,RhaNAc(a1-3)Fuc(a1-4)Glc(b1-3)[Glc(b1-4)]GalNAc(a1-2)RhaNAc,['Salmonella_sp'],1.0,,,1,0,0
+3053,GlcNAcOS(b1-6)[NeuNAc(a2-6)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+3080,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,"['Escherichia_coli', 'Pasteurella_multocida']",1.0,,,0,1,0
+3081,GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Caenorhabditis_elegans', 'Drosophila_melanogaster', 'Homo_sapiens', 'Lupinus_luteus', 'Synsepalum_dulcificum']",0.0,,N,1,0,0
+3111,[Glc(b1-3)]GalNAc(a1-6)Gal(b1-3)[Glc(a1-4)]GalNAc(b1-4)GlcNAc(a1-4)GalNAc,['Hafnia_alvei'],1.0,,,1,0,0
+3112,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+3124,Fuc(a1-3)Man(a1-3)QuiNAc(b1-4)Kdo(a1-6)Gal(a1-6)[GalA(a1-4)]Man(a1-5)Kdo(a1-4)[GalA(a1-4)]Kdo(a1-5)GalA,,1.0,Bacteria,,1,0,0
+3129,FucNAc(a1-2)QuiNAc(b1-3)FucNAc(a1-3)QuiNAc(a1-3)FucNAc,['Pseudomonas_cichorii'],1.0,,,1,0,0
+3148,GalNAc(b1-4)[NeuNGc(a2-3)]Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+3166,GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+3186,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-4)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+3189,GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-3)GalNAc,,1.0,Chordata,,1,0,0
+3204,Rha(a1-3)[GalNAc(b1-2)]Rha(a1-2)Rha,['Aggregatibacter_actinomycetemcomitans'],1.0,,,1,0,0
+3211,Rha(a1-3)Rha(a1-2)Rha(b1-3)Rha,['Burkholderia_cepacia'],1.0,,,1,0,0
+3215,GalNAc(b1-4)[NeuNGc(a2-3)]Gal,,1.0,Animalia,,1,0,0
+3233,NeuNGc(a2-8)NeuNGc(a2-3)Gal,,1.0,Chordata,,1,0,0
+3237,NeuNGcA(a2-6)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+3240,Glc(b1-3)GalNAc(a1-3)GalNAc(b1-3)Rha(a1-3)[QuiNAc(b1-3)Rha(a1-2)][LDManHep(a1-7)]LDManHep(a1-3)[LDManHep(a1-6)Glc(b1-4)]LDManHep(a1-5)Kdo(a2-4)Kdo(b1-8)AraN,['Burkholderia_multivorans'],1.0,,,1,0,0
+3261,GlcNAc(b1-4)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+3283,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-3)GalNAc,"['Bufotes_viridis', 'Homo_sapiens', 'Mus_musculus', 'Rana_palustris', 'Rhinella_arenarum']",0.0,,O,1,0,0
+3285,Fuc(a1-3)[GalOS(b1-4)]GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,,0,1,0
+3288,QuiNAc(b1-2)Rha(a1-4)GalAN(a1-6)[GlcAN(b1-3)Glc(b1-4)]Gal(a1-5)[Kdo(a1-4)]Kdo,,1.0,Bacteria,,1,0,0
+3292,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+3308,NeuNAc(a2-3)Gal(b1-4)Glc,"['Escherichia_coli', 'Helicobacter_pylori', 'Homo_sapiens']",0.0,,free,1,0,0
+3320,RhaOAc(a1-3)GlcNAc(b1-4)RhaOAc,"['Aeromonas_hydrophila', 'Aeromonas_sobria']",1.0,,,1,0,0
+3359,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+3367,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+3369,Man(a1-2)Man(a1-2)Man(a1-2)Man,"['Candida_albicans', 'Candida_glabrata', 'Candida_parapsilosis', 'Candida_tropicalis', 'Carassea_connexa', 'Cladonia_clathrata', 'Cladonia_ibitipocae', 'Cladonia_imperialis', 'Cladonia_miniata', 'Cladonia_penicillata', 'Cladonia_salmonea', 'Cladonia_signata', 'Cladonia_substellata', 'Cyberlindnera_jadinii', 'Homo_sapiens', 'Lachancea_kluyveri', 'Leishmania_mexicana', 'Meyerozyma_guilliermondii', 'Neurospora_crassa', 'Peltula_crispatula', 'Schizosaccharomyces_pombe', 'Yarrowia_lipolytica']",0.0,,O,1,0,0
+3370,[Asc(a1-3)]DDManHep(a1-4)FucNAc(a1-3)QuiNAc(b1-2)DDManHep,['Vibrio_cholerae'],1.0,,,1,0,0
+3388,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+3399,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+3408,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+3415,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)[Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+3453,GlcNAc(b1-2)[Rha(a1-6)Glc(b1-4)]Glc(a1-3)GalNAla(a1-3)LDManHepOCm(a1-3)LDManHepOP(a1-5)[Kdo(a2-4)]Kdo,['Pseudomonas_syringae'],1.0,,,1,0,0
+3471,Glc(b1-2)FucOAcNBut(b1-6)GlcNAc(a1-4)[Glc(b1-3)]GalNAc(a1-3)GlcNAc(b1-2)Glc,['Hafnia_alvei'],1.0,,,1,0,0
+3477,Gal(a1-6)GlcNAc(a1-4)GalNAc(b1-3)Gal,['Burkholderia_cepacia'],1.0,,,1,0,0
+3479,GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)[GalOS(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+3515,NeuNAc(a2-8)NeuNAc(a2-3)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+3541,GlcNAc(b1-3)[NeuNAc(a2-6)]Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+3574,ManNAcAAla(b1-4)GlcNAcA(b1-4)ManNAcAAla,['Pseudoalteromonas_sp'],1.0,,,1,0,0
+3575,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+3585,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)]Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,1,0,0
+3603,GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+3618,GalNAc(a1-3)[NeuNAc(a2-6)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,1,0,0
+3619,Rha(a1-3)[GlcNAc(b1-4)]GlcNAc(b1-3)[Kdo(a2-4)]GalNAc(a1-5)Kdo,['Pseudomonas_cichorii'],1.0,,,1,0,0
+3649,[Rha(a1-3)]Rha(a1-2)[Rha(a1-3)]Rha(a1-3)Rha(b1-2)Rha,['Xanthomonas_campestris'],1.0,,,1,0,0
+3683,Man(b1-2)Man(a1-2)Man(a1-3)Man,"['Escherichia_coli', 'Klebsiella_pneumoniae']",1.0,,,1,0,0
+3694,Man(a1-2)Man(a1-2)[Glc(a1-4)]Man(b1-3)FucNAc(a1-6)Man,,1.0,Bacteria,,1,0,0
+3711,RhaOAc(b1-4)Rha(a1-3)[GlcNAc(b1-2)]Fuc(a1-3)RhaOAc,['Pseudomonas_fluorescens'],1.0,,,1,0,0
+3712,GalAAlaLys(a1-3)GalNAc(b1-4)GlcA(b1-3)GalNAc(b1-2)GalAAlaLys,,1.0,Bacteria,,1,0,0
+3723,Glc(a1-2)Gal(b1-4)Glc(b1-4)Glc(b1-3)[GalN(a1-4)]GlcNAcA(a1-4)[GlcN(b1-7)]Kdo(a2-5)[Kdo(a1-4)]Kdo,,1.0,Bacteria,,1,0,0
+3734,GalfOAc(b1-3)Man(b1-3)GalfOAc,['Burkholderia_cepacia'],1.0,,,1,0,0
+3746,Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+3750,[Galf(b1-3)]Rha(a1-2)RhaOAc(a1-2)Ribf(b1-4)Gal(a1-3)GlcNAc(a1-2)Rha,['Hafnia_alvei'],1.0,,,1,0,0
+3763,NeuNAc(a2-3)Gal(b1-4)GlcNAcOS(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+3794,Rha(a1-2)Rha(a1-2)Gal(a1-3)Rha,['Burkholderia_anthina'],1.0,,,1,0,0
+3801,GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Gallus_gallus', 'Homo_sapiens', 'Tetronarce_californica']",0.0,,N,1,0,0
+3804,GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-4)][Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Gallus_gallus', 'Homo_sapiens']",0.0,,N,1,0,0
+3831,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'MurineRespo_Virus', 'Sus_scrofa']",0.0,,N,1,0,0
+3842,[Rha(a1-3)][Gal(b1-4)]ManNAc(b1-4)GlcA(b1-3)GalNAc(b1-6)ManNAc,['Aeromonas_caviae'],1.0,,,1,0,0
+3852,NeuNGc(a2-3)Gal(b1-3)GlcNAc,,1.0,none,,1,0,0
+3853,Rha(b1-4)[Glc(a1-3)]Rha(a1-3)Fuc(a1-3)Rha,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+3860,[Rha(a1-4)GalA(a1-2)]RhaOAc(a1-4)Glc(a1-2)Rha(a1-3)[Glc(a1-4)]GlcNAc(b1-3)RhaOAc,['Cronobacter_sakazakii'],1.0,,,1,0,0
+3861,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+3878,GlcAOLac(b1-4)GlcA(b1-4)GalNAcA(a1-3)QuiNAc(b1-2)GlcAOLac,['Halomonas_pantelleriensis'],1.0,,,1,0,0
+3897,Man(a1-6)[Xyl(b1-2)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc,"['Actinidia_chinensis', 'Allium_cepa', 'Ananas_comosus', 'Apium_graveolens_oulce', 'Asparagus_officinalis', 'Carica_papaya', 'Citrus_sinensis', 'Corylus_avellana', 'Daucus_carota', 'Fragaria_ananassa', 'Juglans_regia', 'Lupinus_luteus', 'Malus_domestica', 'Momordica_charantia', 'Musa_acuminata', 'Persea_americana', 'Pistacia_vera', 'Prunus_dulcis_sativa', 'Pyrus_communis_williams', 'Ricinus_communis', 'Solanum_lycopersicum', 'Synsepalum_dulcificum', 'Vatairea_macrocarpa']",1.0,,N,1,0,0
+3913,Fuc(a1-6)[Gal(b1-4)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+3922,ManOP(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+3928,Kdo(b2-3)6dTalOAc(a1-3)GlcNAc(a1-7)Kdo,['Providencia_alcalifaciens'],1.0,,,1,0,0
+3931,GlcNAcOAcA(b1-4)FucOAcNAm(a1-3)Sug(a1-4)GlcNAcOAcA,['Flavobacterium_columnare'],1.0,,,1,0,0
+3943,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+3946,GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)[GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+3970,Fuc(a1-2)Rha(a1-3)Fuc,['Burkholderia_cepacia'],1.0,,,1,0,0
+3971,Gal(b1-4)[Gal(a1-6)]Glc(b1-6)GlcNAc(b1-3)Gal,['Actinobacillus_suis'],1.0,,,1,0,0
+3979,Galf(b1-3)GlcNAc(b1-5)Galf,['Klebsiella_pneumoniae'],1.0,,,1,0,0
+3980,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Bacteria,,0,1,0
+3985,[Gal(a1-6)]Glc(b1-3)GalNAc(b1-3)Glc,"['Acinetobacter_baumannii', 'Acinetobacter_sp']",1.0,,,1,0,0
+3986,NeuNAcOAc(a2-8)NeuNAc(a2-3)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+3990,ManNAcA(b1-4)GulNAcOAcA(a1-3)QuiNAcNBut(b1-4)ManNAcA,,1.0,Bacteria,,1,0,0
+3994,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)[Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)]Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+4008,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+4029,Galf(a1-3)RhaOAc(a1-4)GlcNAc(a1-2)Rha(a1-3)GlcNAc(b1-2)Galf,['Pragia_fontium'],1.0,,,1,0,0
+4032,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,N,1,0,0
+4038,NeuNAc(a2-6)Gal(b1-4)GlcNAcOS(b1-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+4055,Man(a1-2)Man(a1-2)Man(b1-3)GlcNAc(a1-4)Man,['Salmonella_sp'],1.0,,,1,0,0
+4070,RhaNAc(a1-2)RhaNAc(a1-2)RhaNAc(a1-3)RhaNAc(a1-2)RhaNAc(a1-3)RhaNAc,,1.0,Bacteria,,1,0,0
+4080,GlcNAc(a1-3)FucNAc(a1-3)[Glc(b1-4)]GlcNAc(a1-6)GlcNAc,['Providencia_alcalifaciens'],1.0,,,1,0,0
+4109,[Gal(a1-3)Fuc(a1-4)GlcNAc(a1-3)]Fuc(a1-3)FucNAc(b1-4)Fuc,['Vibrio_cholerae'],1.0,,,1,0,0
+4134,[Ribf(a1-4)]ManNAc(b1-4)GlcNAc(b1-3)ManNAc,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+4135,[QuiNAspAc(b1-6)]Gal(b1-6)GlcNAc(b1-6)Gal(b1-3)GlcNAc(b1-3)Gal,['Providencia_stuartii'],1.0,,,1,0,0
+4136,Rha(a1-3)Fuc(a1-3)[Man(a1-2)]Fuc(a1-3)Rha,['Rhizobium_leguminosarum'],1.0,,,1,0,0
+4145,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal,,1.0,Bacteria,,0,0,1
+4151,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+4176,Rha(a1-3)FucNThrAc(a1-3)[ManNAcA(b1-4)]GalNAc(a1-3)Rha,['Pseudoalteromonas_agarivorans'],1.0,,,1,0,0
+4184,[QuiNAc(b1-6)]GalNAc(a1-6)Glc(a1-4)GlcA(b1-3)GalNAc(b1-4)GalNAc,['Providencia_alcalifaciens'],1.0,,,1,0,0
+4229,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Tetronarce_californica']",0.0,,N,1,0,0
+4235,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+4237,GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-3)[GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'Mus_musculus', 'Ovis_aries', 'Sus_scrofa']",0.0,,,1,0,0
+4288,Xyl(b1-4)Xyl(b1-4)[GlcA(a1-2)]Xyl(b1-4)[GlcA(a1-2)]Xyl(b1-4)Xyl(b1-4)[Ara(a1-3)]Xyl(b1-4)Xyl,,1.0,Angiosperms,,1,0,0
+4291,Gal(b1-4)[Fuc(a1-3)][Glc(a1-6)]GlcNAc(b1-3)Gal,['Helicobacter_pylori'],1.0,,,1,0,0
+4336,Gal(b1-3)GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+4357,Man(a1-2)Man(a1-3)[Man(a1-3)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Apis_sp', 'Astacus_leptodactylus', 'Homo_sapiens', 'Leishmania_amazonensis', 'Trypanosoma_brucei']",0.0,,N,1,0,0
+4387,Rha(a1-2)Ribf(b1-3)Rha(a1-3)Rha(a1-2)Rha,['Klebsiella_pneumoniae'],1.0,,,1,0,0
+4443,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)[Gal(b1-3)]GalNAc,"['Ambystoma_maculatum', 'Homo_sapiens', 'Oryctolagus_cuniculus']",0.0,,O,0,0,1
+4444,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+4445,Man(a1-2)Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+4454,NeuNAc(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)]Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,1,0,0
+4460,FucNAcOAc(b1-3)GlcNAcOPyr(a1-4)Gal(a1-4)Gal(b1-3)GlcNAc(b1-2)FucNAcOAc,['Providencia_alcalifaciens'],1.0,,,1,0,0
+4473,NeuNAc(a2-3)Gal(b1-3)GlcNAc,,1.0,Animalia,,1,0,0
+4485,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc,,1.0,Bacteria,,0,1,0
+4488,Fuc(a1-6)[GlcNAc(b1-4)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+4534,Col(a1-3)[Col(a1-6)]Glc(a1-4)Gal(a1-3)GlcNAc(b1-4)Glc,['Escherichia_coli'],1.0,,,1,0,0
+4535,Gal(b1-4)GlcNAc(b1-3)Gal,"['Escherichia_coli', 'Haemophilus_ducreyi', 'Helicobacter_pylori']",1.0,,,1,0,0
+4539,[Xluf(b2-2)]Rha(a1-3)[Xluf(b2-2)]Rha(b1-3)Rha,"['Escherichia_coli', 'Yersinia_enterocolitica']",1.0,,,1,0,0
+4552,Rha(a1-2)Rha(a1-3)RhaOAc(a1-3)[Glc(a1-6)]GlcNAc(b1-2)Rha,"['Escherichia_coli', 'Shigella_flexneri']",1.0,,,1,0,0
+4560,Man(a1-2)Man(a1-2)[Glc(a1-3)]Man(b1-3)GlcNAc(a1-6)Man,"['Salmonella_boecker', 'Salmonella_carrau', 'Salmonella_madelia', 'Salmonella_sp']",1.0,,,1,0,0
+4601,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+4606,Gal(b1-3)GlcNAc(b1-6)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+4613,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Glc,['Homo_sapiens'],0.0,,free,0,1,0
+4614,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+4671,[Glc(b1-3)]GalNAcASer(a1-4)ManNAcA(b1-4)GulNAcA(a1-3)QuiNAcNBut(b1-4)GalNAcASer,['Pseudomonas_sp'],1.0,,,1,0,0
+4720,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+4726,GlcNAcNAlaFo(b1-4)GlcNAcNAmA(b1-4)GlcNAcNAlaFo,['Vibrio_ordalii'],1.0,,,1,0,0
+4739,Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+4782,ManNAc(b1-4)[Glc(a1-2)]Glc(b1-3)ManNAc,['Citrobacter_werkmanii'],1.0,,,1,0,0
+4790,Gal(b1-3)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+4823,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc,,1.0,Bacteria,,0,0,1
+4828,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+4833,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Tetronarce_californica']",0.0,,N,0,1,0
+4840,GlcA(b1-3)[Col(a1-2)Gal(b1-3)GlcAN(b1-6)]GlcNAc(b1-4)GlcA,['Providencia_alcalifaciens'],1.0,,,1,0,0
+4843,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+4868,Man(a1-3)[Glc(a1-2)]Rha(b1-4)Rha(b1-4)Man,['Citrobacter_braakii'],1.0,,,1,0,0
+4892,[Altf(a1-3)]Man(b1-4)Man(a1-3)Fuc(a1-3)GlcNAc(a1-2)Man,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+4905,QuiNFo(b1-3)Gal(a1-3)GlcA(b1-3)GalNAc(b1-4)QuiNFo,['Providencia_alcalifaciens'],1.0,,,1,0,0
+4908,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-4)[GalOS(b1-4)GlcNAc(b1-2)]Man(a1-3)[GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+4924,GalOS(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+4994,Rha(a1-2)Fuc(a1-2)Gal(a1-2)Fuc(a1-3)GlcA,['Vibrio_fluvialis'],1.0,,,1,0,0
+5028,Rha(a1-4)Gal(b1-4)[Glc(b1-3)]GalNAc(b1-4)Rha,['Actinobacillus_pleuropneumoniae'],1.0,,,1,0,0
+5049,GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bothrops_moojeni', 'Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+5069,[RhaOLac(a1-3)]Man(b1-4)GalNAc(a1-4)GalA(a1-3)GlcNAc(a1-2)Man,['Vibrio_fluvialis'],1.0,,,1,0,0
+5070,GlcNAc(b1-4)GalOAcNAmA(a1-3)Sug(a1-4)GlcNAc,['Pseudoalteromonas_rubra'],1.0,,,1,0,0
+5083,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+5101,Gal(b1-4)GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+5115,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,N,1,0,0
+5145,NeuNAc(a2-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+5191,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+5193,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+5250,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5261,Gal(b1-4)GlcNAc(b1-6)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5263,Rha(a1-3)GlcNAc(b1-7)[Glc(a1-2)LDManHep(a1-6)][LDManHep(a1-2)]DDManHep(a1-5)KdoN,['Shewanella_algae'],1.0,,,1,0,0
+5272,Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal,,1.0,Bacteria,,1,0,0
+5282,GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-4)][GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5303,NeuNAc(a2-3)Gal(b1-4)GlcNAcOS(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+5308,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Homo_sapiens', 'MurineLeukemia_Virus']",0.0,,N,1,0,0
+5331,[GlcA(a1-4)]GlcNAcOAc(a1-3)RhaOAc(b1-4)GlcNAc(b1-6)GlcNAcOAc,['Vibrio_cholerae'],1.0,,,1,0,0
+5368,GalAGroN(a1-4)Gal(a1-3)GalA(a1-3)GlcNAc(b1-4)GalAGroN,['Edwardsiella_tarda'],1.0,,,1,0,0
+5369,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+5377,Fuc(a1-2)Gal(b1-3)GalNAc(b1-4)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+5392,Man(a1-2)Man(a1-2)Man(b1-3)GlcNAc(a1-6)Man,"['Escherichia_coli', 'Salmonella_boecker', 'Salmonella_madelia', 'Salmonella_sp']",1.0,,,1,0,0
+5399,Gal(a1-2)Rha(a1-2)Ribf(b1-4)Gal(b1-3)GalNAc(b1-4)Gal,['Hafnia_alvei'],1.0,,,1,0,0
+5422,Man(b1-2)[Glc(a1-3)]Man(a1-2)Man(a1-2)Man(b1-3)GlcNAc(b1-2)Man,"['Salmonella_ohio', 'Salmonella_sp']",1.0,,,1,0,0
+5425,NeuNAc(a2-3)Gal(b1-3)GalNAc(b1-4)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+5427,QuiNBut(b1-2)Rha(a1-4)GalNAcA(a1-3)QuiNAcNBut(a1-2)QuiNBut,['Pseudomonas_fluorescens'],1.0,,,1,0,0
+5437,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-2)Man(a1-3)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5443,[GlcNAc(b1-3)]Rha(a1-2)Rha(a1-6)Glc(a1-2)Rha,['Actinobacillus_pleuropneumoniae'],1.0,,,1,0,0
+5472,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Coturnix_japonica', 'Homo_sapiens', 'Oryctolagus_cuniculus']",0.0,,N,1,0,0
+5487,NeuNAc(a2-6)GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5500,Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Antheraea_pernyi', 'Aspergillus_niger', 'Asterias_rubens', 'Caenorhabditis_elegans', 'Canavalia_ensiformis', 'Cherax_quadricarinatus', 'Columbia_livia', 'Gallus_gallus', 'Homo_sapiens', 'Oryza_sativa', 'Phaseolus_vulgaris', 'Riftia_pachyptila', 'Saccharomyces_cerevisiae', 'Unio_elongatus']",0.0,,N,1,0,0
+5509,Fuc(a1-4)GlcNAc(b1-6)[GlcNAc(b1-6)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+5520,Man(a1-3)[Man(a1-6)]Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5528,[GalAAlaLys(a1-4)]GalNAc(b1-4)GlcA(b1-3)GlcNAc(b1-6)GalNAc,['Providencia_alcalifaciens'],1.0,,,1,0,0
+5529,[Abe(a1-3)]Man(a1-4)Rha(a1-3)Gal(a1-2)Man,"['Citrobacter_freundii', 'Edwardsiella_tarda', 'Escherichia_coli', 'Salmonella_enterica', 'Salmonella_essen']",1.0,,,1,0,0
+5535,GlcNAc(b1-6)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5543,GlcNAcA(b1-3)GlcNAcA(b1-3)QuiNAcNAm(a1-4)GlcNAcA,['Pseudaminobacter_defluvii'],1.0,,,1,0,0
+5545,Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5570,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5594,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,"['Homo_sapiens', 'Mus_musculus']",0.0,,O,0,0,1
+5605,[GalA(a1-4)]Gal(a1-3)Galf(b1-3)Gal,['Klebsiella_pneumoniae'],1.0,,,1,0,0
+5616,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5641,QuiNAc(b1-3)FucNAc(a1-4)QuiNAc,['Vibrio_anguillarum'],1.0,,,1,0,0
+5646,Gal(b1-3)GalNAc(b1-3)Gal,,1.0,Bacteria,,1,0,0
+5654,[Araf(a1-3)]GlcNAc(a1-4)GalNAc(a1-6)GlcNAc,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+5656,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+5676,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+5686,Glc(b1-4)[Rha(a1-3)]Man(b1-4)Man(a1-3)Glc,['Aggregatibacter_actinomycetemcomitans'],1.0,,,1,0,0
+5687,Fuc(a1-4)GlcNAc(b1-6)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+5690,NeuNAc(a2-8)NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,free,1,0,0
+5693,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+5697,[Parf(a1-3)LDManHep(b1-4)]Gal(a1-3)GlcNAc(b1-3)Gal,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+5700,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+5711,[RhaOMe(a1-4)]Glc(a1-3)Rha(a1-3)Rha(a1-3)Glc(b1-3)Glc,['Acidithiobacillus_ferrooxidans'],1.0,,,1,0,0
+5713,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Sus_scrofa']",0.0,,N,0,1,0
+5716,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5727,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+5733,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+5756,Gal(b1-3)GlcNAc(a1-3)Gal(b1-3)GlcNAc,,1.0,Bacteria,,1,0,0
+5796,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+5804,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)[Gal(b1-3)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+5848,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'MurineLeukemia_Virus']",0.0,,N,1,0,0
+5864,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5866,GalOS(b1-3)[Fuc(a1-4)]GlcNAc,,1.0,Animalia,,1,0,0
+5867,[Col(a1-3)][Col(a1-6)]Glc(a1-4)Gal(a1-3)GalNAc(b1-4)Glc,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+5869,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5880,[FucNBut(b1-3)GalNAc(a1-3)GalNAc(b1-3)]Gal(a1-6)Gal(b1-3)GalNAc(b1-4)Gal,['Acinetobacter_baumannii'],1.0,,,1,0,0
+5891,[Gal(a1-3)]Rha(a1-3)Rha(b1-4)Glc(b1-2)Rha,,1.0,Bacteria,,1,0,0
+5893,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5895,GlcNAc(a1-4)[Glc(b1-3)]GalNAc(a1-3)GlcNAc(a1-6)GlcNAc,['Acinetobacter_baumannii'],1.0,,,1,0,0
+5900,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5908,Gal(b1-3)Gul(a1-2)Gal,['Yersinia_enterocolitica'],1.0,,,1,0,0
+5936,GalNAc(b1-4)GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5939,Man(a1-3)Rha(b1-2)Rha(a1-2)Rha(a1-2)Rha,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+5943,LDManHep(a1-4)[Gal(a1-7)]Kdo(a1-2)Glc(a1-3)Glc(a1-3)[LDManHep(a1-7)]LDManHepOP(a1-3)LDManHepOP(a1-5)[Kdo(a1-2)]Kdo,['Hafnia_alvei'],1.0,,,1,0,0
+5947,Man(b1-4)Rha(a1-3)[Glc(a1-4)]Gal(a1-6)Man,"['Salmonella_muenster', 'Salmonella_sp']",1.0,,,1,0,0
+5975,Rha(a1-3)[XylOMe(b1-4)]Rha(a1-4)Rha(a1-2)Rha,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+5994,Rha(a1-2)Rha(a1-3)Rha(a1-3)GlcNAc(b1-3)Rha(a1-3)[Rha(a1-2)]LDManHep(a1-3)[Glc(b1-4)][AraN(b1-7)]LDManHep(a1-5)Kdo(a2-4)Kdo,['Ralstonia_solanacearum'],1.0,,,1,0,0
+5996,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+5997,[PseNAcNAc(b2-6)]Gal(a1-6)GlcNAc(a1-4)GalA(a1-3)QuiNAc(b1-3)Gal,['Pseudoalteromonas_atlantica'],1.0,,,1,0,0
+6053,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+6056,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+6061,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+6097,QuiNAc(b1-4)PseNAcNAm(b2-4)Gal(b1-4)QuiNAc,['Vibrio_cholerae'],1.0,,,1,0,0
+6118,[Fuc(a1-3)]GalNAc(a1-6)ManOAc(a1-3)Fuc(a1-3)[Glc(b1-4)]GalNAc(b1-4)GalNAc,['Salmonella_sp'],1.0,,,1,0,0
+6157,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+6185,NeuNAc(a2-3)Gal(b1-3)GalNAc,"['Bos_taurus', 'Canis_lupus', 'Equus_caballus', 'Gallus_gallus', 'Homo_sapiens', 'MurineHepatitis_Virus', 'MurineLeukemia_Virus', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,O,1,0,0
+6204,NeuNGc(a2-3)Gal(b1-4)GlcNAcOS,,1.0,Animalia,,1,0,0
+6219,Man(a1-2)Man(a1-3)Man(b1-2)Man,"['Burkholderia_cepacia', 'Escherichia_coli']",1.0,,,1,0,0
+6228,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+6242,Gal(b1-3)GlcNAc(b1-3)[GlcNAc(b1-6)]Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+6250,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,N,1,0,0
+6254,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)]Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,0,1,0
+6258,Glc(b1-4)[Xyl(a1-6)]Glc(b1-4)[Gal(b1-2)Xyl(a1-6)]Glc(b1-4)[Fuc(a1-2)Gal(b1-2)Xyl(a1-6)]Glc(b1-4)[Xyl(a1-6)]Glc,,1.0,Angiosperms,,1,0,0
+6267,Fuc(a1-3)GlcNAc(b1-3)Fuc,['Burkholderia_cepacia'],1.0,,,1,0,0
+6311,6dTal(a1-3)6dTalOAc(a1-2)RhaOMe(a1-2)6dTal,['Mesorhizobium_loti'],1.0,,,1,0,0
+6343,[Parf(b1-3)]Man(a1-3)Fuc(a1-3)GalNAc(b1-2)Man,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+6363,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+6392,Man(b1-4)Glc(a1-3)QuiNAc(a1-3)GlcNAc(a1-2)Man,['Salmonella_sp'],1.0,,,1,0,0
+6401,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Coturnix_japonica', 'Gallus_gallus', 'Homo_sapiens', 'Mus_musculus', 'Oryctolagus_cuniculus']",0.0,,N,1,0,0
+6406,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)GalNAc,"['Bos_taurus', 'Bufo_bufo', 'Homo_sapiens', 'Rana_sphenocephala', 'Rattus_norvegicus', 'Rhinella_arenarum', 'Sus_scrofa', 'Xenopus_tropicalis']",0.0,,O,1,0,0
+6481,Gal(b1-3)[NeuNAc(a2-6)]GlcNAc(b1-3)Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,1,0,0
+6485,[Gal(a1-3)]GlcNAcOAc(b1-4)FucNAm(a1-3)GlcNAc(a1-4)GlcNAcOAc,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+6506,Gal(a1-2)Gal(a1-2)[Glc(b1-3)]Glc(a1-3)Glc(a1-3)[GlcN(a1-7)LDManHep(a1-7)]LDManHepOP(a1-3)LDManHepOP(a1-5)[Kdo(a2-4)]Kdo,['Shigella_sonnei'],1.0,,,1,0,0
+6542,Rha(a1-6)Glc(a1-4)[Glc(b1-6)Glc(b1-3)]GalNAc(a1-3)LDManHepOCm(a1-3)LDManHep(a1-5)Kdo,['Pseudomonas_aeruginosa'],1.0,,,1,0,0
+6551,Fuc(a1-3)GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+6554,GlcNAc(b1-3)Gal(b1-4)GlcNAc,,1.0,Bacteria,,0,0,1
+6555,Gal(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+6578,Rha(a1-3)Man(b1-4)ManOAc(a1-3)Rha,['Burkholderia_cepacia'],1.0,,,1,0,0
+6595,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'MurineLeukemia_Virus']",0.0,,N,1,0,0
+6597,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,free,0,1,0
+6651,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc,"['Helicobacter_pylori', 'Homo_sapiens']",0.0,,free,0,0,1
+6680,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)GalNAc,"['Ambystoma_maculatum', 'Homo_sapiens']",0.0,,O,1,0,0
+6687,GlcNAc(b1-3)Glc(a1-3)LDManHep(a1-3)Glc(b1-4)LDManHep(a1-5)Kdo(a2-4)Kdo(a1-5)LDManHep,['Burkholderia_cepacia'],1.0,,,1,0,0
+6690,[Tyv(a1-3)]Man(b1-4)Rha(a1-3)[Glc(a1-6)]Gal(a1-6)Man,"['Salmonella_sp', 'Salmonella_zuerich']",1.0,,,1,0,0
+6714,Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc,"['Felis_catus', 'Homo_sapiens', 'Mesocricetus_auratus', 'Mus_musculus']",0.0,,N,1,0,0
+6733,[Col(a1-2)]Gal(b1-3)[Col(a1-4)]GlcNAc(b1-4)Rha(a1-3)GalNAc(a1-3)Gal,['Aeromonas_enteropelogenes'],1.0,,,1,0,0
+6741,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+6762,Rha(b1-4)Rha(a1-3)Rha(a1-3)Rha,['Halomonas_alkaliantarctica'],1.0,,,1,0,0
+6766,[Tyv(a1-3)]Man(a1-4)Rha(a1-3)[GlcOAc(a1-4)]Gal(a1-2)Man,"['Salmonella_sp', 'Salmonella_typhi']",1.0,,,1,0,0
+6768,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+6798,Man(a1-3)Man(a1-6)Man(a1-2)Man,['Rahnella_aquatilis'],1.0,,,1,0,0
+6810,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)GlcNAc(b1-3)[GalNAc(a1-3)[NeuNAc(a2-6)]Gal(b1-3)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+6812,[Glc(a1-3)]RhaOAc(a1-3)ManNAc(b1-4)RhaOAc,['Aeromonas_salmonicida'],1.0,,,1,0,0
+6813,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'MurineRespo_Virus', 'Mus_musculus', 'Sus_scrofa']",0.0,,N,1,0,0
+6836,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+6856,Glc(a1-6)GlcNButOAc(a1-4)[Glc(a1-6)]GalNAc(a1-3)GalNAc(b1-2)Glc,['Hafnia_alvei'],1.0,,,1,0,0
+6858,[ManNAc(a1-3)]Rha(a1-2)Rha(a1-3)Rha(a1-3)GlcNAc(a1-2)Rha,['Acinetobacter_baumannii'],1.0,,,1,0,0
+6861,NeuNAc(a2-6)Glc(a1-6)[Glc(a1-4)Gal(b1-6)Glc(b1-3)]Gal(b1-3)[Glc(a1-6)]GalNAc(b1-4)NeuNAc,['Hafnia_alvei'],1.0,,,1,0,0
+6862,GlcNAc(b1-4)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+6881,[GlcNAc(b1-3)][GlcNAc(b1-2)Glc(b1-2)]Gal(b1-3)GalNAc(a1-4)Gal(b1-3)GalNAc(b1-4)Gal,['Providencia_alcalifaciens'],1.0,,,1,0,0
+6903,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+6910,[Abe(a1-3)]Man(a1-2)Man(a1-2)Man(b1-3)GalNAc(a1-6)Man,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+6924,Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc,,1.0,Chordata,,1,0,0
+6960,[Man(b1-4)]Gal(a1-4)GalNAc(b1-3)GalNAc(b1-3)Gal,['Providencia_alcalifaciens'],1.0,,,1,0,0
+6964,GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Apis_sp', 'Bos_taurus', 'Coturnix_japonica', 'Gallus_gallus', 'Homo_sapiens', 'Oryctolagus_cuniculus', 'Rattus_norvegicus']",0.0,,N,1,0,0
+6971,QuiNAspAc(b1-6)GlcNAc(a1-4)GalA(a1-3)GlcNAc(a1-3)QuiNAspAc,['Providencia_stuartii'],1.0,,,1,0,0
+6994,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Desmodus_rotundus', 'Homo_sapiens', 'MurineLeukemia_Virus']",0.0,,N,1,0,0
+6999,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Gallus_gallus', 'Homo_sapiens']",0.0,,N,1,0,0
+7020,Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+7023,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Gallus_gallus', 'Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+7039,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+7040,RhaOAc(a1-2)Rha(a1-4)GalA(b1-3)GalNAc(b1-2)RhaOAc,"['Escherichia_coli', 'Shigella_flexneri']",1.0,,,1,0,0
+7048,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,"['Bos_taurus', 'Equus_caballus', 'Homo_sapiens', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,O,0,0,1
+7055,NeuNAc(a2-8)NeuNAc(a2-3)Gal,,1.0,Bacteria,,1,0,0
+7061,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Mesocricetus_auratus', 'Mus_musculus', 'Rattus_norvegicus']",0.0,,N,0,1,0
+7068,Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7074,Rha(a1-3)[Sug(a1-2)]Rha(a1-3)Rha,['Yersinia_bercovieri'],1.0,,,1,0,0
+7097,Fuc(a1-2)Gal(b1-3)[Gal(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+7112,GlcNAc(b1-3)Gal(b1-3)GalNAc,"['Homo_sapiens', 'Sus_scrofa']",0.0,,O,1,0,0
+7188,Man(a1-3)[Par(b1-4)]Fuc(a1-3)GalNAc(a1-2)Man,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+7193,Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7197,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man,"['Bos_taurus', 'Oryctolagus_cuniculus']",1.0,,O,0,0,1
+7208,Kdo(b2-7)LDManHep(a1-5)KdoOP,['Alteromonas_macleodii'],1.0,,,1,0,0
+7212,NeuNAc(a2-9)NeuNAc(a2-6)Gal(b1-4)Glc,,1.0,Chordata,,1,0,0
+7217,QuiNFo(b1-3)GalNAc(a1-4)GlcOAcA(a1-3)Man(a1-2)Man(a1-3)GlcNAc(b1-2)QuiNFo,['Hafnia_alvei'],1.0,,,1,0,0
+7236,NeuNAcOGc(a2-6)Gal(b1-4)GlcNAc,,1.0,Bacteria,,1,0,0
+7239,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7240,Man(a1-3)Man(a1-4)Glc(b1-4)[GalA(a1-3)]Man(a1-5)[GalA(a1-4)]Kdo,['Xanthomonas_campestris'],1.0,,,1,0,0
+7246,[ManNAc(b1-2)]Rha(a1-2)Rha(a1-2)Gal(a1-3)GlcNAc(b1-3)Rha,"['Escherichia_coli', 'Salmonella_sp']",1.0,,,1,0,0
+7280,Gal(b1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+7300,[Parf(b1-3)]Man(b1-4)Man(a1-3)Fuc(a1-3)GlcNAc(a1-2)Man,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+7345,Tyv(a1-3)Man(a1-4)Rha(a1-3)Gal(a1-2)Man,['Salmonella_enterica'],1.0,,,1,0,0
+7356,Galf(b1-3)[Gal(a1-2)]Fuc(a1-3)Galf,['Rahnella_aquatilis'],1.0,,,1,0,0
+7358,Rha(a1-3)Rha(a1-3)[ManNAc(a1-2)]Rha(a1-4)GlcNAc(b1-3)Rha,['Rhizobium_leguminosarum'],1.0,,,1,0,0
+7373,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7394,Rha(a1-3)Rha(a1-6)Man(a1-6)Man(a1-5)[GalA(a1-4)]Kdo,['Arenibacter_certesii'],1.0,,,1,0,0
+7396,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc,"['Gorilla_gorilla', 'Helicobacter_pylori', 'Homo_sapiens', 'Pan_paniscus', 'Pan_troglodytes', 'Pongo_pygmaeus', 'Tursiops_truncatus', 'Ursus_americanus', 'Ursus_arctos']",0.0,,free,1,0,0
+7412,Man(a1-2)Man(a1-2)Man,"['Aspergillus_awamori', 'Candida_albicans', 'Candida_glabrata', 'Candida_laurentii', 'Candida_parapsilosis', 'Candida_tropicalis', 'Carassea_connexa', 'Cladonia_clathrata', 'Cladonia_ibitipocae', 'Cladonia_imperialis', 'Cladonia_miniata', 'Cladonia_penicillata', 'Cladonia_salmonea', 'Cladonia_signata', 'Cladonia_substellata', 'Cryphonectria_parasitica', 'Cyberlindnera_jadinii', 'Homo_sapiens', 'Komagataella_pastoris', 'Leishmania_donovani', 'Leishmania_mexicana', 'Neurospora_crassa', 'Papiliotrema_laurentii', 'Peltula_crispatula', 'Phomopsis_foeniculi', 'Schizosaccharomyces_pombe', 'Torulaspora_delbrueckii', 'Trichoderma_reesei', 'Yarrowia_lipolytica']",0.0,,O,1,0,0
+7424,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['AvianInfluenzaA_Virus', 'Bos_taurus', 'Canis_lupus', 'Capra_hircus', 'Cavia_porcellus', 'Coturnix_japonica', 'Gallus_gallus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Oryctolagus_cuniculus', 'Ovis_aries', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,N,0,1,0
+7441,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,"['Homo_sapiens', 'Mus_musculus']",0.0,,O,0,0,1
+7447,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7477,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,N,1,0,0
+7478,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNGc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7503,GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7508,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7560,GalNAcA(a1-4)GalNFoA(a1-3)QuiNAc(a1-3)QuiNAc(b1-3)GalNAcA,['Vibrio_anguillarum'],1.0,,,1,0,0
+7564,Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Acremonium_sp', 'Apis_mellifera', 'Apis_sp', 'Arabidopsis_thaliana', 'Arachis_hypogaea', 'Artemisia_vulgaris', 'Aspergillus_niger', 'Astacus_leptodactylus', 'Bombyx_mori', 'Bos_taurus', 'Caenorhabditis_elegans', 'Carica_papaya', 'Fusarium_graminearum', 'Fusarium_sp', 'Gallus_gallus', 'Glycine_max', 'Herpetomonas_pessoai', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Leishmania_adleri', 'Leishmania_mexicana', 'Leptomonas_samueli', 'Lupinus_luteus', 'Mamestra_brassicae', 'Megathura_crenulata', 'MurineLeukemia_Virus', 'Mus_musculus', 'Nicotiana_alata', 'Nicotiana_tabacum', 'Olea_europaea', 'Oryza_sativa', 'Phaseolus_vulgaris', 'Rattus_norvegicus', 'Ricinus_communis', 'Riftia_pachyptila', 'SpleenFocusForming_Virus', 'Spodoptera_frugiperda', 'Strigomonas_culicis', 'Sus_scrofa', 'Tetronarce_californica', 'Trypanosoma_brucei', 'Trypanosoma_conorhini', 'Trypanosoma_dionisii']",0.0,,N,1,0,0
+7568,Glc(a1-3)GlcNAc(a1-4)Glc,['Burkholderia_cepacia'],1.0,,,1,0,0
+7588,QuiNAlaAc(b1-6)Glc(a1-3)[Glc(a1-2)]GlcA(b1-3)GalNAc(a1-2)QuiNAlaAc,['Cronobacter_sakazakii'],1.0,,,1,0,0
+7594,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+7612,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc,"['Canis_lupus', 'Diceros_bicornis', 'Escherichia_coli', 'Giraffa_camelopardalis', 'Homo_sapiens', 'Osphranter_rufus', 'Pan_paniscus', 'Pan_troglodytes', 'Ursus_americanus', 'Ursus_arctos']",0.0,,free,1,0,0
+7636,QuiNHse(b1-6)Gal(a1-4)GalNAc(a1-3)FucNAc(a1-3)QuiNHse,,1.0,Bacteria,,1,0,0
+7649,Fuc(a1-4)GlcNAc(b1-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+7687,GalOS(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+7691,GalNAc(a1-2)Ribf(b1-4)GalNAc,"['Burkholderia_cepacia', 'Pseudomonas_aeruginosa', 'Pseudomonas_sp', 'Serratia_marcescens', 'Vibrio_fluvialis']",1.0,,,1,0,0
+7705,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7717,GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bombyx_mori', 'Homo_sapiens', 'Locusta_migratoria', 'Mus_musculus', 'Rattus_norvegicus', 'Trichinella_spiralis']",0.0,,N,1,0,0
+7753,GalNAc(b1-4)[NeuNAc(a2-8)NeuNAc(a2-3)]Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+7781,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Desmodus_rotundus', 'Homo_sapiens', 'MurineLeukemia_Virus', 'Mus_musculus']",0.0,,N,1,0,0
+7785,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-2)[GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7786,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7788,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+7794,Kdo(a2-4)Neu(a2-8)Kdo,,1.0,Bacteria,,1,0,0
+7811,QuiNThrAc(b1-3)GalNAcA(a1-4)GalNAc(a1-3)QuiNAc(a1-3)QuiNThrAc,['Vibrio_cholerae'],1.0,,,1,0,0
+7817,Rha(a1-2)Rha(b1-3)Rha(a1-3)Rha(a1-2)Rha(a1-2)Rha,['Azospirillum_brasilense'],1.0,,,1,0,0
+7818,[Glc(a1-4)]Glc(a1-4)GlcA(b1-4)[Glc(a1-2)Glc(a1-6)]GalNAc(b1-3)Gal(a1-3)GalNAc(b1-6)Glc,['Hafnia_alvei'],1.0,,,1,0,0
+7837,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+7856,Man(b1-4)Glc(b1-4)[Gal(a1-6)]Man(b1-4)Glc(b1-4)Man(b1-4)Glc(b1-4)Man(b1-4)Man,,1.0,Angiosperms,,1,0,0
+7880,GalOS(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7933,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+7941,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7954,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+7968,Fuc(a1-3)[GalNAc(b1-4)]GlcNAc(b1-2)Man(a1-3)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bothrops_moojeni', 'Homo_sapiens']",0.0,,N,1,0,0
+7977,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+7978,GalNAc(b1-4)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+7994,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+7995,ManNAc(a1-4)GlcA(b1-3)Gal(b1-3)GlcNAc(b1-3)ManNAc,['Vibrio_cholerae'],1.0,,,1,0,0
+7996,NeuNAc(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,1,0,0
+8009,QuiNBut(a1-4)GalOAc(b1-4)GlcNAc(b1-4)GlcA(b1-3)GlcNAc(b1-4)QuiNBut,['Hafnia_alvei'],1.0,,,1,0,0
+8027,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+8052,Gal(b1-4)GlcNAc(b1-6)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+8063,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc,"['Canis_lupus', 'Escherichia_coli', 'Gorilla_gorilla', 'Homo_sapiens', 'Nasua_narica', 'Pan_paniscus', 'Pan_troglodytes', 'Pongo_pygmaeus', 'Trichechus_manatus', 'Tursiops_truncatus', 'Ursus_americanus', 'Ursus_arctos']",1.0,,free,1,0,0
+8079,Rha(a1-3)[Xyl(b1-2)]Rha(a1-3)[Xyl(b1-4)]Rha(a1-2)Rha,['Xanthomonas_campestris'],1.0,,,1,0,0
+8081,GlcNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+8085,RhaOAc(a1-2)Rha(a1-3)Rha(a1-3)[Glc(a1-4)]GlcNAc(b1-2)RhaOAc,['Shigella_flexneri'],1.0,,,1,0,0
+8088,GalNAc(b1-4)[NeuNAc(a2-3)]Gal,,1.0,Eukarya,,1,0,0
+8102,Fuc(a1-3)[Gal(b1-4)]GlcNAc,"['Helicobacter_pylori', 'Homo_sapiens']",0.0,,free,1,0,0
+8147,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'Mus_musculus', 'Nicotiana_tabacum']",0.0,,N,1,0,0
+8153,Rha(a1-3)[Xyl(b1-4)]GlcNAc(b1-3)Rha,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+8170,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+8175,QuiNAlaAc(b1-3)GlcNAm(a1-3)QuiNAc(a1-3)QuiNAlaAc,['Pseudomonas_reactans'],1.0,,,1,0,0
+8178,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,0,1,0
+8194,Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Acremonium_sp', 'Antheraea_pernyi', 'Apis_mellifera', 'Apis_sp', 'Arabidopsis_thaliana', 'Arachis_hypogaea', 'Artemisia_vulgaris', 'Aspergillus_niger', 'Aspergillus_phoenicis', 'Astragalus_lentiginosus', 'AvianInfluenzaA_Virus', 'Bombyx_mori', 'Bos_taurus', 'Caenorhabditis_elegans', 'Carica_papaya', 'Chondrostereum_purpureum', 'Columbia_livia', 'Coturnix_japonica', 'Cricetulus_griseus', 'Drosophila_melanogaster', 'Felis_catus', 'Fusarium_graminearum', 'Fusarium_sp', 'Gallus_gallus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Lupinus_luteus', 'Mamestra_brassicae', 'Megathura_crenulata', 'Mesocricetus_auratus', 'MinkCellFocusForming_Virus', 'MurineLeukemia_Virus', 'MurineRespo_Virus', 'Mus_musculus', 'Nicotiana_alata', 'Nicotiana_tabacum', 'Olea_europaea', 'Oryza_sativa', 'Panulirus_interruptus', 'Phaseolus_vulgaris', 'Physcomitrella_patens', 'Rattus_norvegicus', 'Ricinus_communis', 'Riftia_pachyptila', 'Saccharomyces_cerevisiae', 'Saccharomyces_uvarum', 'SpleenFocusForming_Virus', 'Spodoptera_frugiperda', 'Sus_scrofa', 'Tetronarce_californica', 'Trichinella_spiralis', 'Trichoderma_reesei', 'Trypanosoma_brucei']",0.0,,N,1,0,0
+8276,Glc(b1-6)Gal(b1-6)Gal(b1-3)GlcNAc(b1-3)GalNAc(b1-6)Glc,['Porphyromonas_circumdentaria '],1.0,,,1,0,0
+8288,GalOS(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+8329,QuiNFo(a1-4)GlcA(a1-4)Glc(b1-3)GalNAcOAc(b1-2)QuiNFo,['Providencia_alcalifaciens'],1.0,,,1,0,0
+8355,Glc(a1-6)GlcNBut(a1-4)[Glc(a1-6)]GalNAc(a1-3)GalNAc(b1-2)Glc,['Hafnia_alvei'],1.0,,,1,0,0
+8357,Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal,['Helicobacter_pylori'],1.0,,,1,0,0
+8378,NeuNGc(a2-3)Gal(b1-4)GlcNAc,,1.0,Animalia,,1,0,0
+8403,NeuNAc(a2-3)Gal(b1-3)[GlcNAc(b1-6)]GalNAc,"['Gallus_gallus', 'Homo_sapiens', 'Mus_musculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,O,1,0,0
+8406,GlcNAcOLacAla(a1-4)GlcNAc(b1-4)GlcNAcOLacAla,['Providencia_alcalifaciens'],1.0,,,1,0,0
+8412,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[GalOS(b1-3)]GalNAc,['Homo_sapiens'],0.0,,,0,0,1
+8413,GalN(a1-3)GalN(b1-6)Glc(a1-5)Kdo(a1-8)[Glc(b1-6)Glc(a1-5)][Kdo(a1-4)]Kdo,,1.0,Bacteria,,1,0,0
+8417,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,0,0,1
+8424,[GalNAcAN(a1-2)]Rha(a1-2)Rha(a1-3)Rha(a1-2)Rha(a1-3)GlcNAc(b1-3)Rha,"['Escherichia_coli', 'Salmonella_arizonae', 'Salmonella_sp']",1.0,,,1,0,0
+8503,GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'Rattus_norvegicus']",0.0,,N,1,0,0
+8539,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+8547,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+8562,GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+8570,Abe(a1-3)Man(a1-4)Rha(a1-3)Gal(a1-2)Man,['Salmonella_enterica'],1.0,,,1,0,0
+8602,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcN(a1-4)GlcA(b1-4)GalA(a1-3)Glc(b1-6)Glc(a1-5)[Dha(a2-3)GalA(a1-3)Glc(b1-4)]Kdo(a1-4)GalA(a1-7)Kdo,,1.0,Bacteria,,1,0,0
+8613,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+8614,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+8619,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,['Helicobacter_pylori'],1.0,,,0,0,1
+8620,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[Gal(b1-4)GlcNAcOS(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+8622,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+8635,FucNAc(a1-4)Glc(a1-3)Glc(a1-4)FucNAc(a1-3)[GlcNAc(a1-4)]GlcNAc(a1-3)FucNAc,['Hafnia_alvei'],1.0,,,1,0,0
+8644,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-4)Man(a1-3)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,free,1,0,0
+8683,[AbeOAc(a1-3)]Man(a1-4)Rha(a1-3)[Glc(a1-4)]Gal(a1-2)Man,['Salmonella_sp'],1.0,,,1,0,0
+8717,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,"['Equus_caballus', 'Homo_sapiens']",0.0,,O,0,1,0
+8726,Gal(b1-4)[Fuc(a1-3)]Glc,,1.0,Bacteria,,1,0,0
+8729,Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+8743,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+8772,GlcNAmA(b1-4)[6dTalOAcOMe(a1-3)]FucOAc(a1-3)QuiNAc(a1-4)GlcNAmA,['Rhizobium_leguminosarum'],1.0,,,1,0,0
+8773,ManNAcA(b1-4)GulNAcOAcA(a1-3)QuiNAcNBut(a1-4)ManNAcA,,1.0,Bacteria,,1,0,0
+8801,Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-6)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+8853,QuiNAc(b1-6)GlcNAc(a1-4)GlcA(b1-3)GalNAc(a1-4)QuiNAc,['Providencia_stuartii'],1.0,,,1,0,0
+8899,[Glc(b1-6)]GalNAc(b1-3)Gal(a1-6)Gal(b1-3)GalNAc(a1-4)GalNAc,['Acinetobacter_baumannii'],1.0,,,1,0,0
+8905,QuiNAc(b1-3)[Gal(a1-6)]GalNAc(a1-4)GalNAc(a1-3)GalNAc(a1-3)QuiNAc,['Acinetobacter_baumannii'],1.0,,,1,0,0
+8908,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+8925,Glc(a1-2)Galf(b1-6)Glc(a1-6)Glc(b1-3)Galf(b1-3)Glc,['Actinobacillus_pleuropneumoniae'],1.0,,,1,0,0
+8926,Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+8932,GalNAc(a1-3)GalNAc(b1-2)Gal(b1-3)GalNAc(a1-4)GalNAc,['Vibrio_mimicus'],1.0,,,1,0,0
+8941,Man(a1-2)RhaOMe(a1-3)Rha(a1-2)Man,['Burkholderia_multivorans'],1.0,,,1,0,0
+8949,Ribf(b1-3)[Glc(b1-2)]Rha(a1-3)Rha(a1-2)Rha(a1-2)Rha,['Gluconacetobacter_diazotrophicus'],1.0,,,1,0,0
+8965,GalNAc(b1-4)GlcNAc(b1-2)Man(a1-6)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,,1.0,Chordata,,1,0,0
+8970,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+9001,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+9031,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-3)[Fuc(a1-2)[Gal(b1-4)]GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+9035,NeuNAc(a2-6)Gal(b1-4)GlcNAc,"['Helicobacter_pylori', 'Homo_sapiens']",0.0,,N,0,0,1
+9044,GalOS(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+9048,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'Mesocricetus_auratus', 'Mus_musculus', 'Rattus_norvegicus']",0.0,,N,0,1,0
+9057,[Galf(a1-4)]Gal(a1-3)ManNAc(b1-6)GalfOAc(b1-3)GlcNAc(b1-2)Gal,['Salmonella_sp'],1.0,,,1,0,0
+9072,GlcNAc(b1-4)Gal(b1-4)GlcNAc,,1.0,Columbiformes,,1,0,0
+9097,GalNAc(a1-3)Gal(b1-4)GlcNAc(b1-3)[GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+9111,Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Abrus_precatorius', 'Acremonium_sp', 'Apis_sp', 'Arabidopsis_thaliana', 'Artemisia_vulgaris', 'Aspergillus_niger', 'Astacus_leptodactylus', 'AvianInfluenzaA_Virus', 'Bombyx_mori', 'Bos_taurus', 'Caenorhabditis_elegans', 'Columbia_livia', 'Daucus_carota', 'Fusarium_graminearum', 'Fusarium_sp', 'Homo_sapiens', 'Kinetoplastids', 'Komagataella_pastoris', 'Mamestra_brassicae', 'Marburg_Virus', 'MinkCellFocusForming_Virus', 'Mus_musculus', 'Oryza_sativa', 'Phaseolus_lunatus', 'Phaseolus_vulgaris', 'Ricinus_communis', 'Saccharomyces_cerevisiae', 'Schistosoma_mansoni', 'Spinacia_oleracea', 'SpleenFocusForming_Virus', 'Spodoptera_frugiperda', 'Tetronarce_californica', 'Trypanosoma_brucei']",0.0,,N,1,0,0
+9113,[Glc(a1-3)]Rha(a1-2)Rha(a1-3)Rha(a1-3)GlcNAc(b1-2)RhaOAc,['Shigella_flexneri'],1.0,,,1,0,0
+9124,Gal(b1-3)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+9125,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Glc,['Homo_sapiens'],0.0,,free,1,0,0
+9131,[Col(a1-2)]Glc(b1-3)GalNAc(a1-3)[Glc(a1-6)]GalNAc(b1-6)Glc,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+9147,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Mus_musculus', 'Sus_scrofa']",0.0,,N,1,0,0
+9154,Tyv(a1-3)Man(b1-4)Rha(a1-3)Gal(a1-6)Man,['Salmonella_enterica'],1.0,,,1,0,0
+9159,Gal(a1-6)Gal(a1-4)[Glc(b1-3)]GalNAc(a1-3)GalNAcOAc(b1-2)Gal,['Salmonella_sp'],1.0,,,1,0,0
+9245,Glc(a1-4)GalNAcA(a1-3)[Glc(a1-4)]GalNAcA(a1-3)GlcNAc(a1-4)Glc,['Vibrio_cholerae'],1.0,,,1,0,0
+9267,GlcNAcOAc(a1-4)GalNAcA(a1-3)QuiNAc(b1-4)GlcNAcOAc,"['Acinetobacter_baumannii', 'Acinetobacter_sp']",1.0,,,1,0,0
+9307,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+9354,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+9356,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+9374,Man(b1-2)Man(a1-2)Man(a1-2)[Glc(a1-3)]Man(b1-3)GlcNAc(b1-2)Man,"['Salmonella_eimsbuettel', 'Salmonella_sp']",1.0,,,1,0,0
+9376,[FucNAc(a1-2)]Rha(a1-3)[FucNAc(a1-2)]Rha(a1-2)Rha(a1-3)Rha,['Pseudomonas_fluorescens'],1.0,,,1,0,0
+9413,Rha(b1-3)[Xyl(b1-2)]RhaNAc(a1-3)Rha,,1.0,Fungi,,1,0,0
+9417,[GlcNAcOMe(b1-2)]Rha(a1-3)Rha(a1-3)Rha(a1-3)Rha(a1-2)RhaOMe(a1-3)Rha,,1.0,Bacteria,,1,0,0
+9445,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+9459,GalNAcA(b1-4)GalNAcA(a1-4)GalNAcA(a1-3)QuiNAc(a1-4)GalNAcA,,1.0,Bacteria,,1,0,0
+9465,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+9475,Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Antheraea_pernyi', 'Apis_mellifera', 'Arabidopsis_thaliana', 'Armoracia_rusticana', 'AvianInfluenzaA_Virus', 'Bombyx_mori', 'Bos_taurus', 'Caenorhabditis_elegans', 'Cricetulus_griseus', 'Drosophila_melanogaster', 'Felis_catus', 'Gallus_gallus', 'Helix_pomatia', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Lupinus_luteus', 'Mamestra_brassicae', 'Megathura_crenulata', 'Mus_musculus', 'Nicotiana_alata', 'Phaseolus_vulgaris', 'Physcomitrella_patens', 'Rattus_norvegicus', 'Saccharomyces_cerevisiae', 'Schizosaccharomyces_pombe', 'SemlikiForest_Virus', 'Spodoptera_frugiperda', 'Synsepalum_dulcificum', 'Trichinella_spiralis']",0.0,,N,1,0,0
+9489,Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal,,1.0,Chordata,,0,1,0
+9500,Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-3)][Fuc(a1-6)]GlcNAc,"['Androctonus_australis_hector', 'Apis_mellifera', 'Bombyx_mori', 'Caenorhabditis_elegans', 'Drosophila_melanogaster', 'Homo_sapiens', 'Mamestra_brassicae', 'Mus_musculus', 'Spodoptera_frugiperda', 'Todarodes_pacificus']",0.0,,N,1,0,0
+9503,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+9508,GlcNAc(a1-4)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,"['Homo_sapiens', 'Rattus_norvegicus']",0.0,,O,0,0,1
+9538,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[Fuc(a1-3)]Glc,['Homo_sapiens'],0.0,,free,0,1,0
+9553,GlcNAc(b1-2)[GlcNAc(b1-4)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Gallus_gallus', 'Homo_sapiens']",0.0,,N,1,0,0
+9555,Glc(a1-3)QuiNAc(a1-4)Glc,['Rhizobium_leguminosarum'],1.0,,,1,0,0
+9611,QuiNAc(b1-3)Rha(a1-3)FucNAc(a1-2)QuiNAc,['Pseudomonas_fluorescens'],1.0,,,1,0,0
+9680,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Chordata,,0,1,0
+9692,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Coturnix_japonica', 'Gallus_gallus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Oryctolagus_cuniculus']",0.0,,N,1,0,0
+9699,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+9731,Man(b1-2)Man(a1-2)[Glc(a1-3)]Man(a1-2)Man(b1-3)GlcNAc(b1-2)Man,"['Salmonella_livingstone', 'Salmonella_sp', 'Salmonella_thompson']",1.0,,,1,0,0
+9751,PerNAc(a1-3)Fuc(a1-4)Glc(b1-3)GalNAc(a1-2)PerNAc,['Escherichia_coli'],1.0,,,1,0,0
+9759,GalNAc(a1-3)Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+9785,[NeuNAc(a2-6)]Gal(b1-6)Galf(b1-3)GalNAc(b1-3)Gal,"['Escherichia_albertii', 'Hafnia_alvei']",1.0,,,1,0,0
+9790,FucNAc(a1-2)QuiNBut(b1-2)Rha(a1-4)Gal(b1-3)FucNAc,['Massilia_alkalitolerans'],1.0,,,1,0,0
+9794,Fuc(a1-2)Gal(b1-3)[GlcNAc(b1-6)]GalNAc,"['Bos_taurus', 'Bufo_japonicus', 'Homo_sapiens', 'Mus_musculus', 'Rana_arvalis', 'Rana_palustris', 'Rana_temporaria', 'Rattus_norvegicus', 'Rhinella_arenarum', 'Sus_scrofa', 'Xenopus_laevis', 'Xenopus_tropicalis']",0.0,,O,1,0,0
+9821,GlcNAc(a1-3)Rha(a1-4)GlcNAc,['Aggregatibacter_actinomycetemcomitans'],1.0,,,1,0,0
+9852,QuiNAc(a1-4)GalNAcOAcA(a1-3)QuiNAc(a1-3)GlcNAc(b1-3)QuiNAc,['Yersinia_kristensenii'],1.0,,,1,0,0
+9859,GlcA(b1-4)FucOAc(a1-3)Ribf(b1-4)[Fuc(a1-2)]Gal(b1-3)GlcNAc(b1-4)GlcA,"['Citrobacter_werkmanii', 'Salmonella_arizonae', 'Salmonella_sp']",1.0,,,1,0,0
+9879,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-3)[GalNAc(a1-3)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+9923,Rha(a1-2)Rha(a1-2)FucN(a1-3)QuiNAcNBut(a1-3)Rha,['Shewanella_algae'],1.0,,,1,0,0
+9944,Rha(a1-4)Gal(a1-2)Rha,['Burkholderia_cepacia'],1.0,,,1,0,0
+9955,NeuNAc(a2-8)NeuNAc(a2-3)Gal(b1-3)GalNAc,,1.0,Bacteria,,1,0,0
+9956,Gal(b1-4)GlcNAc(b1-4)Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+9962,NeuNGc(a2-8)NeuNGc(a2-3)Gal(b1-4)Glc,,1.0,Animalia,,1,0,0
+9992,Fuc(a1-2)Gal(b1-3)GlcNAc,"['Aeromonas_hydrophila', 'Helicobacter_pylori']",1.0,,,1,0,0
+9993,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+9999,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'MurineLeukemia_Virus', 'Rattus_norvegicus', 'Trypanosoma_brucei']",0.0,,N,1,0,0
+10000,GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Drosophila_melanogaster', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus', 'Sus_scrofa', 'Tetronarce_californica']",0.0,,N,1,0,0
+10009,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[Fuc(a1-2)]Gal(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+10020,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+10047,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+10063,GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+10092,NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-8)NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,free,1,0,0
+10110,GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Coturnix_japonica', 'Gallus_gallus', 'Homo_sapiens', 'Mesocricetus_auratus', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus']",0.0,,N,1,0,0
+10173,[GalA(a1-3)]GalNAc(b1-3)Gal(a1-4)Rha(a1-3)GlcNAc(b1-4)GalNAc,['Edwardsiella_tarda'],1.0,,,1,0,0
+10189,QuiNFo(b1-4)GalNAcA(a1-4)GalNAcA(a1-3)QuiNAc(b1-2)QuiNFo,,1.0,Bacteria,,1,0,0
+10207,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-3)][Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+10213,Gal(b1-3)[Fuc(a1-4)]GlcNAc,"['Escherichia_coli', 'Helicobacter_pylori', 'Platanus_sp']",1.0,,,1,0,0
+10259,NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-6)][Fuc(a1-4)]GlcNAc,,1.0,Chordata,,1,0,0
+10271,[Rha(a1-4)]Gal(b1-4)Glc(a1-4)GlcA(b1-3)GalNAc(b1-3)Gal,['Hafnia_alvei'],1.0,,,1,0,0
+10279,Gal(a1-3)RhaOAc(a1-4)Glc(a1-4)GalAAla(a1-3)GlcNAc(b1-2)Gal,['Providencia_stuartii'],1.0,,,1,0,0
+10312,Fuc(a1-2)Gal(b1-3)GalNAc(a1-3)GlcNAc(a1-2)Fuc,['Salmonella_sp'],1.0,,,1,0,0
+10316,Gal(b1-3)[NeuNAc(a2-6)]GalNAc,"['Bos_taurus', 'Bufo_bufo', 'Bufo_japonicus', 'Bufotes_viridis', 'Canis_lupus', 'Gallus_gallus', 'Homo_sapiens', 'Macaca_radiata', 'Oryctolagus_cuniculus', 'Rana_dalmatina', 'Rattus_norvegicus', 'Rhinella_arenarum', 'Salvelinus_leucomaenis_pluvius', 'Sus_scrofa', 'Xenopus_tropicalis']",0.0,,O,1,0,0
+10317,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+10327,GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'Ovis_aries']",0.0,,N,1,0,0
+10330,QuiNBut(b1-6)[Glc(a1-4)]Glc(a1-4)GlcOAcA(b1-3)GlcNAc(a1-2)QuiNBut,['Hafnia_alvei'],1.0,,,1,0,0
+10342,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+10375,Fuc(a1-2)[Gal(a1-3)]Gal(b1-3)GalNAc,"['Equus_caballus', 'Homo_sapiens']",0.0,,O,1,0,0
+10385,6dTal(a1-3)6dTal(a1-2)Rha(a1-2)6dTal,['Mesorhizobium_huakuii'],1.0,,,1,0,0
+10404,Rha(a1-3)Rha(a1-3)Rha(b1-3)Rha,"['Xanthomonas_hortorum', 'Yersinia_rohdei']",1.0,,,1,0,0
+10417,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-2)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-4)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+10426,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+10436,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+10442,GalOS(b1-3)GalNAc(b1-4)GalOS(b1-4)Glc,,1.0,Bacteria,,1,0,0
+10458,NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc,"['Bos_taurus', 'Canis_lupus', 'Collocalia_sp', 'Equus_caballus', 'Homo_sapiens', 'MurineHepatitis_Virus', 'MurineLeukemia_Virus', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus', 'Salmo_salar', 'Sus_scrofa']",0.0,,O,1,0,0
+10470,NeuNGc(a1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Bacteria,,1,0,0
+10531,FucNAc(a1-4)GalA(a1-3)FucNAc(a1-3)QuiNAc(b1-3)FucNAc,,1.0,Bacteria,,1,0,0
+10536,GlcA(b1-2)[RhaOAc(a1-3)]Man(a1-4)Gal(b1-3)GlcNAc(b1-4)GlcA,['Hafnia_alvei'],1.0,,,1,0,0
+10574,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Gallus_gallus', 'Homo_sapiens']",0.0,,N,1,0,0
+10583,GlcNAcA(b1-4)GlcNAcA(b1-4)GalNAcA(a1-4)GlcNAcA,['Bordetella_hinzii'],1.0,,,1,0,0
+10595,[Glc(b1-3)Gal(a1-4)Glc(a1-2)]Man(a1-2)Man(a1-3)Gal(b1-3)Man,['Rahnella_aquatilis'],1.0,,,1,0,0
+10609,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+10624,Gal(b1-3)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+10635,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+10651,QuiNAc(b1-3)Rha(a1-3)[Gal(a1-6)]Gal(b1-3)FucNAc(a1-2)QuiNAc,['Pantoea_agglomerans'],1.0,,,1,0,0
+10664,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)]Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,0,0,1
+10675,GalOS(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,"['Homo_sapiens', 'Rana_arvalis']",0.0,,O,1,0,0
+10687,GalOS(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+10730,Gal(b1-4)GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+10746,Fuc(a1-2)[NeuNAc(a2-6)]Gal(b1-4)GlcNAc(b1-2)[Fuc(a1-2)[NeuNAc(a2-6)]Gal(b1-4)GlcNAc(b1-6)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+10783,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+10786,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)]Gal(b1-4)GlcNAc,,1.0,Chordata,,0,1,0
+10795,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+10820,Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,"['Homo_sapiens', 'Schistosoma_mansoni']",0.0,,O,0,0,1
+10835,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+10852,GlcNAc(a1-3)QuiNAc(a1-3)GlcNAc,['Salmonella_sp'],1.0,,,1,0,0
+10885,[Abe(a1-3)]RhaOAc(b1-2)Man(a1-2)[GlcOAc(a1-3)]Man(a1-3)Gal(b1-4)Rha,['Salmonella_sp'],1.0,,,1,0,0
+10888,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)Glc,['Homo_sapiens'],0.0,,free,0,1,0
+10929,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+10937,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+10945,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+10953,Rha(a1-4)GalNAcA(a1-3)QuiNAc(b1-4)Rha,,1.0,Bacteria,,1,0,0
+10975,[Xyl(b1-2)][Xyl(b1-4)]6dTal(a1-3)GalNAc(b1-3)6dTal,['Paraburkholderia_phytofirmans'],1.0,,,1,0,0
+10981,ManNAc(b1-3)ManNAc(b1-4)ManNAc,"['Salmonella_borreze', 'Salmonella_enterica', 'Salmonella_sp']",1.0,,,1,0,0
+10992,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+11009,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAcOS(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+11019,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+11039,NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc(b1-4)Gal,,1.0,Chordata,,1,0,0
+11047,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Glc,['Homo_sapiens'],0.0,,O,0,0,1
+11065,Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Bacteria,,0,0,1
+11067,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+11120,GalOAc(b1-3)GlcNAc(b1-4)GlcA(b1-3)GalNAc(b1-2)GalOAc,['Acinetobacter_calcoaceticus'],1.0,,,1,0,0
+11128,Glc(a1-2)Glc(a1-2)[GlcNAc(a1-3)]Gal(a1-3)Glc(a1-3)[GalA(b1-7)LDManHep(a1-7)]LDManHep(a1-3)LDManHepOPPEtn(a1-5)[AraN(b1-8)]Kdo,['Providencia_rustigianii'],1.0,,,1,0,0
+11141,GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc,"['Escherichia_coli', 'Leishmania_amazonensis']",1.0,,,1,0,0
+11145,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)]Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,0,0,1
+11169,GalNAcAAla(a1-4)GalNAcA(a1-3)QuiNAc(b1-4)GalNAcAAla,['Acinetobacter_haemolyticus'],1.0,,,1,0,0
+11192,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+11194,GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bombyx_mori', 'Drosophila_melanogaster', 'Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+11197,[GlcOLac(a1-3)]Rha(a1-3)Rha(b1-4)GlcNAc(b1-2)Rha,['Pseudoalteromonas_haloplanktis'],1.0,,,1,0,0
+11202,Man(a1-6)[Man(a1-3)][Xyl(b1-2)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Angiosperms,,1,0,0
+11218,Man(a1-6)Man(a1-5)[Gal(b1-8)Kdo(a1-4)]Kdo,,1.0,Bacteria,,1,0,0
+11260,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['AvianInfluenzaA_Virus', 'Bos_taurus', 'Desmodus_rotundus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Mesocricetus_auratus', 'MinkCellFocusForming_Virus', 'Mus_musculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,N,0,1,0
+11261,Rha(a1-3)[GlcNAc(b1-2)]Rha(a1-3)Rha(a1-3)Rha(a1-2)Rha,"['Pseudomonas_coronafaciens', 'Vibrio_fluvialis']",1.0,,,1,0,0
+11269,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+11277,GalNAc(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Eukarya,,1,0,0
+11310,AltfOAc(b1-2)AltfOAc(b1-3)Altf(b1-2)AltfOAc,['Yersinia_enterocolitica'],1.0,,,1,0,0
+11329,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,"['Equus_caballus', 'Homo_sapiens', 'Rattus_norvegicus']",0.0,,O,0,0,1
+11345,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+11365,RhaNAc(a1-3)Fuc(a1-4)GlcOAc(b1-3)GalNAc(a1-2)RhaNAc,['Salmonella_sp'],1.0,,,1,0,0
+11404,GalOS(b1-4)GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+11410,Rha(b1-2)[Xyl(b1-3)]Rha(a1-2)Rha(a1-2)Rha,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+11414,[Glc(a1-3)]Rha(a1-2)Rha(a1-3)RhaOAc(a1-3)GlcNAcOAc(b1-2)Rha,['Shigella_flexneri'],1.0,,,1,0,0
+11428,Rha(a1-2)Rha(a1-3)[Xyl(b1-2)]Rha(b1-2)Rha,"['Xanthomonas_axonopodis', 'Xanthomonas_campestris']",1.0,,,1,0,0
+11437,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+11445,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['AvianInfluenzaA_Virus', 'Bos_taurus', 'Canis_lupus', 'Capra_hircus', 'Cavia_porcellus', 'Cricetinae_gen_sp', 'Desmodus_rotundus', 'Equus_caballus', 'Gallus_gallus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Mesocricetus_auratus', 'MinkCellFocusForming_Virus', 'MurineRespo_Virus', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Ovis_aries', 'Rattus_norvegicus', 'SpleenFocusForming_Virus', 'Sus_scrofa']",0.0,,N,0,1,0
+11451,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+11462,[Col(a1-2)Gal(b1-3)]GlcNAc(b1-3)Gal(a1-3)GlcNAc(b1-6)GlcNAc,"['Salmonella_arizonae', 'Salmonella_sp']",1.0,,,1,0,0
+11463,Gal(b1-4)GlcNAc(b1-3)[GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+11474,Fuc(a1-3)GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+11488,ManOP(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+11591,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+11593,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,none,,0,0,1
+11631,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+11643,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+11646,Fuc(a1-2)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,"['Bos_taurus', 'Equus_caballus', 'Homo_sapiens']",0.0,,O,0,0,1
+11650,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+11655,NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc(b1-4)[NeuNAc(a2-8)NeuNAc(a2-3)]Gal(b1-4)Glc,,1.0,Chordata,,1,0,0
+11661,Fuc(a1-2)Gal(b1-4)GlcNAc,"['Aeromonas_hydrophila', 'Helicobacter_pylori']",1.0,,,0,0,1
+11675,6dTalOAc(a1-3)Fuc(a1-4)Glc(b1-3)6dTalOAc,,1.0,Bacteria,,1,0,0
+11680,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+11702,Ribf(b1-4)Gal(b1-4)GlcNAc(a1-4)Gal(b1-3)GlcNAc(a1-2)Ribf,"['Escherichia_coli', 'Salmonella_sp']",1.0,,,0,0,1
+11703,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+11705,Fuc(a1-3)[Rha(a1-2)]Fuc(a1-3)Rha(a1-3)Fuc,,1.0,Bacteria,,1,0,0
+11736,[Galf(a1-2)]Rha(a1-6)Glc(a1-2)Man(a1-3)GlcNAc(b1-3)Rha,['Salmonella_enterica'],1.0,,,1,0,0
+11740,Man(a1-2)Rha(a1-3)Man(a1-2)Man,['Burkholderia_multivorans'],1.0,,,1,0,0
+11742,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,0,0,1
+11750,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'MurineLeukemia_Virus', 'Mus_musculus', 'Sus_scrofa']",0.0,,N,1,0,0
+11769,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+11796,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+11805,NeuNAc(a2-6)Gal(b1-4)Glc,"['Escherichia_coli', 'Homo_sapiens']",0.0,,free,1,0,0
+11809,Rha(a1-3)[Xylf(a1-4)]Man(b1-4)Rha(b1-4)Rha,['Citrobacter_youngae'],1.0,,,1,0,0
+11860,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[GalOS(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,,0,1,0
+11865,[6dTalOAc(a1-3)]Man(a1-3)6dTalOAc(a1-3)GalNAc(b1-4)Man,['Aeromonas_hydrophila'],1.0,,,1,0,0
+11869,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+11876,Rha(a1-3)GalNAc(a1-3)GalNAc(b1-4)Rha,"['Burkholderia_cenocepacia', 'Burkholderia_cepacia', 'Burkholderia_vietnamiensis']",1.0,,,1,0,0
+11884,Gal(b1-4)Glc(a1-4)GalNAc(a1-3)GalNAc(b1-4)Gal,['Edwardsiella_ictaluri'],1.0,,,1,0,0
+11888,Man(a1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Arabidopsis_thaliana', 'Felis_catus', 'Homo_sapiens', 'Saccharomyces_cerevisiae', 'Schizosaccharomyces_pombe']",0.0,,N,1,0,0
+11897,GalNAc(a1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+11902,NeuNAc(a2-8)NeuNAc(a2-3)Gal(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+11912,GlcNAc(a1-4)Gal(b1-4)GlcNAc(b1-6)[GlcNAc(a1-4)Gal(b1-3)]GalNAc,"['Homo_sapiens', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,O,0,0,1
+11954,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal,,1.0,Eukarya,,0,1,0
+11963,Gal(b1-3)GalNAc(a1-3)GalNAc(b1-3)[Rha(a1-2)][LDManHep(a1-7)LDManHep(a1-7)]LDManHep(a1-3)[Glc(b1-4)]LDManHep(a1-5)Kdo(a2-4)Kdo,['Burkholderia_vietnamiensis'],1.0,,,1,0,0
+11988,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+11996,[Tyv(a1-3)]Man(a1-4)Rha(a1-3)[Glc(a1-6)]Gal(a1-6)Man,"['Salmonella_sp', 'Salmonella_zuerich']",1.0,,,1,0,0
+12011,GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Chordata,,0,0,1
+12019,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+12032,QuiNAlaAc(b1-3)GalNAcA(a1-3)QuiNAc(b1-4)QuiNAlaAc,['Aeromonas_salmonicida'],1.0,,,1,0,0
+12037,Fuc(a1-2)Gal(b1-3)GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+12045,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+12054,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Glc,['Homo_sapiens'],0.0,,free,0,1,0
+12056,GalOS(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+12061,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Gallus_gallus', 'Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+12075,NeuNAc(a2-8)NeuNGc(a2-3)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+12095,GlcA(b1-4)[Glc(a1-3)]Fuc(a1-4)Fuc(a1-2)Glc(b1-3)GlcNAcOAc(a1-3)GlcA,['Providencia_alcalifaciens'],1.0,,,1,0,0
+12119,[Abe(a1-3)LDManHep(b1-4)]Gal(a1-3)GlcNAc(b1-3)Gal,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+12123,NeuNGc(a2-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+12129,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Homo_sapiens', 'MurineLeukemia_Virus', 'Rattus_norvegicus']",0.0,,N,1,0,0
+12134,GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc(b1-2)LDManHep(a1-2)[GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc(a1-3)]LDManHep(a1-3)[Glc(b1-4)]LDManHep(a1-5)Kdo,['Haemophilus_influenzae'],1.0,,,1,0,0
+12136,Gal(b1-3)Gal(a1-3)Gal,['Klebsiella_pneumoniae'],1.0,,,1,0,0
+12145,GlcOMeA(b1-4)[6dTalOMe(a1-3)]FucOMe(a1-4)GlcOMeA,['Rhizobium_etli'],1.0,,,1,0,0
+12151,GalOS(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+12153,QuiNAc(b1-3)6dTalOAc(a1-3)Fuc(a1-6)Glc(a1-3)GlcNAc(a1-3)QuiNAc,['Hafnia_alvei'],1.0,,,1,0,0
+12172,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]Glc,"['Diceros_bicornis', 'Giraffa_camelopardalis', 'Homo_sapiens', 'Osphranter_rufus', 'Pan_paniscus', 'Pan_troglodytes', 'Pongo_pygmaeus', 'Ursus_americanus', 'Ursus_arctos']",0.0,,free,1,0,0
+12181,Glc(a1-4)Gal(b1-4)LDManHepOP(a1-5)KdoOP,['Pseudoalteromonas_carrageenovora '],1.0,,,1,0,0
+12185,Rha(a1-2)Rha(a1-2)Rha(a1-4)GalA(a1-3)GlcNAc(a1-3)Rha,['Plesiomonas_shigelloides'],1.0,,,1,0,0
+12268,GalNAc(a1-3)Gal(b1-4)GlcNAc(b1-3)[GalNAc(a1-3)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+12276,GalOS(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+12291,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+12300,NeuNAc(a2-3)Gal(b1-4)GlcNAc,"['Helicobacter_pylori', 'Homo_sapiens', 'Neisseria_meningitidis', 'Trypanosoma_cruzi']",0.0,,N,0,0,1
+12319,Rha(a1-2)Rha(a1-3)RhaOAc(a1-3)GlcNAc(b1-2)Rha,['Shigella_flexneri'],1.0,,,1,0,0
+12331,[Glc(a1-3)]Rha(a1-2)Rha(a1-3)[Glc(a1-4)]Rha(a1-3)GlcNAc(b1-2)Rha,['Shigella_flexneri'],1.0,,,1,0,0
+12393,[Col(a1-3)][Col(a1-6)]Glc(a1-4)Gal(a1-3)GlcNAc(b1-4)Glc,"['Escherichia_coli', 'Salmonella_adelaide', 'Salmonella_sp']",1.0,,,1,0,0
+12400,GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+12406,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+12407,[Xyl(b1-4)]Rha(a1-2)[Xyl(b1-3)]Glc(a1-3)[Xyl(b1-4)]Rha(a1-2)Rha,['Xanthomonas_campestris'],1.0,,,1,0,0
+12415,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Gallus_gallus', 'Homo_sapiens']",0.0,,N,1,0,0
+12453,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,0,0,1
+12479,GalOS(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+12502,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+12513,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+12533,GlcNAcOS(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+12539,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,0,1,0
+12560,GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,,1.0,Chordata,,1,0,0
+12644,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)Fuc,['Homo_sapiens'],1.0,,O,0,0,1
+12656,FucNAc(a1-3)FucNAc(a1-3)[Glc(a1-2)Rha(a1-6)]GlcNAc(b1-3)FucNAc,"['Enterobacter_sp', 'Pantoea_agglomerans']",1.0,,,1,0,0
+12667,Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,1,0,0
+12668,GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+12673,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'MurineRespo_Virus']",0.0,,N,0,1,0
+12701,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Desmodus_rotundus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Marburg_Virus', 'Mesocricetus_auratus', 'MinkCellFocusForming_Virus', 'Mus_musculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,N,0,1,0
+12705,GalNAc(b1-3)Gal(b1-4)GlcNAc,['Neisseria_gonorrhoeae'],1.0,,,0,0,1
+12711,GalOAcA(a1-2)Rha(a1-4)Gal(b1-3)GalNAc(b1-4)GlcNAc(a1-4)Gal,['Hafnia_alvei'],1.0,,,1,0,0
+12719,GalOS(b1-4)GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+12720,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+12734,NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-6)]GlcNAc,,1.0,Eukarya,,1,0,0
+12751,Gal(b1-4)GlcNAc(b1-4)[GalNAc(b1-4)GlcNAc(b1-2)]Man(a1-3)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+12754,Gal(b1-4)[NeuNAc(a2-6)]GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+12756,GlcA(b1-4)[GalNAc(a1-3)]Fuc(a1-2)Man(a1-2)Fuc(a1-2)Glc(a1-3)GlcNAc(b1-4)GlcA,['Providencia_rustigianii'],1.0,,,1,0,0
+12788,[Xyl(a1-3)]GalA(a1-4)[Xyl(a1-3)]GalA(a1-4)GalA(a1-4)[Xyl(a1-3)]GalA(a1-4)GalA,,1.0,Bacteria,,1,0,0
+12811,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[GlcNAcOS(b1-3)]GalNAc,['Homo_sapiens'],0.0,,,0,0,1
+12823,Man(a1-2)Man(a1-2)Man(a1-3)Man(a1-3)Man(a1-2)Man,"['Escherichia_coli', 'Klebsiella_pneumoniae']",1.0,,,1,0,0
+12833,Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+12845,Man(b1-2)Man(b1-2)Man(a1-2)Man(a1-2)Man(a1-2)Man,"['Candida_albicans', 'Candida_tropicalis', 'Homo_sapiens']",0.0,,O,1,0,0
+12859,GalNAc(b1-4)[GlcNAc(b1-3)]Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+12866,Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+12905,NeuNGc(a1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAcOS,,1.0,Eukarya,,1,0,0
+12936,NeuNAc(a2-3)Gal(b1-4)GlcNAcOS(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+12939,GalNAcA(a1-3)QuiNAc(b1-4)GalNAcA,['Pseudoalteromonas_haloplanktis'],1.0,,,1,0,0
+12955,Gal(b1-4)[Fuc(a1-3)][Gal(a1-6)]GlcNAc(b1-3)Gal,['Helicobacter_pylori'],1.0,,,1,0,0
+12973,Rha(a1-3)QuiNAc(b1-7)LDManHep(a1-2)[Glc(a1-6)]Gal(a1-3)[LDManHep(a1-7)LDManHep(a1-7)]LDManHep(a1-3)[Glc(b1-4)]LDManHep(a1-5)Kdo(a2-4)Kdo(b1-8)AraN,['Burkholderia_cenocepacia'],1.0,,,1,0,0
+12974,[Rha(a1-4)GlcA(b1-2)Rha(a1-2)]Rha(a1-3)Rha(a1-2)Rha(a1-3)GlcNAc(b1-3)Rha,['Acinetobacter_sp'],1.0,,,1,0,0
+12985,[QuiNAcNBut(a1-4)]IdoA(a1-4)GlcA(b1-4)GlcA(b1-3)QuiNAcNBut(b1-2)IdoA,['Pseudoalteromonas_haloplanktis'],1.0,,,1,0,0
+12996,GalOS(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+13034,Gal(b1-4)GlcNAc(b1-3)GalNAc,"['Bos_taurus', 'Equus_caballus', 'Homo_sapiens', 'Sus_scrofa']",0.0,,O,1,0,0
+13038,Man(a1-2)Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-2)Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Aspergillus_oryzae', 'Bos_taurus', 'Homo_sapiens', 'Phaseolus_lunatus', 'Phaseolus_vulgaris', 'Saccharomyces_cerevisiae', 'Saccharomyces_uvarum', 'Schistosoma_mansoni']",0.0,,N,1,0,0
+13039,Man(a1-3)[Man(a1-6)][Xyl(b1-2)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Actinidia_chinensis', 'Allium_cepa', 'Apium_graveolens_oulce', 'Arabidopsis_thaliana', 'Arachis_hypogaea', 'Armoracia_rusticana', 'Asparagus_officinalis', 'Bos_taurus', 'Brassica_oleracea', 'Citrus_sinensis', 'Cocos_nucifera', 'Corylus_avellana', 'Cucurbita_pepo_melopepo', 'Cynodon_dactylon', 'Daucus_carota', 'Erythrina_cristagalli', 'Fragaria_ananassa', 'Ginkgo_biloba', 'Glycine_max', 'Helix_pomatia', 'Homo_sapiens', 'Juglans_regia', 'Lotus_tetragonolobus', 'Lupinus_luteus', 'Malus_domestica', 'Musa_acuminata', 'Nicotiana_alata', 'Nicotiana_tabacum', 'Oryza_sativa', 'Persea_americana', 'Phaseolus_vulgaris', 'Physcomitrella_patens', 'Pistacia_vera', 'Pisum_sativum', 'Prunus_dulcis_sativa', 'Pyrus_communis_williams', 'Ricinus_communis', 'Solanum_lycopersicum', 'Solanum_tuberosum']",0.0,,N,1,0,0
+13047,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)[GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+13088,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+13120,GlcNAcNAlaFo(b1-4)ManNAcNAmA(b1-4)GlcNAcNAlaFo,['Vibrio_anguillarum'],1.0,,,1,0,0
+13136,[Rha(a1-3)]Rha(a1-3)Rha(a1-4)Gal(a1-3)GlcNAcOAc(b1-2)Rha,['Hafnia_alvei'],1.0,,,1,0,0
+13138,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+13162,GlcA(b1-3)QuiNAcNBut(a1-4)GlcA,['Pseudoalteromonas_sp'],1.0,,,1,0,0
+13187,Man(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Abrus_precatorius', 'Acremonium_sp', 'Apis_sp', 'Astacus_leptodactylus', 'Bombyx_mori', 'Bos_taurus', 'Caenorhabditis_elegans', 'Carica_papaya', 'Felis_catus', 'Gallus_gallus', 'Homo_sapiens', 'Mamestra_brassicae', 'Megathura_crenulata', 'Mus_musculus', 'Nicotiana_tabacum', 'Oryza_sativa', 'Ricinus_communis', 'Schistosoma_mansoni', 'Spinacia_oleracea', 'Spodoptera_frugiperda', 'Sus_scrofa', 'Trypanosoma_brucei']",0.0,,N,1,0,0
+13210,[QuiNAc(a1-4)]GlcASer(b1-4)GlcNAc(a1-4)ManNAcASer(b1-4)GlcNAc(b1-3)GlcASer,['Pseudoalteromonas_aliena'],1.0,,,1,0,0
+13215,[GalA(a1-2)]Gal(a1-3)Galf(b1-3)Gal,['Klebsiella_pneumoniae'],1.0,,,1,0,0
+13232,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+13233,Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(a1-3)[Man(a1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+13234,GlcNAc(b1-6)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+13244,Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Angiosperms,,1,0,0
+13246,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Gallus_gallus', 'Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+13290,Man(b1-4)Rha(a1-3)[Glc(a1-6)]Gal(a1-6)Man,"['Salmonella_senftenberg', 'Salmonella_sp']",1.0,,,1,0,0
+13297,Man(a1-3)[Xyl(b1-2)]Rha(a1-4)Man,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+13349,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+13392,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+13405,Rha(a1-3)[FucNAc(a1-2)]Rha(b1-3)Rha,['Xanthomonas_campestris'],1.0,,,1,0,0
+13416,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+13428,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens', 'Rattus_norvegicus']",0.0,,N,1,0,0
+13477,Man(b1-4)Rha(a1-3)GalOAc(a1-6)Man,"['Salmonella_anatum', 'Salmonella_sp']",1.0,,,1,0,0
+13488,[Rha(a1-4)]GalA(a1-2)Rha(a1-2)Rha(a1-3)Rha(a1-3)Gal(b1-3)GalA,['Xanthomonas_campestris'],1.0,,,1,0,0
+13489,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]Glc,['Homo_sapiens'],0.0,,free,1,0,0
+13504,Man(a1-2)Man(a1-3)[Man(a1-6)]Man(a1-3)Man(a1-5)[Gal(b1-8)Kdo(a1-4)]Kdo,,1.0,Bacteria,,1,0,0
+13520,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+13526,Rha(a1-3)[Xylf(a1-2)]Rha(a1-2)Rha(b1-3)Rha,['Citrobacter_braakii'],1.0,,,1,0,0
+13535,Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)][Fuc(a1-3)]GlcNAc,,1.0,Chordata,,1,0,0
+13538,[Tyv(a1-3)]Man(b1-4)Rha(a1-3)[Glc(a1-4)]Gal(a1-6)Man,"['Salmonella_sp', 'Salmonella_strasbourg', 'Salmonella_zuerich']",1.0,,,1,0,0
+13545,NeuNAc(a2-6)GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+13568,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-3)GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+13569,[FucNFo(a1-3)]Man(b1-3)Glc(b1-3)GlcNAc(b1-2)Man,['Salmonella_sp'],1.0,,,1,0,0
+13597,GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Apis_sp', 'Arabidopsis_thaliana', 'Bos_taurus', 'Drosophila_melanogaster', 'Gallus_gallus', 'Homo_sapiens', 'Mus_musculus', 'Nicotiana_tabacum', 'Oryctolagus_cuniculus', 'Physcomitrella_patens', 'Rattus_norvegicus', 'Sus_scrofa', 'Tetronarce_californica']",0.0,,N,1,0,0
+13600,Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Acremonium_sp', 'Arabidopsis_thaliana', 'Artemisia_vulgaris', 'Bombyx_mori', 'Bos_taurus', 'Felis_catus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Mamestra_brassicae', 'MurineLeukemia_Virus', 'Mus_musculus', 'Nicotiana_alata', 'Nicotiana_tabacum', 'Phaseolus_vulgaris', 'Ricinus_communis', 'Schistosoma_mansoni', 'Spinacia_oleracea', 'Spodoptera_frugiperda', 'Sus_scrofa', 'Yarrowia_lipolytica']",0.0,,N,1,0,0
+13601,GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-4)][Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Gallus_gallus', 'Homo_sapiens']",0.0,,N,1,0,0
+13622,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-4)Glc,['Homo_sapiens'],0.0,,free,0,1,0
+13636,Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+13671,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+13695,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+13696,[Tyv(a1-3)]Man(b1-4)Rha(a1-3)Gal(a1-6)Man,"['Salmonella_haarlem', 'Salmonella_sp', 'Salmonella_strasbourg', 'Salmonella_zuerich']",1.0,,,1,0,0
+13729,Gal(a1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc,,1.0,Bacteria,,0,0,1
+13741,[Tyv(a1-3)]Man(a1-2)Man(a1-2)Man(b1-3)GalNAc(a1-6)Man,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+13742,Gal(b1-4)GlcNAc(b1-4)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+13743,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+13752,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+13772,NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-6)]GlcNAc(b1-3)Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,1,0,0
+13776,[Fuc(a1-3)]Man(b1-3)Man(a1-3)Fuc(a1-3)GlcNAc(b1-4)Man,['Acinetobacter_sp'],1.0,,,1,0,0
+13784,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-6)[GalOS(b1-4)GlcNAc(b1-2)]Man(a1-6)[GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+13798,Rha(a1-3)[Tyv(a1-2)]GalOAc(a1-3)Gal(a1-3)Rha,['Cronobacter_sakazakii'],1.0,,,1,0,0
+13817,NeuNAc(a2-8)NeuNAc(a2-3)Gal(b1-3)GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)Glc,['Campylobacter_jejuni'],1.0,,,1,0,0
+13820,ManNAc(b1-4)Glc(b1-3)ManNAc,['Citrobacter_braakii'],1.0,,,1,0,0
+13824,[Tyv(a1-3)LDManHep(b1-4)]Gal(a1-3)GlcNAc(b1-3)Gal,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+13849,[GlcA(a1-3)Fuc(a1-4)]GlcNAc(b1-3)Fuc(a1-3)GlcNAc(b1-3)GlcNAc,['Providencia_alcalifaciens'],1.0,,,1,0,0
+13850,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+13853,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+13902,[Rha(a1-3)][GalNAc(b1-4)]DDManHep(b1-3)GlcNAc(b1-7)DDManHep,['Vibrio_cholerae'],1.0,,,1,0,0
+13956,GalNAc(a1-3)Gal(b1-3)GlcNAc(b1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+13965,NeuNAc(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,0,0,1
+13976,Gal(b1-4)GlcNAc(b1-4)[GalNAc(b1-4)GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+14004,Rha(a1-3)Rha(a1-2)Rha(a1-2)Rha(a1-2)Rha(a1-3)Rha,['Klebsiella_pneumoniae'],1.0,,,1,0,0
+14020,GlcAAlaLys(b1-6)Gal(b1-6)Glc(b1-3)GalNAc(b1-4)GlcAAlaLys,['Providencia_alcalifaciens'],1.0,,,1,0,0
+14021,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-4)Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+14083,Glc(a1-3)Rha(a1-4)Glc,['Klebsiella_pneumoniae'],1.0,,,1,0,0
+14106,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+14108,GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-3)[GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Ovis_aries', 'Sus_scrofa']",0.0,,,1,0,0
+14110,GalOS(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+14117,GlcNAcOLac(a1-3)FucNAc(a1-3)[Glc(b1-4)]GlcNAc(a1-6)GlcNAcOLac,['Providencia_alcalifaciens'],1.0,,,1,0,0
+14146,GalNAc(a1-3)[GlcNAc(b1-2)]Man(b1-4)Glc(b1-3)GalNAc(a1-4)GalNAc,"['Salmonella_riogrande', 'Salmonella_sp']",1.0,,,1,0,0
+14163,Gal(a1-3)[NeuNAc(a2-6)]GalNAc,"['Homo_sapiens', 'Macaca_radiata']",0.0,,O,1,0,0
+14166,Rha(a1-3)Rha(a1-2)RhaOMe(a1-3)Rha,"['Sinorhizobium_fredii', 'Sinorhizobium_sp']",1.0,,,1,0,0
+14178,Fuc(a1-3)[GalNAc(b1-4)]GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[GalNAc(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bothrops_moojeni', 'Homo_sapiens']",0.0,,N,1,0,0
+14184,Glc(a1-3)LDManHep(a1-5)KdoOP,['Alteromonas_addita'],1.0,,,1,0,0
+14189,Rha(a1-2)[DDManHep(a1-7)LDManHep(a1-3)LDManHep(a1-7)]LDManHep(a1-3)[Glc(b1-4)]LDManHep(a1-5)Kdo(a2-4)Kdo(b1-8)AraN,['Burkholderia_pyrrocinia'],1.0,,,1,0,0
+14230,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+14239,[Parf(b1-3)]Fuc(a1-3)Man(a1-4)Fuc(a1-3)GalNAc(a1-2)Fuc,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+14240,ManNAcA(b1-2)Rha(a1-3)Rha(b1-4)GlcNAc(a1-4)ManNAcA,"['Escherichia_coli', 'Pragia_fontium']",1.0,,,1,0,0
+14249,Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,"['Homo_sapiens', 'Xenopus_tropicalis']",0.0,,O,1,0,0
+14254,NeuNAc(a2-3)Gal(b1-3)GalNAc(b1-4)[NeuNAc(a2-8)NeuNAc(a2-3)]Gal(b1-4)Glc,['Escherichia_coli'],1.0,,,1,0,0
+14304,[FucNBut(a1-4)]Gal(a1-4)GalNAc(b1-3)Gal(a1-3)GlcNAc(b1-3)Gal,['Acinetobacter_sp'],1.0,,,1,0,0
+14323,Glc(a1-4)Gal(b1-6)Glc(a1-2)Glc(a1-4)Glc(a1-3)[GalA(b1-7)LDManHep(a1-7)]LDManHep(a1-3)LDManHepOPPEtn(a1-5)Kdo,['Citrobacter_werkmanii'],1.0,,,1,0,0
+14337,Galf(a1-4)GalNAc(b1-4)RhaOAc(a1-3)GlcNAc(b1-2)Galf,['Salmonella_sp'],1.0,,,1,0,0
+14338,NeuNAc(a2-6)Gal(b1-3)[GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+14344,FucNAc(a1-3)FucNAc(a1-3)QuiNAc(b1-3)FucNAc,['Pseudomonas_chlororaphis'],1.0,,,1,0,0
+14352,NeuNAcOS(a2-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,,0,0,1
+14362,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+14367,Gal(a1-6)Glc(a1-4)RhaOPEtn(a1-3)GalNAc(b1-3)Gal,['Porphyromonas_gingivalis '],1.0,,,1,0,0
+14390,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+14393,Rha(a1-3)[Xyl(b1-2)][Xyl(b1-4)]Rha(a1-3)Rha(a1-2)Rha,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+14396,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+14421,Rha(a1-3)Ribf(b1-4)Rha(a1-3)Ribf(b1-4)Rha(a1-3)Rha,['Enterobacter_sp'],1.0,,,1,0,0
+14422,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Armoracia_rusticana', 'Bos_taurus', 'Gallus_gallus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Marburg_Virus', 'MurineLeukemia_Virus', 'Nicotiana_tabacum', 'Rattus_norvegicus']",0.0,,N,1,0,0
+14459,Fuc(a1-3)[Gal(b1-4)]Glc,"['Canis_lupus', 'Diceros_bicornis', 'Giraffa_camelopardalis', 'Gorilla_gorilla', 'Homo_sapiens', 'Osphranter_rufus', 'Pan_paniscus', 'Pan_troglodytes', 'Pongo_pygmaeus', 'Trichechus_manatus', 'Tursiops_truncatus', 'Ursus_americanus']",0.0,,free,1,0,0
+14460,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+14463,GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'Ovis_aries']",0.0,,N,1,0,0
+14470,Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-3)]GlcNAc,"['Apis_mellifera', 'Arabidopsis_thaliana', 'Cynodon_dactylon', 'Homo_sapiens', 'Juglans_regia', 'Lupinus_luteus', 'Mamestra_brassicae', 'Physcomitrella_patens', 'Prunus_dulcis_sativa', 'Ricinus_communis', 'Spodoptera_frugiperda', 'Synsepalum_dulcificum']",0.0,,N,1,0,0
+14480,Gal(b1-4)GlcNAc(b1-3)[GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+14524,Rha(a1-3)Rha(a1-3)Rha(a1-2)Rha,"['Escherichia_coli', 'Marinomonas_communis', 'Pseudomonas_coronafaciens', 'Xanthomonas_campestris']",1.0,,,1,0,0
+14534,Rha(a1-3)Man(b1-4)Man(a1-3)Rha,['Burkholderia_vietnamiensis'],1.0,,,1,0,0
+14544,Gal(b1-4)GlcNAc(b1-4)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Gallus_gallus', 'Homo_sapiens']",0.0,,N,1,0,0
+14552,Man(a1-3)Man(a1-6)Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Apis_mellifera', 'Homo_sapiens', 'Limulus_polyphemus']",0.0,,N,1,0,0
+14565,Rha(a1-2)Rha(a1-2)Rha(a1-2)Rha(a1-3)Rha(a1-3)Man(a1-5)[GlcN(b1-2)Gal(b1-4)[Gal(b1-8)]Kdo(a1-4)]Kdo,,1.0,Bacteria,,1,0,0
+14621,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-2)[GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-2)[GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+14627,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+14646,GalAAlaLys(a1-4)GalNAc(a1-3)GlcNAc(a1-3)GalAAlaLys,['Providencia_rustigianii'],1.0,,,1,0,0
+14660,Rha(a1-6)Gal(a1-4)[GlcNAc(b1-3)]GalNAc(a1-3)QuiNAc(a1-2)Rha,['Acinetobacter_lwoffii'],1.0,,,1,0,0
+14661,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+14662,Fuc(a1-2)Gal(b1-4)Glc,"['Canis_lupus', 'Capra_hircus', 'Diceros_bicornis', 'Escherichia_coli', 'Giraffa_camelopardalis', 'Gorilla_gorilla', 'Homo_sapiens', 'Nasua_narica', 'Osphranter_rufus', 'Pan_paniscus', 'Pan_troglodytes', 'Pongo_pygmaeus', 'Trichechus_manatus', 'Tursiops_truncatus', 'Ursus_americanus', 'Ursus_arctos', 'Ursus_arctos_yesoensis', 'Ursus_maritimus', 'Ursus_thibetanus_japonicus']",0.0,,free,1,0,0
+14665,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,0,0,1
+14680,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+14683,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+14696,Fuc(a1-2)[Gal(a1-3)]Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+14699,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+14725,Rha(a1-3)Rha(a1-2)Rha(a1-3)Rha(a1-3)Gal(b1-2)Rha,['Acinetobacter_junii'],1.0,,,1,0,0
+14728,QuiNAc(a1-3)Man(a1-3)Fuc(a1-3)GalNAc(a1-2)QuiNAc,['Salmonella_sp'],1.0,,,1,0,0
+14739,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+14745,[FucNProp(a1-4)GalNAc(b1-4)]Gal(a1-3)GalNAc(b1-3)Gal,['Acinetobacter_sp'],1.0,,,1,0,0
+14753,Rha(a1-2)Rha(b1-3)RhaOAc(a1-3)GlcNAc(b1-2)Rha,['Ralstonia_pickettii'],1.0,,,1,0,0
+14768,Fuc(a1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+14772,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+14777,GalOS(b1-4)GlcNAc(b1-4)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+14798,Gal(b1-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+14810,[Abe(a1-3)]Rha(b1-2)Man(a1-2)Man(a1-3)[GlcOAc(a1-4)]Gal(b1-4)Rha,"['Salmonella_kentucky', 'Salmonella_sp']",1.0,,,1,0,0
+14814,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+14824,VioNAc(b1-2)[Rha(a1-3)]Man(a1-4)Gal(b1-3)GlcNAc(a1-3)VioNAc,['Escherichia_coli'],1.0,,,1,0,0
+14835,Gal(b1-4)[Rha(a1-3)]ManOAc(b1-3)Man(b1-4)GlcA(b1-3)GlcNAc(a1-2)Gal,"['Providencia_stuartii', 'Shigella_boydii']",1.0,,,1,0,0
+14852,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+14862,RhaNAc(a1-2)RhaNAc(a1-3)RhaNAc(a1-3)RhaNAc(a1-2)RhaNAc(a1-3)RhaNAc,,1.0,Bacteria,,1,0,0
+14868,GalOS(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+14888,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,0,0,1
+14976,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+14983,GalOS(b1-3)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+14984,GlcNAc(b1-2)[GlcNAc(b1-6)]Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+14986,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+15007,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+15008,Rha(a1-3)[Ribf(a1-4)]Man(b1-4)Man(b1-4)Rha,['Citrobacter_youngae'],1.0,,,1,0,0
+15014,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,"['Equus_caballus', 'Homo_sapiens', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus']",0.0,,O,0,0,1
+15024,GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'Ovis_aries']",0.0,,N,1,0,0
+15034,Gal(b1-4)Gal(b1-4)[Ara(a1-5)Ara(a1-3)]Gal(b1-4)[Ara(a1-3)]Gal(b1-4)Gal(b1-4)Gal,,1.0,Fungi,,1,0,0
+15045,[Abe(a1-3)]Man(a1-3)Fuc(a1-3)GalNAc(b1-2)Man,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+15062,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+15071,GalOPA(a1-7)[Fruf(b2-4)Glc(b1-4)][GalA(a1-3)]LDManHep(a1-5)KdoOP,['Psychromonas_arctica'],1.0,,,1,0,0
+15095,QuiNAc(a1-4)GlcA(b1-3)GalASer(b1-3)GlcNAc(b1-2)QuiNAc,['Providencia_stuartii'],1.0,,,1,0,0
+15096,Rha(a1-3)[Sug(b1-2)]Rha(b1-3)Rha(a1-2)Rha,['Yersinia_kristensenii'],1.0,,,1,0,0
+15103,[Asc(a1-3)]Fuc(a1-3)Man(a1-4)Fuc(a1-3)GalNAc(a1-2)Fuc,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+15118,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+15146,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-2)[GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+15152,Rha(a1-2)Rha(b1-3)Rha(a1-2)Rha(a1-2)Rha,['Pantoea_agglomerans'],1.0,,,1,0,0
+15160,Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+15180,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+15191,DDGalHep(a1-2)Rha(a1-4)DDGalHep(b1-3)GlcNAc(a1-4)DDGalHep,['Chromobacterium_violaceum'],1.0,,,1,0,0
+15193,Gal(b1-3)GlcNAc(a1-4)Rha(a1-3)GlcNAc(b1-2)Gal,['Salmonella_sp'],1.0,,,1,0,0
+15207,GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+15213,GlcNAcOAcOLac(a1-3)QuiNAc(a1-3)GlcNAc(b1-4)GlcNAcOAcOLac,['Yersinia_ruckerii'],1.0,,,1,0,0
+15214,[RhaOAc(a1-4)GalA(a1-2)]RhaOAc(a1-4)Glc(a1-2)Rha(a1-3)GlcNAc(b1-3)RhaOAc,['Cronobacter_sakazakii'],1.0,,,1,0,0
+15223,[FucNAc(a1-2)]Rha(b1-3)RhaNAc(a1-3)RhaNAc(a1-3)RhaNAc(a1-3)RhaNAc,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+15230,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15239,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[GalOS(b1-4)GlcNAc(b1-4)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+15241,Glc(a1-2)Galf(b1-6)Gal(a1-6)Glc(b1-3)Galf(b1-3)Glc,['Actinobacillus_pleuropneumoniae'],1.0,,,1,0,0
+15252,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15266,GlcOSA(b1-3)Gal(b1-3)Gal(b1-4)Xyl,['Homo_sapiens'],0.0,,O,1,0,0
+15280,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+15307,Rha(a1-3)Rha(a1-3)Man(b1-4)Rha,['Rahnella_aquatilis'],1.0,,,1,0,0
+15326,Rha(a1-4)FucNAcA(a1-3)QuiNAc(a1-2)Rha,['Flavobacterium_psychrophilum'],1.0,,,1,0,0
+15329,Rha(a1-3)Rha(a1-2)LDManHep(a1-3)Rha,['Burkholderia_cepacia'],1.0,,,1,0,0
+15348,Fuc(a1-4)GlcNAc(b1-6)[GlcNAc(b1-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+15356,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Columbia_livia', 'Homo_sapiens']",0.0,,N,1,0,0
+15357,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-2)[GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+15358,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15360,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+15386,6dTalNAcOAc(b1-4)FucNAc(a1-4)FucNAc(a1-3)6dTalNAcOAc,['Plesiomonas_shigelloides'],1.0,,,1,0,0
+15389,Gal(b1-4)GlcNAc(b1-4)[GalNAc(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-6)[GalNAc(b1-4)GlcNAc(b1-2)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+15391,GlcNAcOLac(a1-3)Rha(b1-4)GlcNAc(b1-6)GlcNAcOLac,"['Providencia_alcalifaciens', 'Providencia_rustigianii']",1.0,,,1,0,0
+15401,GlcNAc(b1-4)[Glc(b1-3)]GalNAc(a1-3)LDManHepOCm(a1-3)LDManHepOP(a1-5)[Kdo(a1-4)]Kdo,,1.0,Bacteria,,1,0,0
+15416,NeuNAc(a2-8)NeuNAc(a2-8)NeuNAc(a2-3)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+15423,[AbeOAc(a1-3)]Man(a1-4)Rha(a1-3)Gal(a1-2)Man,"['Edwardsiella_tarda', 'Salmonella_enterica']",1.0,,,1,0,0
+15425,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+15436,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15462,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+15475,QuiNAc(a1-3)Rha(a1-6)GlcNAc(a1-4)GlcA(b1-3)GalNAc(a1-4)QuiNAc,['Cronobacter_muytjensii'],1.0,,,1,0,0
+15484,GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-3)[Fuc(a1-4)]GlcNAc,,1.0,Chordata,,1,0,0
+15505,NeuNAcOGc(a2-3)Gal(b1-3)GalNAc,,1.0,Bacteria,,1,0,0
+15520,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15548,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-4)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+15550,Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Antheraea_pernyi', 'Apis_mellifera', 'Bombyx_mori', 'Bos_taurus', 'Drosophila_melanogaster', 'Homo_sapiens', 'Mamestra_brassicae', 'Megathura_crenulata', 'Mus_musculus', 'Rattus_norvegicus', 'Spodoptera_frugiperda', 'Sus_scrofa']",0.0,,N,1,0,0
+15555,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15563,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15574,Man(a1-2)Man(a1-4)Gal(b1-2)Man,['Burkholderia_cepacia'],1.0,,,1,0,0
+15595,Rha(a1-2)Gal(a1-3)Glc(b1-4)GlcOAc(a1-4)GalNAc(b1-2)Rha,['Actinobacillus_pleuropneumoniae'],1.0,,,1,0,0
+15598,GalNAc(a1-3)Gal(b1-3)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+15599,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,N,1,0,0
+15651,Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+15675,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15679,Glc(b1-4)GalA(b1-4)Man(b1-4)Glc,['Pseudoalteromonas_sp'],1.0,,,1,0,0
+15738,[Rha(a1-3)Fuc(a1-2)]Rha(a1-3)ManOAc(b1-4)Rha,,1.0,Bacteria,,1,0,0
+15739,Man(b1-4)[Gal(a1-6)]Man(b1-4)[Gal(a1-6)]Man(b1-4)[Gal(a1-6)]Man(b1-4)Man(b1-4)Man,,1.0,Angiosperms,,1,0,0
+15759,Gal(b1-4)GlcNAcOS(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,"['Gallus_gallus', 'Homo_sapiens']",0.0,,O,1,0,0
+15785,ManOP(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15790,Gal(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15791,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[GalOS(b1-3)]GalNAc,['Homo_sapiens'],0.0,,,0,0,1
+15792,6dTalOAc(a1-2)6dTal(a1-3)6dTalOAc,"['Aggregatibacter_actinomycetemcomitans', 'Agrobacterium_rubi', 'Haemophilus_parainfluenzae']",1.0,,,1,0,0
+15795,GalOS(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15799,Fuc(a1-2)[Gal(a1-3)]Gal(b1-3)GalNAc(a1-3)GlcNAc(b1-4)Fuc,['Salmonella_sp'],1.0,,,1,0,0
+15845,Gal(b1-3)GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Rattus_norvegicus']",0.0,,N,0,1,0
+15846,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15857,Glc(b1-3)Rha(a1-4)Glc,['Burkholderia_cepacia'],1.0,,,1,0,0
+15889,Gal(a1-3)Galf(b1-3)Gal,"['Klebsiella_pneumoniae', 'Serratia_marcescens', 'Serratia_plymuthica']",1.0,,,1,0,0
+15891,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+15898,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+15907,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Fuc,['Cricetulus_griseus'],1.0,,O,0,0,1
+15950,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+15957,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,1,0,0
+15959,GlcNAc(b1-2)Man(a1-3)[Man(a1-3)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Apis_sp', 'Bos_taurus', 'Homo_sapiens', 'Nicotiana_alata', 'Synsepalum_dulcificum', 'Trypanosoma_brucei']",0.0,,N,1,0,0
+15980,Galf(b1-6)Glc(a1-3)RhaOAc(a1-3)[Glc(b1-6)]GlcNAc(a1-2)Galf,['Escherichia_coli'],1.0,,,1,0,0
+15997,Gal(b1-4)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+16022,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+16023,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+16033,NeuNAc(a2-3)GalOS(b1-4)[Fuc(a1-3)]GlcNAcOS,,1.0,Animalia,,1,0,0
+16062,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-3)[Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Homo_sapiens', 'MurineLeukemia_Virus']",0.0,,N,1,0,0
+16067,RhaOAc(a1-2)[Glc(a1-3)]Rha(a1-3)Rha(a1-3)GlcNAc(b1-2)RhaOAc,"['Escherichia_coli', 'Shigella_flexneri']",1.0,,,1,0,0
+16085,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNGc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+16142,[Gal(b1-4)]Gal(b1-4)[GlcNAc(b1-2)]Glc(b1-3)GalNAc(b1-3)Gal,"['Escherichia_coli', 'Hafnia_alvei', 'Salmonella_sp']",1.0,,,1,0,0
+16149,[FucNAc(a1-4)]GalNAcA(a1-3)FucNAc(a1-3)GlcNAc(b1-3)GalNAcA,"['Acinetobacter_baumannii', 'Acinetobacter_sp']",1.0,,,1,0,0
+16155,Man(a1-2)Fuc(a1-2)GlcOAcA(b1-3)GalNAc(a1-3)Man,['Providencia_alcalifaciens'],1.0,,,1,0,0
+16176,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc,,1.0,Chordata,,1,0,0
+16184,GalNAc(a1-3)Gal(b1-3)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+16205,Glc(a1-3)FucNAm(a1-3)QuiNAcNBut(b1-4)Glc,['Fusobacterium_necrophorum'],1.0,,,1,0,0
+16208,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['AvianInfluenzaA_Virus', 'Bos_taurus', 'Canis_lupus', 'Capra_hircus', 'Cavia_porcellus', 'Coturnix_japonica', 'Desmodus_rotundus', 'Equus_caballus', 'Gallus_gallus', 'Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Mesocricetus_auratus', 'MinkCellFocusForming_Virus', 'MurineRespo_Virus', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Ovis_aries', 'Rattus_norvegicus', 'SpleenFocusForming_Virus', 'Sus_scrofa', 'Tetronarce_californica']",0.0,,N,0,1,0
+16220,GalNAc(a1-3)[Fuc(a1-2)]Gal,['Bacteroides_ovatus'],1.0,,,1,0,0
+16228,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-4)Glc,['Homo_sapiens'],0.0,,free,1,0,0
+16253,RhaOMe(a1-2)RhaOMe(b1-3)Rha(a1-2)RhaOMe(b1-3)Rha(a1-3)RhaOMe,,1.0,Bacteria,,1,0,0
+16265,RhaOAc(b1-4)GlcNAc(b1-3)GlcA(a1-4)GlcNAc(a1-3)RhaOAc,['Providencia_alcalifaciens'],1.0,,,1,0,0
+16270,cNeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAcOS,,1.0,Eukarya,,1,0,0
+16340,Kdo(a2-3)6dTalOAc(a1-3)Gal(b1-7)Kdo,['Pseudoalteromonas_flavipulchra'],1.0,,,1,0,0
+16341,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'HumanImmunoDeficiency_Virus', 'Marburg_Virus', 'Mesocricetus_auratus']",0.0,,N,0,1,0
+16370,GlcNAc(b1-3)Gal(b1-3)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+16371,Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+16385,Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+16388,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-4)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+16394,GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Arabidopsis_thaliana', 'Bos_taurus', 'Caenorhabditis_elegans', 'Homo_sapiens', 'Mus_musculus', 'Nicotiana_alata', 'Panulirus_interruptus', 'Rana_pipiens', 'Synsepalum_dulcificum', 'Trichinella_spiralis']",0.0,,N,1,0,0
+16395,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Cavia_porcellus', 'Equus_caballus', 'Gallus_gallus', 'Homo_sapiens', 'Mus_musculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,N,1,0,0
+16408,[FucNAc(a1-4)]Fuc(a1-3)GlcNAc(b1-3)Fuc,['Stenotrophomonas_maltophilia'],1.0,,,1,0,0
+16411,Gal(b1-3)GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)Glc,"['Campylobacter_jejuni', 'Leishmania_amazonensis', 'Vibrio_cholerae']",1.0,,,1,0,0
+16430,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAcOS(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+16434,ManOAc(a1-2)Rha(a1-4)Gal(b1-3)ManOAc,,1.0,Bacteria,,1,0,0
+16441,GlcNAc(b1-3)[Gal(b1-7)]LDManHep(a1-3)[Glc(b1-4)]LDManHep(a1-5)[Kdo(a2-4)]Kdo,['Yersinia_pestis'],1.0,,,1,0,0
+16455,Gal(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,none,,1,0,0
+16459,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-4)[GalNAc(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+16468,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)[Gal(b1-3)GlcNAc(b1-3)]Gal(b1-4)Glc,"['Homo_sapiens', 'Pongo_pygmaeus', 'Ursus_americanus']",0.0,,free,1,0,0
+16472,NeuNAc(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal,['Homo_sapiens'],0.0,,free,1,0,0
+16487,Fuc(a1-2)Gal(b1-3)GalNAc,"['Bombina_variegata', 'Bos_taurus', 'Bufo_japonicus', 'Equus_caballus', 'Homo_sapiens', 'Mus_musculus', 'Rana_arvalis', 'Rana_sphenocephala', 'Rana_temporaria', 'Rattus_norvegicus', 'Rhinella_arenarum', 'Sus_scrofa']",0.0,,O,1,0,0
+16488,ManOAc(a1-2)Man(a1-2)[Glc(a1-3)]Man(a1-3)GlcNAc(a1-6)ManOAc,['Citrobacter_werkmanii'],1.0,,,1,0,0
+16489,NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc,,1.0,Chordata,,1,0,0
+16500,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+16582,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+16595,GalNAc(b1-4)GlcNAc(b1-2)[GalNAc(b1-4)GlcNAc(b1-6)]Man(a1-6)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+16596,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)[Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+16608,Man(a1-2)Man(a1-3)[Man(a1-6)]Man(a1-6)[Man(a1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Felis_catus', 'Fusarium_graminearum', 'Fusarium_sp', 'Homo_sapiens', 'Kinetoplastids', 'Mus_musculus', 'Phaseolus_vulgaris', 'Ricinus_communis', 'Schistosoma_mansoni', 'Sus_scrofa']",0.0,,N,1,0,0
+16635,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)GalNAc,"['Homo_sapiens', 'Sus_scrofa']",0.0,,O,0,1,0
+16642,GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,"['Bos_taurus', 'Homo_sapiens', 'Macaca_radiata']",0.0,,O,1,0,0
+16644,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-4)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+16678,Man(b1-4)Rha(a1-3)Gal(b1-6)Man,"['Salmonella_newington', 'Salmonella_sp']",1.0,,,1,0,0
+16693,[FucNFo(a1-4)]GalA(a1-4)GalNAc(a1-4)GalNAc(a1-3)GalNAc(b1-3)GalA,['Providencia_alcalifaciens'],1.0,,,1,0,0
+16713,Fuc(a1-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+16734,Rha(a1-3)Rha(a1-4)Gal(a1-3)Rha,['Burkholderia_cepacia'],1.0,,,1,0,0
+16745,GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)GlcNAc(b1-6)[GalOS(b1-4)GlcNAc(b1-2)]Man(a1-6)[GalOS(b1-4)GlcNAc(b1-2)[GalOS(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,,1,0,0
+16746,[Galf(a1-2)Rha(a1-3)Man(b1-3)Rha(a1-3)]Rha(a1-3)Gal(b1-4)Rha,['Niveispirillum_irakense'],1.0,,,1,0,0
+16760,Gal(b1-3)GlcNAc(b1-3)[Gal(b1-4)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+16776,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+16814,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)[GlcNAc(b1-6)]GalNAc,"['Bos_taurus', 'Bufo_bufo', 'Homo_sapiens', 'Xenopus_tropicalis']",0.0,,O,1,0,0
+16824,NeuNAc(a2-6)Gal(b1-3)GlcNAc(b1-3)[NeuNAc(a2-6)Gal(b1-3)GlcNAc(b1-6)]Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+16905,NeuNAc(a2-3)Gal(b1-3)[NeuNAc(a2-6)]GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)Glc,,1.0,Chordata,,1,0,0
+16922,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+16942,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+16989,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+16992,Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+17008,Gal(a1-3)Gal(b1-4)GlcNAc,"['Clostridioides_difficile', 'Trypanosoma_cruzi']",1.0,,O,0,0,1
+17024,[GlcNAcA(b1-4)][GlcNAc(b1-6)]Gal(a1-6)Glc(b1-3)GalNAc(b1-3)Gal,"['Acinetobacter_baumannii', 'Acinetobacter_sp']",1.0,,,1,0,0
+17026,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17053,RhaOAc(a1-2)Rha(a1-3)Rha(a1-3)GlcNAcOAc(b1-2)RhaOAc,['Shigella_flexneri'],1.0,,,1,0,0
+17073,Galf(b1-3)Fuc(a1-3)Galf,['Burkholderia_cepacia'],1.0,,,1,0,0
+17077,Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+17081,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17109,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17114,Man(b1-4)Rha(a1-3)[Glc(a1-4)]Gal(b1-6)Man,"['Salmonella_illinois', 'Salmonella_minneapolis', 'Salmonella_sp']",1.0,,,1,0,0
+17116,Glc(a1-4)GlcNAc(a1-4)Glc(b1-3)[Glc(a1-7)DDManHep(a1-2)LDManHep(a1-4)]LDManHep(a1-5)KdoOP,['Halomonas_pantelleriensis'],1.0,,,1,0,0
+17152,Gal(b1-3)[Ara(b1-6)]Gal(b1-3)[Ara(b1-3)Ara(b1-6)]Gal(b1-3)[Gal(b1-6)Gal(b1-6)]Gal(b1-3)[Gal(b1-6)Gal(b1-6)]Gal(b1-3)Gal,,1.0,Angiosperms,,1,0,0
+17157,[GlcNAc(b1-2)]Rha(a1-3)Rha(a1-2)Rha(a1-2)Rha(a1-3)Rha,['Aeromonas_bestiarum'],1.0,,,1,0,0
+17171,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Desmodus_rotundus', 'Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+17173,Rha(a1-3)Rha(a1-3)Man(b1-2)Rha,['Pseudomonas_putida'],1.0,,,1,0,0
+17190,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc,,1.0,none,,1,0,0
+17192,Gal(b1-4)GlcNAc(b1-6)GalNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,O,1,0,0
+17200,NeuNGc(a2-6)Gal(b1-4)GlcNAc,,1.0,Animalia,,1,0,0
+17224,NeuNGc(a2-8)NeuNAc(a2-3)Gal,,1.0,Bacteria,,1,0,0
+17227,Rha(a1-2)Rha(a1-3)Rha(a1-3)[Glc(a1-2)Glc(a1-4)]GlcNAc(b1-2)Rha,['Shigella_flexneri'],1.0,,,1,0,0
+17231,NeuNAc(a2-3)GalOS(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Eukarya,,1,0,0
+17245,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+17259,Man(b1-3)ManOAc(b1-4)GlcA(b1-3)GlcNAc(a1-2)Man,"['Cellulophaga_baltica', 'Cellulophaga_fucicola']",1.0,,,1,0,0
+17279,GalOS(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+17303,Glc(b1-6)Gal(a1-6)GalNAc(a1-4)[Glc(b1-3)]GalNAc(a1-3)GalNAc(a1-2)Glc,['Providencia_alcalifaciens'],1.0,,,1,0,0
+17308,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17310,QuiNAc(b1-3)Gal(a1-3)Gal(b1-3)GlcNAc(b1-4)QuiNAc,['Providencia_alcalifaciens'],1.0,,,1,0,0
+17360,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Coturnix_japonica', 'Gallus_gallus', 'Homo_sapiens', 'Oryctolagus_cuniculus']",0.0,,N,1,0,0
+17390,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-3)Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+17398,Fuc(a1-3)[GalNAc(b1-4)]GlcNAc(b1-2)Man(a1-6)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17400,GlcNAc(b1-6)[Col(a1-2)Sug(b1-3)]GalNAc(a1-3)GalNAc(b1-3)GlcNAc,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+17422,GlcN(b1-3)[Glc(a1-6)][GlcNAc(a1-4)]GalNAc(a1-3)GalNAc(b1-6)GlcN,['Citrobacter_gillenii'],1.0,,,1,0,0
+17424,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+17427,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,free,1,0,0
+17441,Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)]Gal(b1-4)GlcNAc,,1.0,Bacteria,,0,1,0
+17445,NeuNAc(a2-3)Gal(b1-4)GlcNAcOS,,1.0,Animalia,,1,0,0
+17446,GalOS(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17447,Man(b1-4)Rha(a1-3)Gal(a1-6)Man,"['Salmonella_anatum', 'Salmonella_enterica']",1.0,,,1,0,0
+17448,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17449,[Rha(a1-4)GalNAcA(a1-2)]Rha(a1-3)Rha(a1-3)Rha(a1-3)GlcNAc(b1-3)Rha,"['Yersinia_enterocolitica', 'Yersinia_kristensenii']",1.0,,,1,0,0
+17502,RhaOAc(b1-4)[GlcNAc(b1-3)]GlcNAc(b1-6)Gal(a1-3)RhaOAc,['Citrobacter_gillenii'],1.0,,,1,0,0
+17507,Glc(a1-3)Rha(a1-3)Rha(a1-3)Rha(a1-3)Rha(a1-4)Glc,['Sphaerotilus_natans'],1.0,,,1,0,0
+17522,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAcOS(a2-3)]Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,,0,0,1
+17555,Xyl(b1-4)Xyl(b1-4)Xyl(b1-4)[GlcA(a1-2)]Xyl(b1-4)Xyl(b1-4)Xyl(b1-4)Xyl,,1.0,Angiosperms,,1,0,0
+17574,Gal(b1-4)GlcNAc(b1-2)[GalNAc(b1-4)GlcNAc(b1-6)]Man(a1-6)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17577,GlcNAc(b1-6)[GlcNAc(b1-4)]GalNAc,,1.0,Eukarya,,1,0,0
+17593,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Homo_sapiens']",0.0,,N,1,0,0
+17611,Man(a1-2)Man(a1-2)Man(b1-3)GalNAc(a1-4)Man,"['Citrobacter_freundii', 'Escherichia_coli', 'Salmonella_cerro']",1.0,,,1,0,0
+17639,Fuc(a1-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17644,NeuNGcA(a2-3)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+17653,[QuiNBut(b1-6)GlcNAc(a1-4)]GalNAc(b1-3)Gal(a1-3)GlcNAc(b1-3)QuiNBut,['Acinetobacter_baumannii'],1.0,,,1,0,0
+17668,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+17688,NeuNAc(a2-3)Gal(b1-4)Xyl,['Homo_sapiens'],0.0,,O,1,0,0
+17711,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+17756,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+17764,[Tyv(a1-3)]Man(a1-4)Rha(a1-3)Gal(a1-2)Man,"['Salmonella_dublin', 'Salmonella_enteritidis', 'Salmonella_sp', 'Salmonella_typhi']",1.0,,,1,0,0
+17767,Man(a1-3)Rha(b1-4)Rha(b1-4)Man,['Citrobacter_youngae'],1.0,,,1,0,0
+17771,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+17781,GlcNAcNAla(b1-4)ManNAcNAmA(b1-4)GlcNAcNAla,['Vibrio_anguillarum'],1.0,,,1,0,0
+17790,GlcN(a1-4)GalA(a1-3)[GlcN(a1-4)GalA(a1-7)LDManHep(a1-7)][Glc(b1-2)]LDManHep(a1-3)[Gal(b1-4)]LDManHep(a1-5)[Kdo(a2-4)]Kdo,['Plesiomonas_shigelloides'],1.0,,,1,0,0
+17803,Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)]Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,0,0,1
+17815,GalA(a1-3)RhaOAc(a1-3)ManOAc(a1-4)GalA,"['Sinorhizobium_fredii', 'Sinorhizobium_sp']",1.0,,,1,0,0
+17841,Rha(a1-3)Rha(a1-2)Rha(a1-3)[Xyl(b1-2)][Xyl(b1-4)]Rha(a1-3)Rha(a1-2)Rha,['Xanthomonas_campestris'],1.0,,,1,0,0
+17842,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Glc,['Homo_sapiens'],0.0,,free,0,1,0
+17847,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-3)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,free,1,0,0
+17860,RhaOAc(a1-2)Rha(a1-3)[Glc(a1-4)]Rha(a1-3)GlcNAcOAc(b1-2)RhaOAc,['Shigella_flexneri'],1.0,,,1,0,0
+17868,Glc(b1-4)Glc(b1-4)Glc(b1-3)Glc(b1-4)Glc(b1-4)Glc,,1.0,Angiosperms,,1,0,0
+17870,Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Bacteria,,0,1,0
+17891,[Col(a1-2)Gal(b1-3)]GlcNAc(b1-3)Gal(a1-3)GalNAc(b1-6)GlcNAc,"['Escherichia_coli', 'Salmonella_greenside', 'Salmonella_sp']",1.0,,,1,0,0
+17892,Fuc(a1-3)GlcNAc(b1-2)Man(a1-3)[Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17909,Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Apis_mellifera', 'Gallus_gallus', 'Homo_sapiens', 'Lithobates_catesbeianus', 'Saccharomyces_cerevisiae', 'Saccharomyces_uvarum', 'Schizosaccharomyces_pombe', 'Synsepalum_dulcificum', 'Volvox_carteri_nagariensis']",0.0,,N,1,0,0
+17940,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17989,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+17992,QuiNFo(b1-2)Rib(b1-4)GlcA(b1-4)GlcA(b1-3)FucNAc(a1-2)QuiNFo,['Providencia_alcalifaciens'],1.0,,,1,0,0
+17997,GlcOSA(b1-3)Gal(b1-4)GlcNAc,,1.0,Bacteria,,1,0,0
+18011,[Altf(a1-3)]Fuc(a1-3)Man(a1-4)Fuc(a1-3)GalNAc(a1-2)Fuc,['Yersinia_pseudotuberculosis'],1.0,,,1,0,0
+18046,GalNAcOS(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18056,Glc(a1-2)Glc(a1-4)GalNAc(b1-3)Gal(a1-3)GalNAc(b1-6)Glc,['Pseudoalteromonas_elyakovii'],1.0,,,1,0,0
+18065,LDManHep(a1-3)6dTalOAc(a1-3)FucNAc(a1-2)LDManHep,['Yokenella_regensburgei'],1.0,,,1,0,0
+18069,NeuNAc(a2-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+18070,GalOAc(a1-3)FucNAm(a1-3)GlcNAc(a1-2)Gal,['Salmonella_sp'],1.0,,,1,0,0
+18071,GalOS(b1-4)GlcNAc(b1-4)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18078,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+18081,NeuNGc(a2-3)Gal(b1-4)Glc,['Escherichia_coli'],1.0,,,1,0,0
+18086,Fuc(a1-2)Gal(b1-3)[Fuc(a1-4)]GlcNAc(b1-3)Gal(b1-4)Glc,"['Diceros_bicornis', 'Giraffa_camelopardalis', 'Helicobacter_pylori', 'Homo_sapiens', 'Osphranter_rufus', 'Pan_paniscus', 'Ursus_arctos']",0.0,,free,1,0,0
+18103,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)[Gal(a1-3)]Gal(b1-3)]GalNAc,"['Equus_caballus', 'Homo_sapiens']",0.0,,O,0,0,1
+18109,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+18126,[GlcNAc(b1-2)]Man(b1-4)Glc(b1-3)FucNAcOAc(a1-4)[Glc(b1-6)]GalNAc(a1-3)Man,['Citrobacter_gillenii'],1.0,,,1,0,0
+18132,Fuc(a1-4)[Gal(b1-3)]GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]Glc,"['Diceros_bicornis', 'Giraffa_camelopardalis', 'Homo_sapiens', 'Pan_paniscus', 'Ursus_americanus', 'Ursus_arctos']",0.0,,free,1,0,0
+18140,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)[Fuc(a1-2)Gal(b1-3)]GalNAc,"['Bos_taurus', 'Homo_sapiens', 'Mus_musculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,O,0,0,1
+18156,GalNAc(a1-3)[Fuc(a1-2)]Gal(b1-4)GlcNAc,,1.0,Chordata,,0,0,1
+18161,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-4)]Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Gallus_gallus', 'Homo_sapiens']",0.0,,N,1,0,0
+18162,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18193,GalOS(b1-4)GlcNAcOS(b1-3)GalOS,,1.0,Animalia,,1,0,0
+18206,ManOAc(b1-4)Rha(a1-3)Gal(a1-3)ManOAc,['Burkholderia_gladioli'],1.0,,,1,0,0
+18234,[FucNAc(a1-3)]ManNAcA(b1-3)QuiNAc(b1-4)ManNAcA,['Vibrio_cholerae'],1.0,,,1,0,0
+18247,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,Bacteria,,0,1,0
+18255,GlcNAc(b1-4)Man(b1-4)Man(a1-3)GlcNAc(b1-4)GlcNAc,['Salmonella_sp'],1.0,,,1,0,0
+18270,NeuNAc(a2-3)Gal(b1-3)GalNAc(b1-4)[NeuNAc(a2-3)]Gal(b1-4)Glc,['Leishmania_amazonensis'],1.0,,,1,0,0
+18283,Col(a1-4)[Col(a1-2)Gal(b1-3)]GlcNAc(b1-4)GlcA(b1-3)GalNAc(b1-2)Col,"['Pseudoalteromonas_carrageenovora', 'Pseudoalteromonas_carrageenovora ', 'Pseudoalteromonas_tetraodonis']",1.0,,,1,0,0
+18287,Man(a1-2)[Glc(a1-4)]Man(a1-2)Man(b1-3)GlcNAc(a1-6)Man,"['Salmonella_madelia', 'Salmonella_sp']",1.0,,,1,0,0
+18305,Glc(a1-6)Glc(a1-4)[GlcNAc(b1-3)]Gal(a1-3)GlcNAc(b1-2)Glc,['Salmonella_sp'],1.0,,,1,0,0
+18325,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18345,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+18356,ManNAcNAmA(b1-4)ManNAcNAmA(b1-3)FucNAc(a1-4)ManNAcNAmA,,1.0,Bacteria,,1,0,0
+18361,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-4)Man(a1-3)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18385,Fuc(a1-2)Gal(b1-4)[Fuc(a1-3)]GlcNAc(b1-3)[Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)]Gal(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+18386,Fuc(a1-2)[Gal(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18427,GlcNAc(a1-3)[Glc(a1-2)Gal(a1-2)]Gal(a1-4)Glc(a1-3)[GalA(b1-7)LDManHep(a1-7)]LDManHep(a1-3)LDManHepOPPEtn(a1-5)Kdo,['Citrobacter_werkmanii'],1.0,,,1,0,0
+18456,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18464,[GlcNAc(b1-2)]Rha(a1-2)Rha(a1-4)Glc(a1-3)GalNAc(b1-3)Rha,"['Escherichia_coli', 'Salmonella_sp']",1.0,,,1,0,0
+18470,NeuNAcOGc(a2-6)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+18482,QuiNAc(a1-3)Ribf(a1-4)Gal(b1-3)[Glc(b1-4)]GalNAc(a1-4)QuiNAc,['Salmonella_sp'],1.0,,,1,0,0
+18493,GulNAcA(a1-4)GulNAcA(a1-6)Glc(a1-4)GulNAcA,['Halomonas_magadiensis'],1.0,,,1,0,0
+18495,Gal(a1-6)Gal(b1-3)GalNAc(b1-4)Gal,['Providencia_stuartii'],1.0,,,1,0,0
+18541,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18557,Fuc(a1-2)Gal(b1-4)GlcNAcOS(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+18584,NeuNGc(a2-6)Gal(b1-4)Glc,,1.0,Animalia,,1,0,0
+18591,Glc(b1-2)FucNBut(b1-6)GlcNAc(a1-4)[Glc(b1-3)]GalNAc(a1-3)GlcNAc(b1-2)Glc,['Yersinia_aldovae'],1.0,,,1,0,0
+18602,Rha(a1-3)Rha(a1-2)Rha(a1-3)Rha,"['Burkholderia_cepacia', 'Pseudomonas_sp', 'Sinorhizobium_fredii', 'Sinorhizobium_sp']",1.0,,,1,0,0
+18610,GlcOAc(a1-4)GlcA(b1-4)GalNAcOAc(b1-3)Gal(a1-3)GalNAc(b1-6)GlcOAc,['Hafnia_alvei'],1.0,,,1,0,0
+18623,Gal(b1-4)GlcNAc(b1-6)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,0,1
+18644,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18645,GalOS(b1-4)[Fuc(a1-3)]GlcNAc,,1.0,none,,1,0,0
+18675,Rha(a1-3)GlcNAc(b1-4)Rha,"['Aeromonas_hydrophila', 'Aeromonas_sobria', 'Agrobacterium_tumefaciens', 'Escherichia_coli', 'Mannheimia_haemolytica', 'Raoultella_terrigena']",1.0,,,1,0,0
+18682,[RhaNAcNBut(b1-3)]GlcNAc(a1-3)Rha(a1-3)GlcNAc(b1-4)GlcNAc,['Vibrio_vulnificus'],1.0,,,1,0,0
+18690,ManOP(a1-2)Man(a1-6)[Man(a1-3)]Man(a1-6)[Gal(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18712,Gal(a1-2)Ribf(b1-4)Gal,"['Escherichia_coli', 'Klebsiella_pneumoniae']",1.0,,,1,0,0
+18737,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18751,Gal(b1-4)GlcNAc(b1-4)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18763,Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,"['Bos_taurus', 'Collocalia_sp', 'Equus_caballus', 'Homo_sapiens', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,O,0,0,1
+18806,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18841,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-4)Man(a1-6)Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,free,1,0,0
+18891,GalOS(b1-4)[Fuc(a1-3)]GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+18893,[Glc(a1-3)]Rha(a1-2)[Glc(a1-3)]Rha(a1-3)Rha(a1-3)GlcNAc(b1-2)RhaOAc,['Shigella_flexneri'],1.0,,,1,0,0
+18916,GlcNAcOS(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,1,0,0
+18938,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,0,0,1
+18945,Gal(a1-3)Gal(a1-4)Gal(b1-4)Glc,,1.0,Bacteria,,1,0,0
+18947,GlcNAcOS(b1-4)[GlcNAc(b1-2)]Man(a1-3)[GlcNAc(b1-2)[GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18952,FucNAc(a1-4)QuiNAc(a1-3)QuiNAc(b1-3)FucNAc,['Pseudomonas_fluorescens'],1.0,,,1,0,0
+18965,[ManNAc(b1-4)]Gal(a1-3)GlcNAc(b1-3)Gal,['Pseudoalteromonas_mariniglutinosa'],1.0,,,1,0,0
+18979,Gal(b1-4)GlcNAc(b1-6)[GalNAc(b1-4)GlcNAc(b1-2)]Man(a1-6)[GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18981,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)[NeuNAc(a2-6)GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+18996,Fuc(a1-2)Gal(b1-3)[NeuNAc(a2-6)]GalNAc,"['Bufo_japonicus', 'Bufotes_viridis', 'Canis_lupus', 'Homo_sapiens', 'Macaca_radiata', 'Rana_dalmatina', 'Rana_palustris', 'Rhinella_arenarum']",0.0,,O,1,0,0
+19013,GalAGroN(a1-4)NeuNAc(a2-3)GalAGroN(b1-3)QuiNAc(b1-4)GalAGroN,['Vibrio_cholerae'],1.0,,,1,0,0
+19016,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-4)[NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)]Man(a1-3)[NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,"['Bos_taurus', 'Homo_sapiens', 'Mus_musculus']",0.0,,N,1,0,0
+19025,Fuc(a1-2)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+19027,Fuc(a1-2)[GalNAc(b1-3)]Rha(a1-3)Fuc,['Aggregatibacter_actinomycetemcomitans'],1.0,,,1,0,0
+19059,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-3)GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+19067,[Gul(a1-3)]Man(a1-3)[Fuc(a1-2)]Gal(a1-3)GalNAc(a1-4)Man,['Yersinia_enterocolitica'],1.0,,,1,0,0
+19070,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-3)GalNAc,"['Ambystoma_mexicanum', 'Bos_taurus', 'Homo_sapiens']",0.0,,O,0,0,1
+19082,[SugOAc(a1-4)]GalNAc(a1-3)GalNAc(b1-3)GalNAc,['Yersinia_enterocolitica'],1.0,,,1,0,0
+19083,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+19115,NeuNAc(a2-3)Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)Glc,['Homo_sapiens'],0.0,,free,1,0,0
+19143,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+19149,6dAltf(b1-3)[6dAltf(a1-2)]6dAltf(b1-2)6dAltf(a1-2)6dAltf,"['Pectinatus_cerevisiiphilus', 'Pectinatus_frisingensis']",1.0,,,1,0,0
+19163,[FucNBut(a1-4)]Gal(a1-4)GulNAcA(a1-4)GlcNAcOAc(b1-3)Gal,,1.0,Bacteria,,1,0,0
+19175,Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-6)]Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+19180,QuiNAlaAc(b1-6)[Glc(a1-4)Glc(a1-4)]Glc(b1-3)GalNAc(a1-2)QuiNAlaAc,['Cronobacter_sakazakii'],1.0,,,1,0,0
+19191,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+19200,Gal(a1-4)Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)Glc,,1.0,Bacteria,,0,0,1
+19201,GalNAc(a1-3)[GlcA(b1-4)]Fuc(a1-3)Glc(a1-4)Qui(a1-3)GlcNAc(a1-4)GalNAc,['Providencia_stuartii'],1.0,,,1,0,0
+19214,Gal(b1-3)GlcNAc(b1-3)[GlcNAc(b1-6)]GalNAc,['Homo_sapiens'],0.0,,O,0,1,0
+19218,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-6)[NeuNAc(a2-3)Gal(b1-3)]GalNAc,"['Homo_sapiens', 'Rattus_norvegicus', 'Sus_scrofa']",0.0,,O,0,0,1
+19224,Gal(b1-4)GlcNAc(b1-2)Man(a1-6)[GlcNAc(b1-2)Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Bos_taurus', 'Gallus_gallus', 'Homo_sapiens', 'Mus_musculus', 'Oryctolagus_cuniculus', 'Rattus_norvegicus', 'Sus_scrofa', 'Tetronarce_californica']",0.0,,N,1,0,0
+19243,Fuc(a1-2)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)[Gal(b1-4)GlcNAc(b1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,0,1,0
+19252,NeuNAcOAc(a2-3)FucNAm(a1-3)GlcNAc(b1-4)NeuNAcOAc,"['Salmonella_sp', 'Salmonella_toucra']",1.0,,,1,0,0
+19274,Gal(a1-4)Gal(b1-4)GlcNAc,"['Escherichia_coli', 'Neisseria_gonorrhoeae']",1.0,,,0,0,1
+19280,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
+19287,NeuNAc(a2-6)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,"['Homo_sapiens', 'Sus_scrofa']",0.0,,N,1,0,0
+19289,GlcNAc(b1-2)Man(a1-6)Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,['Homo_sapiens'],0.0,,N,1,0,0
