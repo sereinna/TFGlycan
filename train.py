@@ -17,11 +17,11 @@ def main():
                         help="Branch arguments; use BRANCH --help to list them.")
     args = parser.parse_args()
     os.chdir(ROOT)
-    sys.path.insert(0, str(ROOT / "src"))
+    sys.path.insert(0, str(ROOT))
     os.environ.setdefault("MPLBACKEND", "Agg")
     os.environ.setdefault("TORCH_EXTENSIONS_DIR", str(ROOT / "runtime_cache/torch_extensions"))
     sys.argv = [sys.argv[0] + " " + args.branch, *args.arguments]
-    module = importlib.import_module("tfglycan." + BRANCHES[args.branch])
+    module = importlib.import_module("src." + BRANCHES[args.branch])
     module.main()
 
 

@@ -136,7 +136,7 @@ def metric_line(metrics: Mapping[str, float]) -> str:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data-dir', type=Path, default=Path('data/glycanml'))
+    parser.add_argument('--data-dir', type=Path, default=Path('data'))
     parser.add_argument('--protein-features', type=Path, default=Path('data/protein_features.pt'))
     parser.add_argument('--output-dir', type=Path, required=True)
     parser.add_argument('--framework-name', required=True)

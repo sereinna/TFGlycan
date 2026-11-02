@@ -658,7 +658,7 @@ def write_summary(results: Sequence[Mapping[str, object]], output_dir: Path) -> 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data-dir', type=Path, default=Path('data/glycanml'))
+    parser.add_argument('--data-dir', type=Path, default=Path('data'))
     parser.add_argument('--protein-features', type=Path, default=Path('data/protein_features.pt'))
     parser.add_argument('--output-dir', type=Path, default=Path('results/unified'))
     parser.add_argument('--variant', choices=sorted(VARIANTS), default='interaction_rank')

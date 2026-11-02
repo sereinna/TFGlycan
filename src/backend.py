@@ -13,7 +13,7 @@ import types
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 _LOCK = threading.RLock()
 _loaded_root = None
 _loaded_modules = None
