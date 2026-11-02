@@ -4,6 +4,8 @@ Task-family specialization for glycan prediction.
 
 TFGlycan uses specialized branches for glycan taxonomy, glycan function and protein-glycan interaction.
 
+[![TFGlycan framework](figures/framework.png)](figures/framework.pdf)
+
 | Branch | Tasks |
 | --- | --- |
 | Taxonomy | Domain, kingdom, phylum, class, order, family, genus, species |
