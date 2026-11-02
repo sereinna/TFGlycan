@@ -5,7 +5,7 @@ import numpy as np
 import torch
 from torch import Tensor
 from .light import TAXONOMY_TASKS, DataStore, TensorBank, UnifiedGlycanModel
-from .atom import AllAtomGraphCache, AllAtomTensorBank, GlycanAARankModel
+from .atom import AllAtomGraphCache, AllAtomTensorBank, FunctionalAtomModel
 
 def zscore(values: np.ndarray, stats: Tuple[float, float]) -> np.ndarray:
     (mean, std) = stats
@@ -23,7 +23,7 @@ def cache_light_features(model: UnifiedGlycanModel, bank: TensorBank, num_glycan
     return torch.cat(chunks, dim=0)
 
 @torch.no_grad()
-def cache_atom_features(model: GlycanAARankModel, graph_cache: AllAtomGraphCache, bank: AllAtomTensorBank, num_glycans: int, batch_size: int) -> Tensor:
+def cache_atom_features(model: FunctionalAtomModel, graph_cache: AllAtomGraphCache, bank: AllAtomTensorBank, num_glycans: int, batch_size: int) -> Tensor:
     model.eval()
     chunks: List[Tensor] = []
     all_ids = np.arange(num_glycans, dtype=np.int64)

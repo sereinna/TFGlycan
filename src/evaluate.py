@@ -10,7 +10,7 @@ from typing import Dict, Mapping, Optional, Tuple
 import numpy as np
 import torch
 from .light import TAXONOMY_TASKS, VARIANTS, DataStore, TensorBank, UnifiedGlycanModel, json_ready, macro_f1, safe_auprc, safe_spearman, scalar_mean, make_model as make_light_model, set_seed
-from .atom import AllAtomGraphCache, AllAtomTensorBank, GlycanAARankModel, load_glycanaa_modules, make_model as make_atom_model
+from .atom import AllAtomGraphCache, AllAtomTensorBank, FunctionalAtomModel, load_atom_checkpoint, make_model as make_atom_model
 from .prediction import cache_atom_features, cache_light_features, predict_model_split, zscore
 
 @dataclass
@@ -28,7 +28,7 @@ def make_light_args(args: argparse.Namespace) -> argparse.Namespace:
     return SimpleNamespace(hidden_dim=args.hidden_dim, token_dim=args.token_dim, num_layers=args.num_layers, dropout=args.dropout)
 
 def make_atom_args(args: argparse.Namespace, interaction_head: str) -> argparse.Namespace:
-    return SimpleNamespace(num_unit=args.num_unit, gnn_hidden_dim=args.gnn_hidden_dim, gnn_layers=args.gnn_layers, head_dim=args.head_dim, dropout=args.dropout, use_motif_fusion=args.atom_use_motif_fusion, interaction_head=interaction_head, readout=args.readout, readout_type=args.readout_type)
+    return SimpleNamespace(gnn_hidden_dim=args.gnn_hidden_dim, gnn_layers=args.gnn_layers, head_dim=args.head_dim, dropout=args.dropout, use_motif_fusion=args.atom_use_motif_fusion, interaction_head=interaction_head)
 
 def load_light_branch(args: argparse.Namespace, data: DataStore, checkpoint: Path, variant_name: str, device: torch.device) -> UnifiedGlycanModel:
     model = make_light_model(make_light_args(args), data, VARIANTS[variant_name], device)
@@ -38,12 +38,9 @@ def load_light_branch(args: argparse.Namespace, data: DataStore, checkpoint: Pat
     print(f'[light-branch] loaded {checkpoint} variant={variant_name}', flush=True)
     return model
 
-def load_atom_branch(args: argparse.Namespace, data: DataStore, checkpoint: Path, glycan_module, all_atom_glycan_module, glycanaa_cls, interaction_head: str, device: torch.device) -> GlycanAARankModel:
-    model = make_atom_model(make_atom_args(args, interaction_head), data, glycan_module, glycanaa_cls, all_atom_glycan_module, device)
-    state = torch.load(checkpoint, map_location=device, weights_only=False)
-    (missing, unexpected) = model.load_state_dict(state, strict=False)
-    if missing or unexpected:
-        print(f'[atom-branch] non-strict load missing={len(missing)} unexpected={len(unexpected)}', flush=True)
+def load_atom_branch(args: argparse.Namespace, data: DataStore, checkpoint: Path, interaction_head: str, device: torch.device) -> FunctionalAtomModel:
+    model = make_atom_model(make_atom_args(args, interaction_head), data, device)
+    load_atom_checkpoint(model, checkpoint, device)
     model.eval()
     print(f'[atom-branch] loaded {checkpoint} interaction_head={interaction_head}', flush=True)
     return model
@@ -168,9 +165,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument('--gnn-hidden-dim', type=int, required=True)
     parser.add_argument('--gnn-layers', type=int, required=True)
     parser.add_argument('--head-dim', type=int, required=True)
-    parser.add_argument('--num-unit', type=int, default=0)
-    parser.add_argument('--readout', choices=['mean', 'sum', 'dual'], default='dual')
-    parser.add_argument('--readout-type', choices=['mono', 'all'], default='mono')
     return parser.parse_args()
 
 def main() -> None:
@@ -186,17 +180,16 @@ def main() -> None:
     taxonomy_features = cache_light_features(taxonomy_model, light_bank, len(data.glycan_to_id), args.cache_batch_size)
     interaction_light_model = load_light_branch(args, data, args.interaction_light_checkpoint, args.interaction_light_variant, device)
     interaction_light_features = cache_light_features(interaction_light_model, light_bank, len(data.glycan_to_id), args.cache_batch_size)
-    (glycan_module, all_atom_glycan_module, glycanaa_cls) = load_glycanaa_modules()
-    graph_cache = AllAtomGraphCache(data, all_atom_glycan_module)
+    graph_cache = AllAtomGraphCache(data)
     graph_cache.load(args.graph_cache_file)
     atom_bank = AllAtomTensorBank(data, device)
-    functional_atom_model = load_atom_branch(args, data, args.functional_atom_checkpoint, glycan_module, all_atom_glycan_module, glycanaa_cls, args.functional_atom_interaction_head, device)
+    functional_atom_model = load_atom_branch(args, data, args.functional_atom_checkpoint, args.functional_atom_interaction_head, device)
     functional_atom_features = cache_atom_features(functional_atom_model, graph_cache, atom_bank, len(data.glycan_to_id), args.cache_batch_size)
     if interaction_atom_checkpoint == args.functional_atom_checkpoint:
         interaction_atom_model = functional_atom_model
         interaction_atom_features = functional_atom_features
     else:
-        interaction_atom_model = load_atom_branch(args, data, interaction_atom_checkpoint, glycan_module, all_atom_glycan_module, glycanaa_cls, args.interaction_atom_interaction_head, device)
+        interaction_atom_model = load_atom_branch(args, data, interaction_atom_checkpoint, args.interaction_atom_interaction_head, device)
         interaction_atom_features = cache_atom_features(interaction_atom_model, graph_cache, atom_bank, len(data.glycan_to_id), args.cache_batch_size)
     graph_cache.save(args.graph_cache_file)
     protein_features = data.protein_features.detach().cpu()

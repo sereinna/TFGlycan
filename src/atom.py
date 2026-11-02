@@ -15,7 +15,11 @@ import torch
 from torch import Tensor, nn
 from torch.nn import functional as F
 from .light import TAXONOMY_TASKS, DataStore, VariantConfig, json_ready, macro_f1, pairwise_rank_loss, safe_auprc, safe_spearman, sample_indices, sample_interaction_batch, scalar_mean, stable_hash, taxonomy_loss, to_device_weights
-from .backend import load_glycanaa_modules
+from .atom_graph import AtomGraph
+from .atom_encoder import BondGatedEncoder
+
+ARCHITECTURE = "tfglycan-bond-gated-v1"
+GRAPH_CACHE_FORMAT = "tfglycan-atom-graph-v1"
 
 def set_seed(seed: int) -> None:
     random.seed(seed)
@@ -35,8 +39,7 @@ class GraphCacheStats:
 
 class AllAtomGraphCache:
 
-    def __init__(self, data: DataStore, all_atom_glycan_module):
-        self.all_atom_glycan = all_atom_glycan_module
+    def __init__(self, data: DataStore):
         self.texts_by_id: List[str] = [''] * len(data.glycan_to_id)
         for (text, idx) in data.glycan_to_id.items():
             self.texts_by_id[idx] = text
@@ -55,7 +58,7 @@ class AllAtomGraphCache:
             return None
         text = self.texts_by_id[glycan_id]
         try:
-            graph = self.all_atom_glycan.HeterogeneousAllAtomGlycan.from_iupac(text, unit_feature='default', link_feature='default', atom_feature='default', bond_feature='default')
+            graph = AtomGraph.from_iupac(text)
             if graph is None or int(graph.num_node) == 0:
                 raise ValueError('empty all-atom graph')
             self.graphs[glycan_id] = graph
@@ -63,7 +66,7 @@ class AllAtomGraphCache:
             self.stats.max_nodes = max(self.stats.max_nodes, int(graph.num_node))
             self.stats.max_edges = max(self.stats.max_edges, int(graph.num_edge))
             return graph
-        except Exception as exc:
+        except ValueError as exc:
             self.failures[glycan_id] = repr(exc)
             self.stats.failed += 1
             return None
@@ -83,12 +86,7 @@ class AllAtomGraphCache:
                 graphs.append(graph)
         packed = None
         if graphs:
-            packed = self.all_atom_glycan.HeterogeneousAllAtomGlycan.pack(graphs)
-            if device.type == 'cuda':
-                with torch.cuda.device(device):
-                    packed = packed.cuda()
-            elif device.type == 'cpu':
-                packed = packed.cpu()
+            packed = AtomGraph.pack(graphs).to(device)
         return (packed, np.asarray(ok_pos, dtype=np.int64), np.asarray(failed_pos, dtype=np.int64), np.asarray(failed_ids, dtype=np.int64))
 
     def warmup(self, ids: Sequence[int], report_every: int=1000) -> None:
@@ -104,6 +102,10 @@ class AllAtomGraphCache:
         if not path.exists():
             return
         obj = torch.load(path, map_location='cpu', weights_only=False)
+        if not isinstance(obj, dict) or obj.get('format') != GRAPH_CACHE_FORMAT or obj.get('graph_format') != AtomGraph.FORMAT_ID:
+            raise ValueError('Incompatible atom graph cache; build a new cache for this implementation.')
+        if obj.get('texts_by_id') != self.texts_by_id:
+            raise ValueError('Atom graph cache belongs to a different glycan index.')
         self.graphs = {int(k): v for (k, v) in obj.get('graphs', {}).items()}
         self.failures = {int(k): str(v) for (k, v) in obj.get('failures', {}).items()}
         self.stats.built = len(self.graphs)
@@ -115,7 +117,7 @@ class AllAtomGraphCache:
 
     def save(self, path: Path) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
-        torch.save({'graphs': self.graphs, 'failures': self.failures}, path)
+        torch.save({'format': GRAPH_CACHE_FORMAT, 'graph_format': AtomGraph.FORMAT_ID, 'texts_by_id': self.texts_by_id, 'graphs': self.graphs, 'failures': self.failures}, path)
         print(f'[graph-cache] saved {len(self.graphs)} graphs and {len(self.failures)} failures to {path}', flush=True)
 
     def summary(self) -> Dict[str, object]:
@@ -139,14 +141,19 @@ class AllAtomTensorBank:
         idx = torch.as_tensor(indices, dtype=torch.long, device=self.device)
         return self.protein_features[idx]
 
-class GlycanAARankModel(nn.Module):
+class FunctionalAtomModel(nn.Module):
 
-    def __init__(self, glycanaa_cls, num_glycans: int, motif_dim: int, protein_dim: int, taxonomy_dims: Mapping[str, int], link_dim: int, num_unit: int, num_relation: int, gnn_hidden_dim: int, gnn_layers: int, head_dim: int, dropout: float, use_motif_fusion: bool, interaction_head: str, readout: str, readout_type: str):
+    def __init__(self, num_glycans: int, motif_dim: int, protein_dim: int, taxonomy_dims: Mapping[str, int], link_dim: int, gnn_hidden_dim: int, gnn_layers: int, head_dim: int, dropout: float, use_motif_fusion: bool, interaction_head: str):
         super().__init__()
         self.use_motif_fusion = use_motif_fusion
         self.interaction_head = interaction_head
-        self.glycanaa = glycanaa_cls(input_dim=gnn_hidden_dim, hidden_dims=[gnn_hidden_dim] * gnn_layers, num_unit=num_unit, num_relation=num_relation, edge_input_dim=None, short_cut=True, batch_norm=False, concat_hidden=True, readout=readout, readout_type=readout_type)
-        graph_dim = int(self.glycanaa.output_dim)
+        self.encoder = BondGatedEncoder(gnn_hidden_dim, gnn_layers, dropout)
+        graph_dim = self.encoder.output_dim
+        self.model_config = dict(num_glycans=num_glycans, motif_dim=motif_dim,
+                                 protein_dim=protein_dim, taxonomy_dims=dict(taxonomy_dims),
+                                 link_dim=link_dim, gnn_hidden_dim=gnn_hidden_dim,
+                                 gnn_layers=gnn_layers, head_dim=head_dim, dropout=dropout,
+                                 use_motif_fusion=use_motif_fusion, interaction_head=interaction_head)
         self.graph_proj = nn.Sequential(nn.Linear(graph_dim, head_dim), nn.GELU(), nn.Dropout(dropout), nn.Linear(head_dim, head_dim), nn.LayerNorm(head_dim))
         self.fallback = nn.Embedding(num_glycans, head_dim)
         if use_motif_fusion:
@@ -176,7 +183,7 @@ class GlycanAARankModel(nn.Module):
         (packed, ok_pos, failed_pos, failed_ids) = graph_cache.pack(glycan_ids, bank.device)
         features = torch.empty((len(glycan_ids), self.output_dim), device=bank.device)
         if packed is not None:
-            raw = self.glycanaa(packed, None)['graph_feature']
+            raw = self.encoder(packed)
             graph_feature = self.graph_proj(raw)
             pos = torch.as_tensor(ok_pos, dtype=torch.long, device=bank.device)
             features[pos] = graph_feature
@@ -212,21 +219,32 @@ class GlycanAARankModel(nn.Module):
             score = score + self.advanced_scale * advanced_score
         return score
 
-def infer_graph_constants(args: argparse.Namespace, glycan_module, all_atom_glycan_module) -> Tuple[int, int]:
-    graph = all_atom_glycan_module.HeterogeneousAllAtomGlycan.from_iupac('Man(a1-4)Man', unit_feature='default', link_feature='default', atom_feature='default', bond_feature='default')
-    num_relation = int(graph.num_relation)
-    min_num_unit = int(graph.unit_type.max().item()) + 1
-    num_unit = max(args.num_unit, min_num_unit, len(glycan_module.Glycan.units) + 512)
-    return (num_unit, num_relation)
-
-def make_model(args: argparse.Namespace, data: DataStore, glycan_module, glycanaa_cls, all_atom_glycan_module, device: torch.device) -> GlycanAARankModel:
-    (num_unit, num_relation) = infer_graph_constants(args, glycan_module, all_atom_glycan_module)
+def make_model(args: argparse.Namespace, data: DataStore, device: torch.device) -> FunctionalAtomModel:
     taxonomy_dims = {task: data.num_classes[f'taxonomy/{task}'] for task in TAXONOMY_TASKS}
-    model = GlycanAARankModel(glycanaa_cls=glycanaa_cls, num_glycans=len(data.glycan_to_id), motif_dim=data.feature_dim, protein_dim=int(data.protein_features.shape[-1]), taxonomy_dims=taxonomy_dims, link_dim=data.num_classes['glycosylation'], num_unit=num_unit, num_relation=num_relation, gnn_hidden_dim=args.gnn_hidden_dim, gnn_layers=args.gnn_layers, head_dim=args.head_dim, dropout=args.dropout, use_motif_fusion=args.use_motif_fusion, interaction_head=args.interaction_head, readout=args.readout, readout_type=args.readout_type)
-    print(f'[model] num_unit={num_unit} num_relation={num_relation} glycanaa_dim={model.glycanaa.output_dim} head_dim={model.output_dim}', flush=True)
+    model = FunctionalAtomModel(num_glycans=len(data.glycan_to_id), motif_dim=data.feature_dim,
+        protein_dim=int(data.protein_features.shape[-1]), taxonomy_dims=taxonomy_dims,
+        link_dim=data.num_classes['glycosylation'], gnn_hidden_dim=args.gnn_hidden_dim,
+        gnn_layers=args.gnn_layers, head_dim=args.head_dim, dropout=args.dropout,
+        use_motif_fusion=args.use_motif_fusion, interaction_head=args.interaction_head)
+    print(f'[model] architecture={ARCHITECTURE} atom_dim={model.encoder.output_dim} head_dim={model.output_dim}', flush=True)
     return model.to(device)
 
-def compute_task_loss(model: GlycanAARankModel, task: str, data: DataStore, bank: AllAtomTensorBank, rng: np.random.Generator, graph_cache: AllAtomGraphCache, loss_config: VariantConfig, weights: Mapping[str, Tensor], hierarchy_maps: Mapping[Tuple[str, str], Tensor], args: argparse.Namespace) -> Tuple[Tensor, str]:
+
+def save_atom_checkpoint(model: FunctionalAtomModel, path: Path, state=None) -> None:
+    torch.save({'architecture': ARCHITECTURE, 'model_config': model.model_config,
+                'state_dict': model.state_dict() if state is None else state}, path)
+
+
+def load_atom_checkpoint(model: FunctionalAtomModel, path: Path, device: torch.device) -> None:
+    checkpoint = torch.load(path, map_location=device, weights_only=True)
+    if not isinstance(checkpoint, dict) or checkpoint.get('architecture') != ARCHITECTURE:
+        raise ValueError('This checkpoint does not belong to the independent atom architecture.')
+    if checkpoint.get('model_config') != model.model_config:
+        raise ValueError('Atom checkpoint configuration differs from the requested model.')
+    model.load_state_dict(checkpoint['state_dict'], strict=True)
+
+
+def compute_task_loss(model: FunctionalAtomModel, task: str, data: DataStore, bank: AllAtomTensorBank, rng: np.random.Generator, graph_cache: AllAtomGraphCache, loss_config: VariantConfig, weights: Mapping[str, Tensor], hierarchy_maps: Mapping[Tuple[str, str], Tensor], args: argparse.Namespace) -> Tuple[Tensor, str]:
     if task == 'taxonomy':
         split = data.taxonomy['train']
         local_idx = sample_indices(rng, len(split['glycan']), args.batch_size)
@@ -304,7 +322,7 @@ def pcgrad_backward(losses: Sequence[Tensor], params: Sequence[Tensor]) -> None:
                 projected[i] = projected[i] - dot / denom * stacked[j]
     assign_flat_grad(projected.mean(dim=0), params)
 
-def train_one_epoch(model: GlycanAARankModel, data: DataStore, bank: AllAtomTensorBank, graph_cache: AllAtomGraphCache, optimizer: torch.optim.Optimizer, rng: np.random.Generator, loss_config: VariantConfig, weights: Mapping[str, Tensor], hierarchy_maps: Mapping[Tuple[str, str], Tensor], args: argparse.Namespace) -> Dict[str, float]:
+def train_one_epoch(model: FunctionalAtomModel, data: DataStore, bank: AllAtomTensorBank, graph_cache: AllAtomGraphCache, optimizer: torch.optim.Optimizer, rng: np.random.Generator, loss_config: VariantConfig, weights: Mapping[str, Tensor], hierarchy_maps: Mapping[Tuple[str, str], Tensor], args: argparse.Namespace) -> Dict[str, float]:
     model.train()
     task_names = ['taxonomy', 'immuno', 'link', 'interaction']
     task_probs = np.asarray(args.task_probs, dtype=np.float64)
@@ -336,7 +354,7 @@ def train_one_epoch(model: GlycanAARankModel, data: DataStore, bank: AllAtomTens
     return {f'train_loss/{task}': scalar_mean(values) for (task, values) in losses.items()}
 
 @torch.no_grad()
-def encode_unique_features(model: GlycanAARankModel, graph_cache: AllAtomGraphCache, bank: AllAtomTensorBank, glycan_idx: np.ndarray, batch_size: int) -> Tuple[np.ndarray, Tensor, np.ndarray]:
+def encode_unique_features(model: FunctionalAtomModel, graph_cache: AllAtomGraphCache, bank: AllAtomTensorBank, glycan_idx: np.ndarray, batch_size: int) -> Tuple[np.ndarray, Tensor, np.ndarray]:
     model.eval()
     (unique_ids, inverse) = np.unique(glycan_idx.astype(np.int64), return_inverse=True)
     chunks = []
@@ -350,7 +368,7 @@ def encode_unique_features(model: GlycanAARankModel, graph_cache: AllAtomGraphCa
     return (unique_ids, features, inverse.astype(np.int64))
 
 @torch.no_grad()
-def evaluate_split(model: GlycanAARankModel, data: DataStore, bank: AllAtomTensorBank, graph_cache: AllAtomGraphCache, split: str, batch_size: int, row_limit: int=0) -> Dict[str, float]:
+def evaluate_split(model: FunctionalAtomModel, data: DataStore, bank: AllAtomTensorBank, graph_cache: AllAtomGraphCache, split: str, batch_size: int, row_limit: int=0) -> Dict[str, float]:
     model.eval()
     metrics: Dict[str, float] = {}
 
@@ -444,11 +462,11 @@ def write_summary(results: Sequence[Mapping[str, object]], output_dir: Path) -> 
 def variant_name(args: argparse.Namespace) -> str:
     return args.variant_name or 'functional'
 
-def train_run(args: argparse.Namespace, data: DataStore, glycan_module, all_atom_glycan_module, glycanaa_cls, device: torch.device) -> Dict[str, object]:
+def train_run(args: argparse.Namespace, data: DataStore, device: torch.device) -> Dict[str, object]:
     name = variant_name(args)
     run_dir = args.output_dir / name
     run_dir.mkdir(parents=True, exist_ok=True)
-    graph_cache = AllAtomGraphCache(data, all_atom_glycan_module)
+    graph_cache = AllAtomGraphCache(data)
     if args.graph_cache_file:
         graph_cache.load(args.graph_cache_file)
     if args.warm_graph_cache:
@@ -457,23 +475,14 @@ def train_run(args: argparse.Namespace, data: DataStore, glycan_module, all_atom
         if args.graph_cache_file:
             graph_cache.save(args.graph_cache_file)
     bank = AllAtomTensorBank(data, device)
-    model = make_model(args, data, glycan_module, glycanaa_cls, all_atom_glycan_module, device)
+    model = make_model(args, data, device)
     if args.init_checkpoint:
-        state = torch.load(args.init_checkpoint, map_location=device, weights_only=False)
-        if args.init_non_strict:
-            (missing, unexpected) = model.load_state_dict(state, strict=False)
-            print(f'[model] non-strict init missing={len(missing)} unexpected={len(unexpected)}', flush=True)
-            if missing:
-                print(f'[model] missing keys sample={missing[:8]}', flush=True)
-            if unexpected:
-                print(f'[model] unexpected keys sample={unexpected[:8]}', flush=True)
-        else:
-            model.load_state_dict(state)
+        load_atom_checkpoint(model, args.init_checkpoint, device)
         print(f'[model] loaded init checkpoint from {args.init_checkpoint}', flush=True)
     weights = to_device_weights(data.class_weight_arrays, device)
     hierarchy_maps = {key: torch.as_tensor(value, dtype=torch.long, device=device) for (key, value) in data.hierarchy_maps.items()}
     loss_config = VariantConfig(name=name, use_pair_bilinear=True, use_pair_rank_loss=True, use_balanced_losses=args.balanced_losses, use_taxonomy_hierarchy=args.taxonomy_hierarchy, use_multiview_features=args.use_motif_fusion)
-    encoder_names = ('glycanaa.', 'graph_proj.', 'motif_proj.', 'fusion.')
+    encoder_names = ('encoder.', 'graph_proj.', 'motif_proj.', 'fusion.')
     encoder_params = []
     head_params = []
     for (param_name, param) in model.named_parameters():
@@ -501,7 +510,7 @@ def train_run(args: argparse.Namespace, data: DataStore, glycan_module, all_atom
         best_valid = valid_metrics
         best_epoch = 0
         best_state = copy.deepcopy(model.state_dict())
-        torch.save(best_state, run_dir / 'best_model.pt')
+        save_atom_checkpoint(model, run_dir / 'best_model.pt', best_state)
         row = {'epoch': 0, 'lr': optimizer.param_groups[0]['lr'], **{f'valid/{k}': v for (k, v) in valid_metrics.items()}, 'graph_cache': graph_cache.summary()}
         history.append(row)
         with history_path.open('a') as fout:
@@ -524,13 +533,13 @@ def train_run(args: argparse.Namespace, data: DataStore, glycan_module, all_atom
             best_valid = valid_metrics
             best_epoch = epoch
             best_state = copy.deepcopy(model.state_dict())
-            torch.save(best_state, run_dir / 'best_model.pt')
+            save_atom_checkpoint(model, run_dir / 'best_model.pt', best_state)
         print(f"[{name}] epoch {epoch:03d} valid composite={valid_metrics['selection/composite']:.4f} tax={valid_metrics['taxonomy/mean_macro_f1']:.4f} immuno={valid_metrics['immunogenicity/auprc']:.4f} glycos={valid_metrics['glycosylation/macro_f1']:.4f} inter={valid_metrics['interaction/spearman']:.4f} cache_ok={len(graph_cache.graphs)} fail={len(graph_cache.failures)}", flush=True)
     if best_state is not None:
         model.load_state_dict(best_state)
     test_metrics = evaluate_split(model, data, bank, graph_cache, 'test', args.eval_batch_size, row_limit=args.eval_row_limit)
     elapsed = time.time() - start_time
-    result = {'variant': name, 'loss_config': asdict(loss_config), 'best_epoch': best_epoch, 'elapsed_sec': elapsed, 'best_valid': best_valid, 'test': test_metrics, 'graph_cache': graph_cache.summary(), 'args': vars(args)}
+    result = {'architecture': ARCHITECTURE, 'variant': name, 'loss_config': asdict(loss_config), 'best_epoch': best_epoch, 'elapsed_sec': elapsed, 'best_valid': best_valid, 'test': test_metrics, 'graph_cache': graph_cache.summary(), 'args': vars(args)}
     with (run_dir / 'result.json').open('w') as fout:
         json.dump(json_ready(result), fout, indent=2, sort_keys=True)
     with (run_dir / 'graph_cache_summary.json').open('w') as fout:
@@ -538,7 +547,7 @@ def train_run(args: argparse.Namespace, data: DataStore, glycan_module, all_atom
     if args.graph_cache_file:
         graph_cache.save(args.graph_cache_file)
     if best_state is not None:
-        torch.save(best_state, run_dir / 'best_model.pt')
+        save_atom_checkpoint(model, run_dir / 'best_model.pt', best_state)
     return result
 
 def parse_args() -> argparse.Namespace:
@@ -550,7 +559,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument('--device', default='cuda:0')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--init-checkpoint', type=Path, default=None)
-    parser.add_argument('--init-non-strict', action='store_true')
     parser.add_argument('--eval-initial', action='store_true')
     parser.add_argument('--epochs', type=int, required=True)
     parser.add_argument('--steps-per-epoch', type=int, required=True)
@@ -564,9 +572,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument('--gnn-hidden-dim', type=int, required=True)
     parser.add_argument('--gnn-layers', type=int, required=True)
     parser.add_argument('--head-dim', type=int, required=True)
-    parser.add_argument('--num-unit', type=int, default=0)
-    parser.add_argument('--readout', choices=['mean', 'sum', 'dual'], default='dual')
-    parser.add_argument('--readout-type', choices=['mono', 'all'], default='mono')
     parser.add_argument('--dropout', type=float, required=True)
     parser.add_argument('--interaction-head', choices=['base', 'advanced'], default='base')
     parser.add_argument('--lr', type=float, required=True)
@@ -595,13 +600,12 @@ def main() -> None:
         args.max_interaction_train_pairs = None
     device = torch.device(args.device if torch.cuda.is_available() or not str(args.device).startswith('cuda') else 'cpu')
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    (glycan_module, all_atom_glycan_module, glycanaa_cls) = load_glycanaa_modules()
     data = DataStore(args.data_dir, max_len=args.max_len, hash_dim=args.hash_dim, protein_features=args.protein_features, max_interaction_train_pairs=args.max_interaction_train_pairs)
     print('[data]', json.dumps(data.summary(), indent=2, sort_keys=True), flush=True)
     with (args.output_dir / 'data_summary.json').open('w') as fout:
         json.dump(json_ready(data.summary()), fout, indent=2, sort_keys=True)
     print(f'[run] starting variant={variant_name(args)} on device={device}', flush=True)
-    result = train_run(args, data, glycan_module, all_atom_glycan_module, glycanaa_cls, device)
+    result = train_run(args, data, device)
     write_summary([result], args.output_dir)
     print(f"[done] wrote {args.output_dir / 'summary.csv'}", flush=True)
 if __name__ == '__main__':

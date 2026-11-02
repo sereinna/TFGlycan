@@ -11,7 +11,6 @@ def main():
     os.chdir(ROOT)
     sys.path.insert(0, str(ROOT))
     os.environ.setdefault("MPLBACKEND", "Agg")
-    os.environ.setdefault("TORCH_EXTENSIONS_DIR", str(ROOT / "runtime_cache/torch_extensions"))
     from src.evaluate import main as evaluate
     evaluate()
 
